@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Kex28
 - 👀 I’m interested in learning Software Development.
-- 🌱 I’m currently learning Python.
+- 🌱 I’m currently learning Frontend Development.
 - 💞️ I’m looking to collaborate on any project that would be entry-level to help me learn.
 - 📫 How to reach me (Contact me here)
 

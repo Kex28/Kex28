@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Neumorphic surface tokens.
+ * Per the spec: soft embossed shadows for cards/buttons/toggles, but solid
+ * high-contrast text and real borders wherever data has to be read fast.
+ * Dark mode gets its own tuned shadow/highlight pair — not inverted light values.
+ */
+:root {
+  --surface: #e8ebf0;
+  --surface-raised: #eef1f6;
+  --shadow-dark: rgba(163, 177, 198, 0.6);
+  --shadow-light: rgba(255, 255, 255, 0.9);
+  --ink: #1d2433;
+  --ink-muted: #5b6577;
+  --accent: #3b5bdb;
+  --accent-soft: rgba(59, 91, 219, 0.12);
+  --line: rgba(29, 36, 51, 0.12);
+}
+
+.dark {
+  --surface: #23262e;
+  --surface-raised: #282c35;
+  --shadow-dark: rgba(0, 0, 0, 0.55);
+  --shadow-light: rgba(255, 255, 255, 0.05);
+  --ink: #e9ecf2;
+  --ink-muted: #9aa3b2;
+  --accent: #7c96ff;
+  --accent-soft: rgba(124, 150, 255, 0.16);
+  --line: rgba(233, 236, 242, 0.14);
+}
+
+body {
+  background: var(--surface);
+  color: var(--ink);
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Raised card — the workhorse container */
+.neu-card {
+  background: var(--surface-raised);
+  border-radius: 1.25rem;
+  box-shadow:
+    6px 6px 14px var(--shadow-dark),
+    -6px -6px 14px var(--shadow-light);
+}
+
+/* Pressed / inset well — used for the active nav item and inputs */
+.neu-inset {
+  background: var(--surface);
+  border-radius: 1rem;
+  box-shadow:
+    inset 4px 4px 8px var(--shadow-dark),
+    inset -4px -4px 8px var(--shadow-light);
+}
+
+/* Tactile button: raised at rest, presses in on tap. min 44px tap target. */
+.neu-btn {
+  background: var(--surface-raised);
+  border-radius: 1rem;
+  min-height: 44px;
+  min-width: 44px;
+  box-shadow:
+    4px 4px 10px var(--shadow-dark),
+    -4px -4px 10px var(--shadow-light);
+  transition:
+    box-shadow 120ms ease,
+    transform 120ms ease;
+}
+.neu-btn:active {
+  box-shadow:
+    inset 3px 3px 7px var(--shadow-dark),
+    inset -3px -3px 7px var(--shadow-light);
+  transform: scale(0.98);
+}
+.neu-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

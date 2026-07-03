@@ -1,0 +1,42 @@
+name: SWU meta sync
+
+on:
+  schedule:
+    - cron: "0 9 * * *" # daily, 09:00 UTC — after most weekend/evening events post
+  workflow_dispatch: {} # manual "run now" button for after big events
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check secrets are configured
+        id: secrets
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+        run: |
+          if [ -z "$SUPABASE_URL" ]; then
+            echo "SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY secrets not set yet — skipping sync."
+            echo "configured=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "configured=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.secrets.outputs.configured == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        if: steps.secrets.outputs.configured == 'true'
+        run: pip install -r swu-meta-tracker/pipeline/requirements.txt
+
+      - name: Run sync
+        if: steps.secrets.outputs.configured == 'true'
+        working-directory: swu-meta-tracker/pipeline
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SWUAPI_KEY: ${{ secrets.SWUAPI_KEY }} # optional until Phase 2
+        run: python sync.py

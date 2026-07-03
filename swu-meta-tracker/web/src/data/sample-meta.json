@@ -1,0 +1,14 @@
+{
+  "note": "Placeholder rows shown until Supabase is connected. Shapes match the meta_snapshots + archetypes join.",
+  "lastUpdatedAt": null,
+  "rows": [
+    { "archetype": "Sample Archetype A", "leader": "Leader A", "base": "Base A", "metaShare": 0.182, "winRate": 0.554, "deckCount": 64 },
+    { "archetype": "Sample Archetype B", "leader": "Leader B", "base": "Base B", "metaShare": 0.141, "winRate": 0.521, "deckCount": 49 },
+    { "archetype": "Sample Archetype C", "leader": "Leader C", "base": "Base C", "metaShare": 0.117, "winRate": 0.548, "deckCount": 41 },
+    { "archetype": "Sample Archetype D", "leader": "Leader D", "base": "Base D", "metaShare": 0.093, "winRate": 0.497, "deckCount": 33 },
+    { "archetype": "Sample Archetype E", "leader": "Leader E", "base": "Base E", "metaShare": 0.078, "winRate": 0.532, "deckCount": 27 },
+    { "archetype": "Sample Archetype F", "leader": "Leader F", "base": "Base F", "metaShare": 0.06, "winRate": 0.466, "deckCount": 21 },
+    { "archetype": "Sample Archetype G", "leader": "Leader G", "base": "Base G", "metaShare": 0.049, "winRate": 0.512, "deckCount": 17 },
+    { "archetype": "Sample Archetype H", "leader": "Leader H", "base": "Base H", "metaShare": 0.037, "winRate": 0.489, "deckCount": 13 }
+  ]
+}

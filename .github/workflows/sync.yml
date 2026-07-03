@@ -1,0 +1,31 @@
+name: Scheduled data sync
+
+on:
+  schedule:
+    # Daily at 06:00 UTC — after most weekend events have finalized results.
+    - cron: "0 6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pipeline dependencies
+        working-directory: swu-meta-tracker/pipeline
+        run: pip install -r requirements.txt
+
+      - name: Run Phase 1 sync (cards, archetypes, current meta)
+        working-directory: swu-meta-tracker/pipeline
+        env:
+          SWUAPI_BASE_URL: ${{ vars.SWUAPI_BASE_URL }}
+          SWUAPI_API_KEY: ${{ secrets.SWUAPI_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python -m swu_sync

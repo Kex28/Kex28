@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Neumorphic design tokens. Dark mode gets its own tuned shadow/highlight
+   values rather than an inversion of the light set (see SPEC.md). Text stays
+   high-contrast so data-heavy views remain scannable. */
+:root {
+  --surface: #e6e9ef;
+  --ink: #1b2028;
+  --ink-secondary: #4c5361;
+  --ink-muted: #7d8494;
+  --accent: #2a78d6;
+  --delta-up: #006300;
+  --delta-down: #d03b3b;
+  --hairline: rgba(27, 32, 40, 0.1);
+
+  --shadow-neu: -8px -8px 16px rgba(255, 255, 255, 0.85), 8px 8px 16px rgba(163, 173, 190, 0.55);
+  --shadow-neu-sm: -4px -4px 8px rgba(255, 255, 255, 0.8), 4px 4px 8px rgba(163, 173, 190, 0.5);
+  --shadow-neu-inset: inset -4px -4px 8px rgba(255, 255, 255, 0.75),
+    inset 4px 4px 8px rgba(163, 173, 190, 0.5);
+}
+
+.dark {
+  --surface: #23262c;
+  --ink: #eef0f4;
+  --ink-secondary: #b4bac6;
+  --ink-muted: #8b919e;
+  --accent: #3987e5;
+  --delta-up: #0ca30c;
+  --delta-down: #e66767;
+  --hairline: rgba(255, 255, 255, 0.1);
+
+  --shadow-neu: -8px -8px 16px rgba(58, 63, 72, 0.55), 8px 8px 16px rgba(13, 15, 18, 0.7);
+  --shadow-neu-sm: -4px -4px 8px rgba(58, 63, 72, 0.5), 4px 4px 8px rgba(13, 15, 18, 0.65);
+  --shadow-neu-inset: inset -4px -4px 8px rgba(58, 63, 72, 0.45),
+    inset 4px 4px 8px rgba(13, 15, 18, 0.6);
+}
+
+html {
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+body {
+  @apply bg-surface text-ink antialiased;
+}

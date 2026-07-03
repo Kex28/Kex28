@@ -1,0 +1,27 @@
+[project]
+name = "swu-sync"
+version = "0.1.0"
+description = "Scheduled data pulls from swuapi.com into Supabase for the SWU Meta Tracker"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "responses>=0.25",
+]
+
+[project.scripts]
+swu-sync = "swu_sync.sync:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["swu_sync*"]
+
+[tool.setuptools.package-data]
+swu_sync = ["fixtures/*.json"]

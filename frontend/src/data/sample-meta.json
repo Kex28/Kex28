@@ -1,0 +1,15 @@
+{
+  "snapshot_at": "2026-07-02T06:00:00Z",
+  "rows": [
+    {"archetype_id": "boba-daimyo-jabbas-palace", "name": "Boba Fett Yellow", "leader": "Boba Fett, Daimyo", "base": "Jabba's Palace", "aspect": "Cunning", "meta_share": 0.162, "win_rate": 0.548, "deck_count": 214},
+    {"archetype_id": "sabine-chopper-base", "name": "Sabine Aggro", "leader": "Sabine Wren", "base": "Chopper Base", "aspect": "Aggression", "meta_share": 0.128, "win_rate": 0.531, "deck_count": 169},
+    {"archetype_id": "iden-ecl", "name": "Iden Blue", "leader": "Iden Versio", "base": "Energy Conversion Lab", "aspect": "Vigilance", "meta_share": 0.117, "win_rate": 0.522, "deck_count": 154},
+    {"archetype_id": "kylo-ecl", "name": "Kylo Red", "leader": "Kylo Ren", "base": "Energy Conversion Lab", "aspect": "Aggression", "meta_share": 0.094, "win_rate": 0.507, "deck_count": 124},
+    {"archetype_id": "han-solo-cunning", "name": "Han Ramp", "leader": "Han Solo", "base": "Echo Base", "aspect": "Heroism", "meta_share": 0.083, "win_rate": 0.512, "deck_count": 110},
+    {"archetype_id": "quinlan-nadiri", "name": "Quinlan Tempo", "leader": "Quinlan Vos", "base": "Nadiri Dockyards", "aspect": "Vigilance", "meta_share": 0.071, "win_rate": 0.498, "deck_count": 94},
+    {"archetype_id": "anakin-tarkintown", "name": "Anakin Aggro", "leader": "Anakin Skywalker", "base": "Tarkintown", "aspect": "Aggression", "meta_share": 0.064, "win_rate": 0.489, "deck_count": 84},
+    {"archetype_id": "gar-saxon-command", "name": "Gar Saxon Green", "leader": "Gar Saxon", "base": "Spice Mines", "aspect": "Command", "meta_share": 0.052, "win_rate": 0.516, "deck_count": 69},
+    {"archetype_id": "rey-dagobah", "name": "Rey Control", "leader": "Rey", "base": "Dagobah Swamp", "aspect": "Vigilance", "meta_share": 0.047, "win_rate": 0.473, "deck_count": 62},
+    {"archetype_id": "leia-command", "name": "Leia Command", "leader": "Leia Organa", "base": "Administrator's Tower", "aspect": "Command", "meta_share": 0.041, "win_rate": 0.462, "deck_count": 54}
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  {"id": "boba-daimyo-jabbas-palace", "name": "Boba Fett Yellow", "leader": "Boba Fett, Daimyo", "base": "Jabba's Palace", "aspect": "Cunning"},
+  {"id": "sabine-chopper-base", "name": "Sabine Aggro", "leader": "Sabine Wren", "base": "Chopper Base", "aspect": "Aggression"},
+  {"id": "iden-ecl", "name": "Iden Blue", "leader": "Iden Versio", "base": "Energy Conversion Lab", "aspect": "Vigilance"},
+  {"id": "kylo-ecl", "name": "Kylo Red", "leader": "Kylo Ren", "base": "Energy Conversion Lab", "aspect": "Aggression"},
+  {"id": "han-solo-cunning", "name": "Han Ramp", "leader": "Han Solo", "base": "Echo Base", "aspect": "Heroism"},
+  {"id": "quinlan-nadiri", "name": "Quinlan Tempo", "leader": "Quinlan Vos", "base": "Nadiri Dockyards", "aspect": "Vigilance"},
+  {"id": "anakin-tarkintown", "name": "Anakin Aggro", "leader": "Anakin Skywalker", "base": "Tarkintown", "aspect": "Aggression"},
+  {"id": "gar-saxon-command", "name": "Gar Saxon Green", "leader": "Gar Saxon", "base": "Spice Mines", "aspect": "Command"},
+  {"id": "rey-dagobah", "name": "Rey Control", "leader": "Rey", "base": "Dagobah Swamp", "aspect": "Vigilance"},
+  {"id": "leia-command", "name": "Leia Command", "leader": "Leia Organa", "base": "Administrator's Tower", "aspect": "Command"}
+]

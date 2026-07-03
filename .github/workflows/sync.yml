@@ -1,0 +1,52 @@
+name: Scheduled swuapi sync
+
+on:
+  schedule:
+    # Daily at 06:00 UTC — after US evening events wrap and results are posted.
+    - cron: "0 6 * * *"
+    # Mondays also refresh the card catalogue (see --with-cards step below).
+  workflow_dispatch:
+    inputs:
+      with_cards:
+        description: "Also refresh the full card catalogue"
+        type: boolean
+        default: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install sync job
+        run: pip install ./etl
+
+      - name: Run Phase 1 pull
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SWUAPI_KEY: ${{ secrets.SWUAPI_KEY }}   # optional until Phase 2
+        run: |
+          EXTRA=""
+          # Weekly card refresh on Mondays, or when requested manually.
+          if [ "$(date -u +%u)" = "1" ] || [ "${{ inputs.with_cards }}" = "true" ]; then
+            EXTRA="--with-cards"
+          fi
+          swu-sync $EXTRA
+
+  # Keeps the pipeline honest on every push without touching real services.
+  test:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "./etl[dev]"
+      - run: pytest etl -q

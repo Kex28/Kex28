@@ -1,0 +1,5 @@
+[
+  {"id": "sor-123", "name": "Vanquish", "set": "SOR", "number": "123", "aspects": ["Vigilance"], "type": "Event", "cost": 5},
+  {"id": "sor-172", "name": "Open Fire", "set": "SOR", "number": "172", "aspects": ["Aggression"], "type": "Event", "cost": 3},
+  {"id": "shd-090", "name": "Bounty Hunter's Quarry", "set": "SHD", "number": "090", "aspects": ["Cunning"], "type": "Event", "cost": 2}
+]

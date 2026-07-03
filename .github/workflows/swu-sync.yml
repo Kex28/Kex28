@@ -1,0 +1,23 @@
+name: SWU meta sync
+
+on:
+  schedule:
+    - cron: '30 6 * * *' # daily at 06:30 UTC
+  workflow_dispatch: {} # manual runs from the Actions tab
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install -r swu-meta-tracker/backend/requirements.txt
+      - name: Run sync
+        working-directory: swu-meta-tracker/backend
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: python sync.py

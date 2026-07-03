@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-surface: #e8ebf1;
+  --color-surface-dark: #22262e;
+}
+
+/* Neumorphic-lite: soft dual shadows on cards/buttons, but text and table
+   contrast stay high (pure neumorphism is an accessibility trap on a
+   data-heavy site). Dark mode gets its own tuned shadow values instead of
+   inverted light-mode ones. */
+@utility neu-card {
+  border-radius: 1.25rem;
+  background: var(--color-surface);
+  box-shadow: 7px 7px 14px rgb(163 173 190 / 0.55),
+    -7px -7px 14px rgb(255 255 255 / 0.85);
+  .dark & {
+    background: var(--color-surface-dark);
+    box-shadow: 6px 6px 12px rgb(0 0 0 / 0.45),
+      -6px -6px 12px rgb(255 255 255 / 0.045);
+  }
+}
+
+@utility neu-button {
+  border-radius: 9999px;
+  background: var(--color-surface);
+  box-shadow: 4px 4px 8px rgb(163 173 190 / 0.55),
+    -4px -4px 8px rgb(255 255 255 / 0.85);
+  transition: box-shadow 120ms ease, transform 120ms ease;
+  &:active {
+    transform: scale(0.97);
+    box-shadow: inset 3px 3px 6px rgb(163 173 190 / 0.55),
+      inset -3px -3px 6px rgb(255 255 255 / 0.85);
+  }
+  .dark & {
+    background: var(--color-surface-dark);
+    box-shadow: 4px 4px 8px rgb(0 0 0 / 0.45),
+      -4px -4px 8px rgb(255 255 255 / 0.045);
+    &:active {
+      box-shadow: inset 3px 3px 6px rgb(0 0 0 / 0.5),
+        inset -3px -3px 6px rgb(255 255 255 / 0.04);
+    }
+  }
+}

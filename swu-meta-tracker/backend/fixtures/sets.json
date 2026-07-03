@@ -1,0 +1,9 @@
+{
+  "sets": [
+    {"code": "SOR", "name": "Spark of Rebellion", "released_at": "2024-03-08"},
+    {"code": "SHD", "name": "Shadows of the Galaxy", "released_at": "2024-07-12"},
+    {"code": "TWI", "name": "Twilight of the Republic", "released_at": "2024-11-08"},
+    {"code": "JTL", "name": "Jump to Lightspeed", "released_at": "2025-03-14"},
+    {"code": "LOF", "name": "Legends of the Force", "released_at": "2025-07-11"}
+  ]
+}

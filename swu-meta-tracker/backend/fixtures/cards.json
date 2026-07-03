@@ -1,0 +1,10 @@
+{
+  "cards": [
+    {"id": "SOR-010", "name": "Sabine Wren", "set": "SOR", "type": "Leader", "aspects": ["Aggression", "Heroism"], "cost": null, "image": null},
+    {"id": "SOR-021", "name": "Boba Fett", "set": "SOR", "type": "Leader", "aspects": ["Cunning", "Villainy"], "cost": null, "image": null},
+    {"id": "SOR-133", "name": "Atmospheric Assault Lander", "set": "SOR", "type": "Unit", "aspects": ["Aggression"], "cost": 4, "image": null},
+    {"id": "SHD-118", "name": "Bounty Hunter Crew", "set": "SHD", "type": "Unit", "aspects": ["Cunning"], "cost": 4, "image": null},
+    {"id": "TWI-064", "name": "Battle Droid Legion", "set": "TWI", "type": "Unit", "aspects": ["Command"], "cost": 5, "image": null},
+    {"id": "JTL-042", "name": "Red Squadron X-Wing", "set": "JTL", "type": "Unit", "aspects": ["Heroism"], "cost": 2, "image": null}
+  ]
+}

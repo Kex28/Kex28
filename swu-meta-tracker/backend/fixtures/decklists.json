@@ -1,0 +1,4036 @@
+{
+  "decklists": [
+    {
+      "id": "t001-d001",
+      "tournament_id": "t001",
+      "archetype_id": "iden-red",
+      "player": "Player 001",
+      "placement": 17
+    },
+    {
+      "id": "t001-d002",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 002",
+      "placement": 11
+    },
+    {
+      "id": "t001-d003",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 003",
+      "placement": 22
+    },
+    {
+      "id": "t001-d004",
+      "tournament_id": "t001",
+      "archetype_id": "han-blue",
+      "player": "Player 004",
+      "placement": 23
+    },
+    {
+      "id": "t001-d005",
+      "tournament_id": "t001",
+      "archetype_id": "boba-yellow",
+      "player": "Player 005",
+      "placement": 32
+    },
+    {
+      "id": "t001-d006",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 006",
+      "placement": 21
+    },
+    {
+      "id": "t001-d007",
+      "tournament_id": "t001",
+      "archetype_id": "boba-yellow",
+      "player": "Player 007",
+      "placement": 24
+    },
+    {
+      "id": "t001-d008",
+      "tournament_id": "t001",
+      "archetype_id": "quinlan-green",
+      "player": "Player 008",
+      "placement": 1
+    },
+    {
+      "id": "t001-d009",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 009",
+      "placement": 27
+    },
+    {
+      "id": "t001-d010",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 010",
+      "placement": 18
+    },
+    {
+      "id": "t001-d011",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 011",
+      "placement": 15
+    },
+    {
+      "id": "t001-d012",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 012",
+      "placement": 10
+    },
+    {
+      "id": "t001-d013",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 013",
+      "placement": 5
+    },
+    {
+      "id": "t001-d014",
+      "tournament_id": "t001",
+      "archetype_id": "vader-blue",
+      "player": "Player 014",
+      "placement": 25
+    },
+    {
+      "id": "t001-d015",
+      "tournament_id": "t001",
+      "archetype_id": "boba-yellow",
+      "player": "Player 015",
+      "placement": 4
+    },
+    {
+      "id": "t001-d016",
+      "tournament_id": "t001",
+      "archetype_id": "vader-blue",
+      "player": "Player 016",
+      "placement": 20
+    },
+    {
+      "id": "t001-d017",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 017",
+      "placement": 31
+    },
+    {
+      "id": "t001-d018",
+      "tournament_id": "t001",
+      "archetype_id": "quinlan-green",
+      "player": "Player 018",
+      "placement": 9
+    },
+    {
+      "id": "t001-d019",
+      "tournament_id": "t001",
+      "archetype_id": "han-blue",
+      "player": "Player 019",
+      "placement": 13
+    },
+    {
+      "id": "t001-d020",
+      "tournament_id": "t001",
+      "archetype_id": "iden-red",
+      "player": "Player 020",
+      "placement": 28
+    },
+    {
+      "id": "t001-d021",
+      "tournament_id": "t001",
+      "archetype_id": "iden-red",
+      "player": "Player 021",
+      "placement": 26
+    },
+    {
+      "id": "t001-d022",
+      "tournament_id": "t001",
+      "archetype_id": "boba-yellow",
+      "player": "Player 022",
+      "placement": 16
+    },
+    {
+      "id": "t001-d023",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 023",
+      "placement": 30
+    },
+    {
+      "id": "t001-d024",
+      "tournament_id": "t001",
+      "archetype_id": "iden-red",
+      "player": "Player 024",
+      "placement": 2
+    },
+    {
+      "id": "t001-d025",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 025",
+      "placement": 3
+    },
+    {
+      "id": "t001-d026",
+      "tournament_id": "t001",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 026",
+      "placement": 12
+    },
+    {
+      "id": "t001-d027",
+      "tournament_id": "t001",
+      "archetype_id": "kylo-green",
+      "player": "Player 027",
+      "placement": 7
+    },
+    {
+      "id": "t001-d028",
+      "tournament_id": "t001",
+      "archetype_id": "iden-red",
+      "player": "Player 028",
+      "placement": 6
+    },
+    {
+      "id": "t001-d029",
+      "tournament_id": "t001",
+      "archetype_id": "boba-yellow",
+      "player": "Player 029",
+      "placement": 29
+    },
+    {
+      "id": "t001-d030",
+      "tournament_id": "t001",
+      "archetype_id": "han-blue",
+      "player": "Player 030",
+      "placement": 14
+    },
+    {
+      "id": "t001-d031",
+      "tournament_id": "t001",
+      "archetype_id": "quinlan-green",
+      "player": "Player 031",
+      "placement": 19
+    },
+    {
+      "id": "t001-d032",
+      "tournament_id": "t001",
+      "archetype_id": "boba-yellow",
+      "player": "Player 032",
+      "placement": 8
+    },
+    {
+      "id": "t002-d001",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 001",
+      "placement": 35
+    },
+    {
+      "id": "t002-d002",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 002",
+      "placement": 21
+    },
+    {
+      "id": "t002-d003",
+      "tournament_id": "t002",
+      "archetype_id": "han-blue",
+      "player": "Player 003",
+      "placement": 9
+    },
+    {
+      "id": "t002-d004",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 004",
+      "placement": 10
+    },
+    {
+      "id": "t002-d005",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 005",
+      "placement": 28
+    },
+    {
+      "id": "t002-d006",
+      "tournament_id": "t002",
+      "archetype_id": "han-blue",
+      "player": "Player 006",
+      "placement": 42
+    },
+    {
+      "id": "t002-d007",
+      "tournament_id": "t002",
+      "archetype_id": "kylo-green",
+      "player": "Player 007",
+      "placement": 7
+    },
+    {
+      "id": "t002-d008",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 008",
+      "placement": 19
+    },
+    {
+      "id": "t002-d009",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 009",
+      "placement": 27
+    },
+    {
+      "id": "t002-d010",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 010",
+      "placement": 38
+    },
+    {
+      "id": "t002-d011",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 011",
+      "placement": 47
+    },
+    {
+      "id": "t002-d012",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 012",
+      "placement": 15
+    },
+    {
+      "id": "t002-d013",
+      "tournament_id": "t002",
+      "archetype_id": "iden-red",
+      "player": "Player 013",
+      "placement": 20
+    },
+    {
+      "id": "t002-d014",
+      "tournament_id": "t002",
+      "archetype_id": "han-blue",
+      "player": "Player 014",
+      "placement": 16
+    },
+    {
+      "id": "t002-d015",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 015",
+      "placement": 14
+    },
+    {
+      "id": "t002-d016",
+      "tournament_id": "t002",
+      "archetype_id": "han-blue",
+      "player": "Player 016",
+      "placement": 37
+    },
+    {
+      "id": "t002-d017",
+      "tournament_id": "t002",
+      "archetype_id": "iden-red",
+      "player": "Player 017",
+      "placement": 11
+    },
+    {
+      "id": "t002-d018",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 018",
+      "placement": 22
+    },
+    {
+      "id": "t002-d019",
+      "tournament_id": "t002",
+      "archetype_id": "kylo-green",
+      "player": "Player 019",
+      "placement": 5
+    },
+    {
+      "id": "t002-d020",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 020",
+      "placement": 39
+    },
+    {
+      "id": "t002-d021",
+      "tournament_id": "t002",
+      "archetype_id": "leia-red",
+      "player": "Player 021",
+      "placement": 24
+    },
+    {
+      "id": "t002-d022",
+      "tournament_id": "t002",
+      "archetype_id": "han-blue",
+      "player": "Player 022",
+      "placement": 30
+    },
+    {
+      "id": "t002-d023",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 023",
+      "placement": 3
+    },
+    {
+      "id": "t002-d024",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 024",
+      "placement": 46
+    },
+    {
+      "id": "t002-d025",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 025",
+      "placement": 8
+    },
+    {
+      "id": "t002-d026",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 026",
+      "placement": 32
+    },
+    {
+      "id": "t002-d027",
+      "tournament_id": "t002",
+      "archetype_id": "iden-red",
+      "player": "Player 027",
+      "placement": 23
+    },
+    {
+      "id": "t002-d028",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 028",
+      "placement": 25
+    },
+    {
+      "id": "t002-d029",
+      "tournament_id": "t002",
+      "archetype_id": "kylo-green",
+      "player": "Player 029",
+      "placement": 18
+    },
+    {
+      "id": "t002-d030",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 030",
+      "placement": 31
+    },
+    {
+      "id": "t002-d031",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 031",
+      "placement": 13
+    },
+    {
+      "id": "t002-d032",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 032",
+      "placement": 29
+    },
+    {
+      "id": "t002-d033",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 033",
+      "placement": 17
+    },
+    {
+      "id": "t002-d034",
+      "tournament_id": "t002",
+      "archetype_id": "han-blue",
+      "player": "Player 034",
+      "placement": 48
+    },
+    {
+      "id": "t002-d035",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 035",
+      "placement": 6
+    },
+    {
+      "id": "t002-d036",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 036",
+      "placement": 40
+    },
+    {
+      "id": "t002-d037",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 037",
+      "placement": 34
+    },
+    {
+      "id": "t002-d038",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 038",
+      "placement": 26
+    },
+    {
+      "id": "t002-d039",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 039",
+      "placement": 12
+    },
+    {
+      "id": "t002-d040",
+      "tournament_id": "t002",
+      "archetype_id": "vader-blue",
+      "player": "Player 040",
+      "placement": 43
+    },
+    {
+      "id": "t002-d041",
+      "tournament_id": "t002",
+      "archetype_id": "kylo-green",
+      "player": "Player 041",
+      "placement": 41
+    },
+    {
+      "id": "t002-d042",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 042",
+      "placement": 33
+    },
+    {
+      "id": "t002-d043",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 043",
+      "placement": 36
+    },
+    {
+      "id": "t002-d044",
+      "tournament_id": "t002",
+      "archetype_id": "boba-yellow",
+      "player": "Player 044",
+      "placement": 4
+    },
+    {
+      "id": "t002-d045",
+      "tournament_id": "t002",
+      "archetype_id": "han-blue",
+      "player": "Player 045",
+      "placement": 45
+    },
+    {
+      "id": "t002-d046",
+      "tournament_id": "t002",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 046",
+      "placement": 44
+    },
+    {
+      "id": "t002-d047",
+      "tournament_id": "t002",
+      "archetype_id": "quinlan-green",
+      "player": "Player 047",
+      "placement": 1
+    },
+    {
+      "id": "t002-d048",
+      "tournament_id": "t002",
+      "archetype_id": "iden-red",
+      "player": "Player 048",
+      "placement": 2
+    },
+    {
+      "id": "t003-d001",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 001",
+      "placement": 48
+    },
+    {
+      "id": "t003-d002",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 002",
+      "placement": 36
+    },
+    {
+      "id": "t003-d003",
+      "tournament_id": "t003",
+      "archetype_id": "kylo-green",
+      "player": "Player 003",
+      "placement": 45
+    },
+    {
+      "id": "t003-d004",
+      "tournament_id": "t003",
+      "archetype_id": "kylo-green",
+      "player": "Player 004",
+      "placement": 19
+    },
+    {
+      "id": "t003-d005",
+      "tournament_id": "t003",
+      "archetype_id": "vader-blue",
+      "player": "Player 005",
+      "placement": 27
+    },
+    {
+      "id": "t003-d006",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 006",
+      "placement": 23
+    },
+    {
+      "id": "t003-d007",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 007",
+      "placement": 50
+    },
+    {
+      "id": "t003-d008",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 008",
+      "placement": 5
+    },
+    {
+      "id": "t003-d009",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 009",
+      "placement": 17
+    },
+    {
+      "id": "t003-d010",
+      "tournament_id": "t003",
+      "archetype_id": "leia-red",
+      "player": "Player 010",
+      "placement": 57
+    },
+    {
+      "id": "t003-d011",
+      "tournament_id": "t003",
+      "archetype_id": "kylo-green",
+      "player": "Player 011",
+      "placement": 47
+    },
+    {
+      "id": "t003-d012",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 012",
+      "placement": 21
+    },
+    {
+      "id": "t003-d013",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 013",
+      "placement": 3
+    },
+    {
+      "id": "t003-d014",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 014",
+      "placement": 29
+    },
+    {
+      "id": "t003-d015",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 015",
+      "placement": 20
+    },
+    {
+      "id": "t003-d016",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 016",
+      "placement": 62
+    },
+    {
+      "id": "t003-d017",
+      "tournament_id": "t003",
+      "archetype_id": "leia-red",
+      "player": "Player 017",
+      "placement": 33
+    },
+    {
+      "id": "t003-d018",
+      "tournament_id": "t003",
+      "archetype_id": "iden-red",
+      "player": "Player 018",
+      "placement": 58
+    },
+    {
+      "id": "t003-d019",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 019",
+      "placement": 24
+    },
+    {
+      "id": "t003-d020",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 020",
+      "placement": 39
+    },
+    {
+      "id": "t003-d021",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 021",
+      "placement": 14
+    },
+    {
+      "id": "t003-d022",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 022",
+      "placement": 41
+    },
+    {
+      "id": "t003-d023",
+      "tournament_id": "t003",
+      "archetype_id": "iden-red",
+      "player": "Player 023",
+      "placement": 1
+    },
+    {
+      "id": "t003-d024",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 024",
+      "placement": 35
+    },
+    {
+      "id": "t003-d025",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 025",
+      "placement": 15
+    },
+    {
+      "id": "t003-d026",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 026",
+      "placement": 34
+    },
+    {
+      "id": "t003-d027",
+      "tournament_id": "t003",
+      "archetype_id": "vader-blue",
+      "player": "Player 027",
+      "placement": 22
+    },
+    {
+      "id": "t003-d028",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 028",
+      "placement": 31
+    },
+    {
+      "id": "t003-d029",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 029",
+      "placement": 43
+    },
+    {
+      "id": "t003-d030",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 030",
+      "placement": 42
+    },
+    {
+      "id": "t003-d031",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 031",
+      "placement": 30
+    },
+    {
+      "id": "t003-d032",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 032",
+      "placement": 49
+    },
+    {
+      "id": "t003-d033",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 033",
+      "placement": 18
+    },
+    {
+      "id": "t003-d034",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 034",
+      "placement": 54
+    },
+    {
+      "id": "t003-d035",
+      "tournament_id": "t003",
+      "archetype_id": "iden-red",
+      "player": "Player 035",
+      "placement": 32
+    },
+    {
+      "id": "t003-d036",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 036",
+      "placement": 61
+    },
+    {
+      "id": "t003-d037",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 037",
+      "placement": 37
+    },
+    {
+      "id": "t003-d038",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 038",
+      "placement": 59
+    },
+    {
+      "id": "t003-d039",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 039",
+      "placement": 60
+    },
+    {
+      "id": "t003-d040",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 040",
+      "placement": 10
+    },
+    {
+      "id": "t003-d041",
+      "tournament_id": "t003",
+      "archetype_id": "vader-blue",
+      "player": "Player 041",
+      "placement": 7
+    },
+    {
+      "id": "t003-d042",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 042",
+      "placement": 53
+    },
+    {
+      "id": "t003-d043",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 043",
+      "placement": 46
+    },
+    {
+      "id": "t003-d044",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 044",
+      "placement": 8
+    },
+    {
+      "id": "t003-d045",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 045",
+      "placement": 52
+    },
+    {
+      "id": "t003-d046",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 046",
+      "placement": 28
+    },
+    {
+      "id": "t003-d047",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 047",
+      "placement": 2
+    },
+    {
+      "id": "t003-d048",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 048",
+      "placement": 9
+    },
+    {
+      "id": "t003-d049",
+      "tournament_id": "t003",
+      "archetype_id": "vader-blue",
+      "player": "Player 049",
+      "placement": 4
+    },
+    {
+      "id": "t003-d050",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 050",
+      "placement": 40
+    },
+    {
+      "id": "t003-d051",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 051",
+      "placement": 38
+    },
+    {
+      "id": "t003-d052",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 052",
+      "placement": 25
+    },
+    {
+      "id": "t003-d053",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 053",
+      "placement": 63
+    },
+    {
+      "id": "t003-d054",
+      "tournament_id": "t003",
+      "archetype_id": "leia-red",
+      "player": "Player 054",
+      "placement": 51
+    },
+    {
+      "id": "t003-d055",
+      "tournament_id": "t003",
+      "archetype_id": "quinlan-green",
+      "player": "Player 055",
+      "placement": 12
+    },
+    {
+      "id": "t003-d056",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 056",
+      "placement": 44
+    },
+    {
+      "id": "t003-d057",
+      "tournament_id": "t003",
+      "archetype_id": "boba-yellow",
+      "player": "Player 057",
+      "placement": 13
+    },
+    {
+      "id": "t003-d058",
+      "tournament_id": "t003",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 058",
+      "placement": 11
+    },
+    {
+      "id": "t003-d059",
+      "tournament_id": "t003",
+      "archetype_id": "iden-red",
+      "player": "Player 059",
+      "placement": 6
+    },
+    {
+      "id": "t003-d060",
+      "tournament_id": "t003",
+      "archetype_id": "vader-blue",
+      "player": "Player 060",
+      "placement": 26
+    },
+    {
+      "id": "t003-d061",
+      "tournament_id": "t003",
+      "archetype_id": "iden-red",
+      "player": "Player 061",
+      "placement": 55
+    },
+    {
+      "id": "t003-d062",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 062",
+      "placement": 64
+    },
+    {
+      "id": "t003-d063",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 063",
+      "placement": 16
+    },
+    {
+      "id": "t003-d064",
+      "tournament_id": "t003",
+      "archetype_id": "han-blue",
+      "player": "Player 064",
+      "placement": 56
+    },
+    {
+      "id": "t004-d001",
+      "tournament_id": "t004",
+      "archetype_id": "han-blue",
+      "player": "Player 001",
+      "placement": 21
+    },
+    {
+      "id": "t004-d002",
+      "tournament_id": "t004",
+      "archetype_id": "han-blue",
+      "player": "Player 002",
+      "placement": 3
+    },
+    {
+      "id": "t004-d003",
+      "tournament_id": "t004",
+      "archetype_id": "vader-blue",
+      "player": "Player 003",
+      "placement": 4
+    },
+    {
+      "id": "t004-d004",
+      "tournament_id": "t004",
+      "archetype_id": "boba-yellow",
+      "player": "Player 004",
+      "placement": 11
+    },
+    {
+      "id": "t004-d005",
+      "tournament_id": "t004",
+      "archetype_id": "boba-yellow",
+      "player": "Player 005",
+      "placement": 27
+    },
+    {
+      "id": "t004-d006",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 006",
+      "placement": 30
+    },
+    {
+      "id": "t004-d007",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 007",
+      "placement": 5
+    },
+    {
+      "id": "t004-d008",
+      "tournament_id": "t004",
+      "archetype_id": "kylo-green",
+      "player": "Player 008",
+      "placement": 2
+    },
+    {
+      "id": "t004-d009",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 009",
+      "placement": 32
+    },
+    {
+      "id": "t004-d010",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 010",
+      "placement": 31
+    },
+    {
+      "id": "t004-d011",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 011",
+      "placement": 28
+    },
+    {
+      "id": "t004-d012",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 012",
+      "placement": 7
+    },
+    {
+      "id": "t004-d013",
+      "tournament_id": "t004",
+      "archetype_id": "boba-yellow",
+      "player": "Player 013",
+      "placement": 29
+    },
+    {
+      "id": "t004-d014",
+      "tournament_id": "t004",
+      "archetype_id": "quinlan-green",
+      "player": "Player 014",
+      "placement": 9
+    },
+    {
+      "id": "t004-d015",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 015",
+      "placement": 14
+    },
+    {
+      "id": "t004-d016",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 016",
+      "placement": 1
+    },
+    {
+      "id": "t004-d017",
+      "tournament_id": "t004",
+      "archetype_id": "iden-red",
+      "player": "Player 017",
+      "placement": 26
+    },
+    {
+      "id": "t004-d018",
+      "tournament_id": "t004",
+      "archetype_id": "kylo-green",
+      "player": "Player 018",
+      "placement": 20
+    },
+    {
+      "id": "t004-d019",
+      "tournament_id": "t004",
+      "archetype_id": "iden-red",
+      "player": "Player 019",
+      "placement": 13
+    },
+    {
+      "id": "t004-d020",
+      "tournament_id": "t004",
+      "archetype_id": "quinlan-green",
+      "player": "Player 020",
+      "placement": 16
+    },
+    {
+      "id": "t004-d021",
+      "tournament_id": "t004",
+      "archetype_id": "quinlan-green",
+      "player": "Player 021",
+      "placement": 24
+    },
+    {
+      "id": "t004-d022",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 022",
+      "placement": 10
+    },
+    {
+      "id": "t004-d023",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 023",
+      "placement": 18
+    },
+    {
+      "id": "t004-d024",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 024",
+      "placement": 23
+    },
+    {
+      "id": "t004-d025",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 025",
+      "placement": 25
+    },
+    {
+      "id": "t004-d026",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 026",
+      "placement": 22
+    },
+    {
+      "id": "t004-d027",
+      "tournament_id": "t004",
+      "archetype_id": "boba-yellow",
+      "player": "Player 027",
+      "placement": 19
+    },
+    {
+      "id": "t004-d028",
+      "tournament_id": "t004",
+      "archetype_id": "vader-blue",
+      "player": "Player 028",
+      "placement": 12
+    },
+    {
+      "id": "t004-d029",
+      "tournament_id": "t004",
+      "archetype_id": "iden-red",
+      "player": "Player 029",
+      "placement": 6
+    },
+    {
+      "id": "t004-d030",
+      "tournament_id": "t004",
+      "archetype_id": "quinlan-green",
+      "player": "Player 030",
+      "placement": 8
+    },
+    {
+      "id": "t004-d031",
+      "tournament_id": "t004",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 031",
+      "placement": 15
+    },
+    {
+      "id": "t004-d032",
+      "tournament_id": "t004",
+      "archetype_id": "leia-red",
+      "player": "Player 032",
+      "placement": 17
+    },
+    {
+      "id": "t005-d001",
+      "tournament_id": "t005",
+      "archetype_id": "boba-yellow",
+      "player": "Player 001",
+      "placement": 9
+    },
+    {
+      "id": "t005-d002",
+      "tournament_id": "t005",
+      "archetype_id": "boba-yellow",
+      "player": "Player 002",
+      "placement": 25
+    },
+    {
+      "id": "t005-d003",
+      "tournament_id": "t005",
+      "archetype_id": "han-blue",
+      "player": "Player 003",
+      "placement": 2
+    },
+    {
+      "id": "t005-d004",
+      "tournament_id": "t005",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 004",
+      "placement": 5
+    },
+    {
+      "id": "t005-d005",
+      "tournament_id": "t005",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 005",
+      "placement": 1
+    },
+    {
+      "id": "t005-d006",
+      "tournament_id": "t005",
+      "archetype_id": "iden-red",
+      "player": "Player 006",
+      "placement": 23
+    },
+    {
+      "id": "t005-d007",
+      "tournament_id": "t005",
+      "archetype_id": "quinlan-green",
+      "player": "Player 007",
+      "placement": 20
+    },
+    {
+      "id": "t005-d008",
+      "tournament_id": "t005",
+      "archetype_id": "kylo-green",
+      "player": "Player 008",
+      "placement": 22
+    },
+    {
+      "id": "t005-d009",
+      "tournament_id": "t005",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 009",
+      "placement": 10
+    },
+    {
+      "id": "t005-d010",
+      "tournament_id": "t005",
+      "archetype_id": "boba-yellow",
+      "player": "Player 010",
+      "placement": 26
+    },
+    {
+      "id": "t005-d011",
+      "tournament_id": "t005",
+      "archetype_id": "boba-yellow",
+      "player": "Player 011",
+      "placement": 15
+    },
+    {
+      "id": "t005-d012",
+      "tournament_id": "t005",
+      "archetype_id": "boba-yellow",
+      "player": "Player 012",
+      "placement": 4
+    },
+    {
+      "id": "t005-d013",
+      "tournament_id": "t005",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 013",
+      "placement": 14
+    },
+    {
+      "id": "t005-d014",
+      "tournament_id": "t005",
+      "archetype_id": "han-blue",
+      "player": "Player 014",
+      "placement": 11
+    },
+    {
+      "id": "t005-d015",
+      "tournament_id": "t005",
+      "archetype_id": "leia-red",
+      "player": "Player 015",
+      "placement": 18
+    },
+    {
+      "id": "t005-d016",
+      "tournament_id": "t005",
+      "archetype_id": "vader-blue",
+      "player": "Player 016",
+      "placement": 31
+    },
+    {
+      "id": "t005-d017",
+      "tournament_id": "t005",
+      "archetype_id": "boba-yellow",
+      "player": "Player 017",
+      "placement": 19
+    },
+    {
+      "id": "t005-d018",
+      "tournament_id": "t005",
+      "archetype_id": "han-blue",
+      "player": "Player 018",
+      "placement": 32
+    },
+    {
+      "id": "t005-d019",
+      "tournament_id": "t005",
+      "archetype_id": "iden-red",
+      "player": "Player 019",
+      "placement": 27
+    },
+    {
+      "id": "t005-d020",
+      "tournament_id": "t005",
+      "archetype_id": "leia-red",
+      "player": "Player 020",
+      "placement": 29
+    },
+    {
+      "id": "t005-d021",
+      "tournament_id": "t005",
+      "archetype_id": "kylo-green",
+      "player": "Player 021",
+      "placement": 30
+    },
+    {
+      "id": "t005-d022",
+      "tournament_id": "t005",
+      "archetype_id": "quinlan-green",
+      "player": "Player 022",
+      "placement": 24
+    },
+    {
+      "id": "t005-d023",
+      "tournament_id": "t005",
+      "archetype_id": "quinlan-green",
+      "player": "Player 023",
+      "placement": 7
+    },
+    {
+      "id": "t005-d024",
+      "tournament_id": "t005",
+      "archetype_id": "iden-red",
+      "player": "Player 024",
+      "placement": 6
+    },
+    {
+      "id": "t005-d025",
+      "tournament_id": "t005",
+      "archetype_id": "quinlan-green",
+      "player": "Player 025",
+      "placement": 28
+    },
+    {
+      "id": "t005-d026",
+      "tournament_id": "t005",
+      "archetype_id": "han-blue",
+      "player": "Player 026",
+      "placement": 8
+    },
+    {
+      "id": "t005-d027",
+      "tournament_id": "t005",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 027",
+      "placement": 17
+    },
+    {
+      "id": "t005-d028",
+      "tournament_id": "t005",
+      "archetype_id": "quinlan-green",
+      "player": "Player 028",
+      "placement": 13
+    },
+    {
+      "id": "t005-d029",
+      "tournament_id": "t005",
+      "archetype_id": "han-blue",
+      "player": "Player 029",
+      "placement": 16
+    },
+    {
+      "id": "t005-d030",
+      "tournament_id": "t005",
+      "archetype_id": "han-blue",
+      "player": "Player 030",
+      "placement": 12
+    },
+    {
+      "id": "t005-d031",
+      "tournament_id": "t005",
+      "archetype_id": "quinlan-green",
+      "player": "Player 031",
+      "placement": 21
+    },
+    {
+      "id": "t005-d032",
+      "tournament_id": "t005",
+      "archetype_id": "kylo-green",
+      "player": "Player 032",
+      "placement": 3
+    },
+    {
+      "id": "t006-d001",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 001",
+      "placement": 13
+    },
+    {
+      "id": "t006-d002",
+      "tournament_id": "t006",
+      "archetype_id": "quinlan-green",
+      "player": "Player 002",
+      "placement": 17
+    },
+    {
+      "id": "t006-d003",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 003",
+      "placement": 42
+    },
+    {
+      "id": "t006-d004",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 004",
+      "placement": 2
+    },
+    {
+      "id": "t006-d005",
+      "tournament_id": "t006",
+      "archetype_id": "iden-red",
+      "player": "Player 005",
+      "placement": 64
+    },
+    {
+      "id": "t006-d006",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 006",
+      "placement": 15
+    },
+    {
+      "id": "t006-d007",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 007",
+      "placement": 25
+    },
+    {
+      "id": "t006-d008",
+      "tournament_id": "t006",
+      "archetype_id": "kylo-green",
+      "player": "Player 008",
+      "placement": 63
+    },
+    {
+      "id": "t006-d009",
+      "tournament_id": "t006",
+      "archetype_id": "leia-red",
+      "player": "Player 009",
+      "placement": 4
+    },
+    {
+      "id": "t006-d010",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 010",
+      "placement": 37
+    },
+    {
+      "id": "t006-d011",
+      "tournament_id": "t006",
+      "archetype_id": "iden-red",
+      "player": "Player 011",
+      "placement": 35
+    },
+    {
+      "id": "t006-d012",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 012",
+      "placement": 49
+    },
+    {
+      "id": "t006-d013",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 013",
+      "placement": 56
+    },
+    {
+      "id": "t006-d014",
+      "tournament_id": "t006",
+      "archetype_id": "kylo-green",
+      "player": "Player 014",
+      "placement": 6
+    },
+    {
+      "id": "t006-d015",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 015",
+      "placement": 22
+    },
+    {
+      "id": "t006-d016",
+      "tournament_id": "t006",
+      "archetype_id": "vader-blue",
+      "player": "Player 016",
+      "placement": 31
+    },
+    {
+      "id": "t006-d017",
+      "tournament_id": "t006",
+      "archetype_id": "leia-red",
+      "player": "Player 017",
+      "placement": 53
+    },
+    {
+      "id": "t006-d018",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 018",
+      "placement": 9
+    },
+    {
+      "id": "t006-d019",
+      "tournament_id": "t006",
+      "archetype_id": "iden-red",
+      "player": "Player 019",
+      "placement": 59
+    },
+    {
+      "id": "t006-d020",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 020",
+      "placement": 48
+    },
+    {
+      "id": "t006-d021",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 021",
+      "placement": 14
+    },
+    {
+      "id": "t006-d022",
+      "tournament_id": "t006",
+      "archetype_id": "leia-red",
+      "player": "Player 022",
+      "placement": 26
+    },
+    {
+      "id": "t006-d023",
+      "tournament_id": "t006",
+      "archetype_id": "kylo-green",
+      "player": "Player 023",
+      "placement": 8
+    },
+    {
+      "id": "t006-d024",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 024",
+      "placement": 16
+    },
+    {
+      "id": "t006-d025",
+      "tournament_id": "t006",
+      "archetype_id": "kylo-green",
+      "player": "Player 025",
+      "placement": 27
+    },
+    {
+      "id": "t006-d026",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 026",
+      "placement": 46
+    },
+    {
+      "id": "t006-d027",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 027",
+      "placement": 19
+    },
+    {
+      "id": "t006-d028",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 028",
+      "placement": 45
+    },
+    {
+      "id": "t006-d029",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 029",
+      "placement": 41
+    },
+    {
+      "id": "t006-d030",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 030",
+      "placement": 40
+    },
+    {
+      "id": "t006-d031",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 031",
+      "placement": 52
+    },
+    {
+      "id": "t006-d032",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 032",
+      "placement": 32
+    },
+    {
+      "id": "t006-d033",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 033",
+      "placement": 20
+    },
+    {
+      "id": "t006-d034",
+      "tournament_id": "t006",
+      "archetype_id": "leia-red",
+      "player": "Player 034",
+      "placement": 38
+    },
+    {
+      "id": "t006-d035",
+      "tournament_id": "t006",
+      "archetype_id": "vader-blue",
+      "player": "Player 035",
+      "placement": 60
+    },
+    {
+      "id": "t006-d036",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 036",
+      "placement": 61
+    },
+    {
+      "id": "t006-d037",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 037",
+      "placement": 23
+    },
+    {
+      "id": "t006-d038",
+      "tournament_id": "t006",
+      "archetype_id": "leia-red",
+      "player": "Player 038",
+      "placement": 39
+    },
+    {
+      "id": "t006-d039",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 039",
+      "placement": 55
+    },
+    {
+      "id": "t006-d040",
+      "tournament_id": "t006",
+      "archetype_id": "vader-blue",
+      "player": "Player 040",
+      "placement": 34
+    },
+    {
+      "id": "t006-d041",
+      "tournament_id": "t006",
+      "archetype_id": "iden-red",
+      "player": "Player 041",
+      "placement": 44
+    },
+    {
+      "id": "t006-d042",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 042",
+      "placement": 12
+    },
+    {
+      "id": "t006-d043",
+      "tournament_id": "t006",
+      "archetype_id": "quinlan-green",
+      "player": "Player 043",
+      "placement": 58
+    },
+    {
+      "id": "t006-d044",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 044",
+      "placement": 5
+    },
+    {
+      "id": "t006-d045",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 045",
+      "placement": 51
+    },
+    {
+      "id": "t006-d046",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 046",
+      "placement": 62
+    },
+    {
+      "id": "t006-d047",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 047",
+      "placement": 18
+    },
+    {
+      "id": "t006-d048",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 048",
+      "placement": 30
+    },
+    {
+      "id": "t006-d049",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 049",
+      "placement": 10
+    },
+    {
+      "id": "t006-d050",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 050",
+      "placement": 33
+    },
+    {
+      "id": "t006-d051",
+      "tournament_id": "t006",
+      "archetype_id": "kylo-green",
+      "player": "Player 051",
+      "placement": 54
+    },
+    {
+      "id": "t006-d052",
+      "tournament_id": "t006",
+      "archetype_id": "leia-red",
+      "player": "Player 052",
+      "placement": 36
+    },
+    {
+      "id": "t006-d053",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 053",
+      "placement": 3
+    },
+    {
+      "id": "t006-d054",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 054",
+      "placement": 50
+    },
+    {
+      "id": "t006-d055",
+      "tournament_id": "t006",
+      "archetype_id": "iden-red",
+      "player": "Player 055",
+      "placement": 21
+    },
+    {
+      "id": "t006-d056",
+      "tournament_id": "t006",
+      "archetype_id": "kylo-green",
+      "player": "Player 056",
+      "placement": 29
+    },
+    {
+      "id": "t006-d057",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 057",
+      "placement": 11
+    },
+    {
+      "id": "t006-d058",
+      "tournament_id": "t006",
+      "archetype_id": "han-blue",
+      "player": "Player 058",
+      "placement": 1
+    },
+    {
+      "id": "t006-d059",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 059",
+      "placement": 47
+    },
+    {
+      "id": "t006-d060",
+      "tournament_id": "t006",
+      "archetype_id": "iden-red",
+      "player": "Player 060",
+      "placement": 57
+    },
+    {
+      "id": "t006-d061",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 061",
+      "placement": 7
+    },
+    {
+      "id": "t006-d062",
+      "tournament_id": "t006",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 062",
+      "placement": 28
+    },
+    {
+      "id": "t006-d063",
+      "tournament_id": "t006",
+      "archetype_id": "leia-red",
+      "player": "Player 063",
+      "placement": 24
+    },
+    {
+      "id": "t006-d064",
+      "tournament_id": "t006",
+      "archetype_id": "boba-yellow",
+      "player": "Player 064",
+      "placement": 43
+    },
+    {
+      "id": "t007-d001",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 001",
+      "placement": 95
+    },
+    {
+      "id": "t007-d002",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 002",
+      "placement": 11
+    },
+    {
+      "id": "t007-d003",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 003",
+      "placement": 81
+    },
+    {
+      "id": "t007-d004",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 004",
+      "placement": 57
+    },
+    {
+      "id": "t007-d005",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 005",
+      "placement": 92
+    },
+    {
+      "id": "t007-d006",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 006",
+      "placement": 20
+    },
+    {
+      "id": "t007-d007",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 007",
+      "placement": 66
+    },
+    {
+      "id": "t007-d008",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 008",
+      "placement": 35
+    },
+    {
+      "id": "t007-d009",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 009",
+      "placement": 93
+    },
+    {
+      "id": "t007-d010",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 010",
+      "placement": 13
+    },
+    {
+      "id": "t007-d011",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 011",
+      "placement": 85
+    },
+    {
+      "id": "t007-d012",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 012",
+      "placement": 41
+    },
+    {
+      "id": "t007-d013",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 013",
+      "placement": 10
+    },
+    {
+      "id": "t007-d014",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 014",
+      "placement": 46
+    },
+    {
+      "id": "t007-d015",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 015",
+      "placement": 27
+    },
+    {
+      "id": "t007-d016",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 016",
+      "placement": 34
+    },
+    {
+      "id": "t007-d017",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 017",
+      "placement": 1
+    },
+    {
+      "id": "t007-d018",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 018",
+      "placement": 21
+    },
+    {
+      "id": "t007-d019",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 019",
+      "placement": 83
+    },
+    {
+      "id": "t007-d020",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 020",
+      "placement": 75
+    },
+    {
+      "id": "t007-d021",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 021",
+      "placement": 84
+    },
+    {
+      "id": "t007-d022",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 022",
+      "placement": 17
+    },
+    {
+      "id": "t007-d023",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 023",
+      "placement": 52
+    },
+    {
+      "id": "t007-d024",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 024",
+      "placement": 54
+    },
+    {
+      "id": "t007-d025",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 025",
+      "placement": 70
+    },
+    {
+      "id": "t007-d026",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 026",
+      "placement": 15
+    },
+    {
+      "id": "t007-d027",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 027",
+      "placement": 42
+    },
+    {
+      "id": "t007-d028",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 028",
+      "placement": 39
+    },
+    {
+      "id": "t007-d029",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 029",
+      "placement": 89
+    },
+    {
+      "id": "t007-d030",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 030",
+      "placement": 22
+    },
+    {
+      "id": "t007-d031",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 031",
+      "placement": 72
+    },
+    {
+      "id": "t007-d032",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 032",
+      "placement": 31
+    },
+    {
+      "id": "t007-d033",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 033",
+      "placement": 49
+    },
+    {
+      "id": "t007-d034",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 034",
+      "placement": 94
+    },
+    {
+      "id": "t007-d035",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 035",
+      "placement": 76
+    },
+    {
+      "id": "t007-d036",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 036",
+      "placement": 61
+    },
+    {
+      "id": "t007-d037",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 037",
+      "placement": 45
+    },
+    {
+      "id": "t007-d038",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 038",
+      "placement": 7
+    },
+    {
+      "id": "t007-d039",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 039",
+      "placement": 12
+    },
+    {
+      "id": "t007-d040",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 040",
+      "placement": 90
+    },
+    {
+      "id": "t007-d041",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 041",
+      "placement": 53
+    },
+    {
+      "id": "t007-d042",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 042",
+      "placement": 47
+    },
+    {
+      "id": "t007-d043",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 043",
+      "placement": 44
+    },
+    {
+      "id": "t007-d044",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 044",
+      "placement": 37
+    },
+    {
+      "id": "t007-d045",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 045",
+      "placement": 71
+    },
+    {
+      "id": "t007-d046",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 046",
+      "placement": 59
+    },
+    {
+      "id": "t007-d047",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 047",
+      "placement": 2
+    },
+    {
+      "id": "t007-d048",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 048",
+      "placement": 86
+    },
+    {
+      "id": "t007-d049",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 049",
+      "placement": 65
+    },
+    {
+      "id": "t007-d050",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 050",
+      "placement": 87
+    },
+    {
+      "id": "t007-d051",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 051",
+      "placement": 64
+    },
+    {
+      "id": "t007-d052",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 052",
+      "placement": 51
+    },
+    {
+      "id": "t007-d053",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 053",
+      "placement": 58
+    },
+    {
+      "id": "t007-d054",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 054",
+      "placement": 62
+    },
+    {
+      "id": "t007-d055",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 055",
+      "placement": 24
+    },
+    {
+      "id": "t007-d056",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 056",
+      "placement": 18
+    },
+    {
+      "id": "t007-d057",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 057",
+      "placement": 30
+    },
+    {
+      "id": "t007-d058",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 058",
+      "placement": 43
+    },
+    {
+      "id": "t007-d059",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 059",
+      "placement": 96
+    },
+    {
+      "id": "t007-d060",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 060",
+      "placement": 48
+    },
+    {
+      "id": "t007-d061",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 061",
+      "placement": 9
+    },
+    {
+      "id": "t007-d062",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 062",
+      "placement": 63
+    },
+    {
+      "id": "t007-d063",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 063",
+      "placement": 4
+    },
+    {
+      "id": "t007-d064",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 064",
+      "placement": 56
+    },
+    {
+      "id": "t007-d065",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 065",
+      "placement": 77
+    },
+    {
+      "id": "t007-d066",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 066",
+      "placement": 8
+    },
+    {
+      "id": "t007-d067",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 067",
+      "placement": 29
+    },
+    {
+      "id": "t007-d068",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 068",
+      "placement": 80
+    },
+    {
+      "id": "t007-d069",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 069",
+      "placement": 19
+    },
+    {
+      "id": "t007-d070",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 070",
+      "placement": 40
+    },
+    {
+      "id": "t007-d071",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 071",
+      "placement": 6
+    },
+    {
+      "id": "t007-d072",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 072",
+      "placement": 26
+    },
+    {
+      "id": "t007-d073",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 073",
+      "placement": 16
+    },
+    {
+      "id": "t007-d074",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 074",
+      "placement": 78
+    },
+    {
+      "id": "t007-d075",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 075",
+      "placement": 25
+    },
+    {
+      "id": "t007-d076",
+      "tournament_id": "t007",
+      "archetype_id": "leia-red",
+      "player": "Player 076",
+      "placement": 5
+    },
+    {
+      "id": "t007-d077",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 077",
+      "placement": 88
+    },
+    {
+      "id": "t007-d078",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 078",
+      "placement": 74
+    },
+    {
+      "id": "t007-d079",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 079",
+      "placement": 33
+    },
+    {
+      "id": "t007-d080",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 080",
+      "placement": 28
+    },
+    {
+      "id": "t007-d081",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 081",
+      "placement": 32
+    },
+    {
+      "id": "t007-d082",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 082",
+      "placement": 50
+    },
+    {
+      "id": "t007-d083",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 083",
+      "placement": 23
+    },
+    {
+      "id": "t007-d084",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 084",
+      "placement": 73
+    },
+    {
+      "id": "t007-d085",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 085",
+      "placement": 79
+    },
+    {
+      "id": "t007-d086",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 086",
+      "placement": 3
+    },
+    {
+      "id": "t007-d087",
+      "tournament_id": "t007",
+      "archetype_id": "boba-yellow",
+      "player": "Player 087",
+      "placement": 67
+    },
+    {
+      "id": "t007-d088",
+      "tournament_id": "t007",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 088",
+      "placement": 55
+    },
+    {
+      "id": "t007-d089",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 089",
+      "placement": 14
+    },
+    {
+      "id": "t007-d090",
+      "tournament_id": "t007",
+      "archetype_id": "vader-blue",
+      "player": "Player 090",
+      "placement": 60
+    },
+    {
+      "id": "t007-d091",
+      "tournament_id": "t007",
+      "archetype_id": "kylo-green",
+      "player": "Player 091",
+      "placement": 36
+    },
+    {
+      "id": "t007-d092",
+      "tournament_id": "t007",
+      "archetype_id": "han-blue",
+      "player": "Player 092",
+      "placement": 91
+    },
+    {
+      "id": "t007-d093",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 093",
+      "placement": 69
+    },
+    {
+      "id": "t007-d094",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 094",
+      "placement": 38
+    },
+    {
+      "id": "t007-d095",
+      "tournament_id": "t007",
+      "archetype_id": "iden-red",
+      "player": "Player 095",
+      "placement": 68
+    },
+    {
+      "id": "t007-d096",
+      "tournament_id": "t007",
+      "archetype_id": "quinlan-green",
+      "player": "Player 096",
+      "placement": 82
+    },
+    {
+      "id": "t008-d001",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 001",
+      "placement": 18
+    },
+    {
+      "id": "t008-d002",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 002",
+      "placement": 5
+    },
+    {
+      "id": "t008-d003",
+      "tournament_id": "t008",
+      "archetype_id": "leia-red",
+      "player": "Player 003",
+      "placement": 23
+    },
+    {
+      "id": "t008-d004",
+      "tournament_id": "t008",
+      "archetype_id": "iden-red",
+      "player": "Player 004",
+      "placement": 8
+    },
+    {
+      "id": "t008-d005",
+      "tournament_id": "t008",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 005",
+      "placement": 24
+    },
+    {
+      "id": "t008-d006",
+      "tournament_id": "t008",
+      "archetype_id": "leia-red",
+      "player": "Player 006",
+      "placement": 32
+    },
+    {
+      "id": "t008-d007",
+      "tournament_id": "t008",
+      "archetype_id": "iden-red",
+      "player": "Player 007",
+      "placement": 17
+    },
+    {
+      "id": "t008-d008",
+      "tournament_id": "t008",
+      "archetype_id": "han-blue",
+      "player": "Player 008",
+      "placement": 20
+    },
+    {
+      "id": "t008-d009",
+      "tournament_id": "t008",
+      "archetype_id": "han-blue",
+      "player": "Player 009",
+      "placement": 14
+    },
+    {
+      "id": "t008-d010",
+      "tournament_id": "t008",
+      "archetype_id": "han-blue",
+      "player": "Player 010",
+      "placement": 9
+    },
+    {
+      "id": "t008-d011",
+      "tournament_id": "t008",
+      "archetype_id": "leia-red",
+      "player": "Player 011",
+      "placement": 30
+    },
+    {
+      "id": "t008-d012",
+      "tournament_id": "t008",
+      "archetype_id": "iden-red",
+      "player": "Player 012",
+      "placement": 19
+    },
+    {
+      "id": "t008-d013",
+      "tournament_id": "t008",
+      "archetype_id": "iden-red",
+      "player": "Player 013",
+      "placement": 27
+    },
+    {
+      "id": "t008-d014",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 014",
+      "placement": 15
+    },
+    {
+      "id": "t008-d015",
+      "tournament_id": "t008",
+      "archetype_id": "iden-red",
+      "player": "Player 015",
+      "placement": 10
+    },
+    {
+      "id": "t008-d016",
+      "tournament_id": "t008",
+      "archetype_id": "kylo-green",
+      "player": "Player 016",
+      "placement": 4
+    },
+    {
+      "id": "t008-d017",
+      "tournament_id": "t008",
+      "archetype_id": "leia-red",
+      "player": "Player 017",
+      "placement": 25
+    },
+    {
+      "id": "t008-d018",
+      "tournament_id": "t008",
+      "archetype_id": "han-blue",
+      "player": "Player 018",
+      "placement": 6
+    },
+    {
+      "id": "t008-d019",
+      "tournament_id": "t008",
+      "archetype_id": "iden-red",
+      "player": "Player 019",
+      "placement": 3
+    },
+    {
+      "id": "t008-d020",
+      "tournament_id": "t008",
+      "archetype_id": "leia-red",
+      "player": "Player 020",
+      "placement": 2
+    },
+    {
+      "id": "t008-d021",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 021",
+      "placement": 13
+    },
+    {
+      "id": "t008-d022",
+      "tournament_id": "t008",
+      "archetype_id": "vader-blue",
+      "player": "Player 022",
+      "placement": 21
+    },
+    {
+      "id": "t008-d023",
+      "tournament_id": "t008",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 023",
+      "placement": 29
+    },
+    {
+      "id": "t008-d024",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 024",
+      "placement": 11
+    },
+    {
+      "id": "t008-d025",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 025",
+      "placement": 1
+    },
+    {
+      "id": "t008-d026",
+      "tournament_id": "t008",
+      "archetype_id": "quinlan-green",
+      "player": "Player 026",
+      "placement": 22
+    },
+    {
+      "id": "t008-d027",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 027",
+      "placement": 7
+    },
+    {
+      "id": "t008-d028",
+      "tournament_id": "t008",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 028",
+      "placement": 31
+    },
+    {
+      "id": "t008-d029",
+      "tournament_id": "t008",
+      "archetype_id": "boba-yellow",
+      "player": "Player 029",
+      "placement": 16
+    },
+    {
+      "id": "t008-d030",
+      "tournament_id": "t008",
+      "archetype_id": "han-blue",
+      "player": "Player 030",
+      "placement": 12
+    },
+    {
+      "id": "t008-d031",
+      "tournament_id": "t008",
+      "archetype_id": "vader-blue",
+      "player": "Player 031",
+      "placement": 28
+    },
+    {
+      "id": "t008-d032",
+      "tournament_id": "t008",
+      "archetype_id": "quinlan-green",
+      "player": "Player 032",
+      "placement": 26
+    },
+    {
+      "id": "t009-d001",
+      "tournament_id": "t009",
+      "archetype_id": "boba-yellow",
+      "player": "Player 001",
+      "placement": 45
+    },
+    {
+      "id": "t009-d002",
+      "tournament_id": "t009",
+      "archetype_id": "boba-yellow",
+      "player": "Player 002",
+      "placement": 29
+    },
+    {
+      "id": "t009-d003",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 003",
+      "placement": 27
+    },
+    {
+      "id": "t009-d004",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 004",
+      "placement": 2
+    },
+    {
+      "id": "t009-d005",
+      "tournament_id": "t009",
+      "archetype_id": "kylo-green",
+      "player": "Player 005",
+      "placement": 28
+    },
+    {
+      "id": "t009-d006",
+      "tournament_id": "t009",
+      "archetype_id": "boba-yellow",
+      "player": "Player 006",
+      "placement": 46
+    },
+    {
+      "id": "t009-d007",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 007",
+      "placement": 48
+    },
+    {
+      "id": "t009-d008",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 008",
+      "placement": 8
+    },
+    {
+      "id": "t009-d009",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 009",
+      "placement": 36
+    },
+    {
+      "id": "t009-d010",
+      "tournament_id": "t009",
+      "archetype_id": "boba-yellow",
+      "player": "Player 010",
+      "placement": 19
+    },
+    {
+      "id": "t009-d011",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 011",
+      "placement": 39
+    },
+    {
+      "id": "t009-d012",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 012",
+      "placement": 37
+    },
+    {
+      "id": "t009-d013",
+      "tournament_id": "t009",
+      "archetype_id": "leia-red",
+      "player": "Player 013",
+      "placement": 23
+    },
+    {
+      "id": "t009-d014",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 014",
+      "placement": 17
+    },
+    {
+      "id": "t009-d015",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 015",
+      "placement": 11
+    },
+    {
+      "id": "t009-d016",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 016",
+      "placement": 42
+    },
+    {
+      "id": "t009-d017",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 017",
+      "placement": 20
+    },
+    {
+      "id": "t009-d018",
+      "tournament_id": "t009",
+      "archetype_id": "leia-red",
+      "player": "Player 018",
+      "placement": 16
+    },
+    {
+      "id": "t009-d019",
+      "tournament_id": "t009",
+      "archetype_id": "kylo-green",
+      "player": "Player 019",
+      "placement": 33
+    },
+    {
+      "id": "t009-d020",
+      "tournament_id": "t009",
+      "archetype_id": "leia-red",
+      "player": "Player 020",
+      "placement": 4
+    },
+    {
+      "id": "t009-d021",
+      "tournament_id": "t009",
+      "archetype_id": "leia-red",
+      "player": "Player 021",
+      "placement": 24
+    },
+    {
+      "id": "t009-d022",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 022",
+      "placement": 13
+    },
+    {
+      "id": "t009-d023",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 023",
+      "placement": 1
+    },
+    {
+      "id": "t009-d024",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 024",
+      "placement": 3
+    },
+    {
+      "id": "t009-d025",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 025",
+      "placement": 26
+    },
+    {
+      "id": "t009-d026",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 026",
+      "placement": 7
+    },
+    {
+      "id": "t009-d027",
+      "tournament_id": "t009",
+      "archetype_id": "kylo-green",
+      "player": "Player 027",
+      "placement": 31
+    },
+    {
+      "id": "t009-d028",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 028",
+      "placement": 30
+    },
+    {
+      "id": "t009-d029",
+      "tournament_id": "t009",
+      "archetype_id": "boba-yellow",
+      "player": "Player 029",
+      "placement": 25
+    },
+    {
+      "id": "t009-d030",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 030",
+      "placement": 43
+    },
+    {
+      "id": "t009-d031",
+      "tournament_id": "t009",
+      "archetype_id": "vader-blue",
+      "player": "Player 031",
+      "placement": 32
+    },
+    {
+      "id": "t009-d032",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 032",
+      "placement": 35
+    },
+    {
+      "id": "t009-d033",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 033",
+      "placement": 40
+    },
+    {
+      "id": "t009-d034",
+      "tournament_id": "t009",
+      "archetype_id": "vader-blue",
+      "player": "Player 034",
+      "placement": 41
+    },
+    {
+      "id": "t009-d035",
+      "tournament_id": "t009",
+      "archetype_id": "boba-yellow",
+      "player": "Player 035",
+      "placement": 18
+    },
+    {
+      "id": "t009-d036",
+      "tournament_id": "t009",
+      "archetype_id": "kylo-green",
+      "player": "Player 036",
+      "placement": 15
+    },
+    {
+      "id": "t009-d037",
+      "tournament_id": "t009",
+      "archetype_id": "boba-yellow",
+      "player": "Player 037",
+      "placement": 21
+    },
+    {
+      "id": "t009-d038",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 038",
+      "placement": 9
+    },
+    {
+      "id": "t009-d039",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 039",
+      "placement": 47
+    },
+    {
+      "id": "t009-d040",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 040",
+      "placement": 6
+    },
+    {
+      "id": "t009-d041",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 041",
+      "placement": 14
+    },
+    {
+      "id": "t009-d042",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 042",
+      "placement": 44
+    },
+    {
+      "id": "t009-d043",
+      "tournament_id": "t009",
+      "archetype_id": "han-blue",
+      "player": "Player 043",
+      "placement": 38
+    },
+    {
+      "id": "t009-d044",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 044",
+      "placement": 12
+    },
+    {
+      "id": "t009-d045",
+      "tournament_id": "t009",
+      "archetype_id": "kylo-green",
+      "player": "Player 045",
+      "placement": 22
+    },
+    {
+      "id": "t009-d046",
+      "tournament_id": "t009",
+      "archetype_id": "iden-red",
+      "player": "Player 046",
+      "placement": 5
+    },
+    {
+      "id": "t009-d047",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 047",
+      "placement": 10
+    },
+    {
+      "id": "t009-d048",
+      "tournament_id": "t009",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 048",
+      "placement": 34
+    },
+    {
+      "id": "t010-d001",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 001",
+      "placement": 26
+    },
+    {
+      "id": "t010-d002",
+      "tournament_id": "t010",
+      "archetype_id": "quinlan-green",
+      "player": "Player 002",
+      "placement": 1
+    },
+    {
+      "id": "t010-d003",
+      "tournament_id": "t010",
+      "archetype_id": "kylo-green",
+      "player": "Player 003",
+      "placement": 32
+    },
+    {
+      "id": "t010-d004",
+      "tournament_id": "t010",
+      "archetype_id": "boba-yellow",
+      "player": "Player 004",
+      "placement": 3
+    },
+    {
+      "id": "t010-d005",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 005",
+      "placement": 17
+    },
+    {
+      "id": "t010-d006",
+      "tournament_id": "t010",
+      "archetype_id": "boba-yellow",
+      "player": "Player 006",
+      "placement": 30
+    },
+    {
+      "id": "t010-d007",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 007",
+      "placement": 25
+    },
+    {
+      "id": "t010-d008",
+      "tournament_id": "t010",
+      "archetype_id": "kylo-green",
+      "player": "Player 008",
+      "placement": 29
+    },
+    {
+      "id": "t010-d009",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 009",
+      "placement": 10
+    },
+    {
+      "id": "t010-d010",
+      "tournament_id": "t010",
+      "archetype_id": "boba-yellow",
+      "player": "Player 010",
+      "placement": 7
+    },
+    {
+      "id": "t010-d011",
+      "tournament_id": "t010",
+      "archetype_id": "iden-red",
+      "player": "Player 011",
+      "placement": 24
+    },
+    {
+      "id": "t010-d012",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 012",
+      "placement": 12
+    },
+    {
+      "id": "t010-d013",
+      "tournament_id": "t010",
+      "archetype_id": "han-blue",
+      "player": "Player 013",
+      "placement": 16
+    },
+    {
+      "id": "t010-d014",
+      "tournament_id": "t010",
+      "archetype_id": "han-blue",
+      "player": "Player 014",
+      "placement": 9
+    },
+    {
+      "id": "t010-d015",
+      "tournament_id": "t010",
+      "archetype_id": "kylo-green",
+      "player": "Player 015",
+      "placement": 19
+    },
+    {
+      "id": "t010-d016",
+      "tournament_id": "t010",
+      "archetype_id": "leia-red",
+      "player": "Player 016",
+      "placement": 13
+    },
+    {
+      "id": "t010-d017",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 017",
+      "placement": 4
+    },
+    {
+      "id": "t010-d018",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 018",
+      "placement": 20
+    },
+    {
+      "id": "t010-d019",
+      "tournament_id": "t010",
+      "archetype_id": "kylo-green",
+      "player": "Player 019",
+      "placement": 23
+    },
+    {
+      "id": "t010-d020",
+      "tournament_id": "t010",
+      "archetype_id": "boba-yellow",
+      "player": "Player 020",
+      "placement": 18
+    },
+    {
+      "id": "t010-d021",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 021",
+      "placement": 28
+    },
+    {
+      "id": "t010-d022",
+      "tournament_id": "t010",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 022",
+      "placement": 5
+    },
+    {
+      "id": "t010-d023",
+      "tournament_id": "t010",
+      "archetype_id": "iden-red",
+      "player": "Player 023",
+      "placement": 2
+    },
+    {
+      "id": "t010-d024",
+      "tournament_id": "t010",
+      "archetype_id": "iden-red",
+      "player": "Player 024",
+      "placement": 22
+    },
+    {
+      "id": "t010-d025",
+      "tournament_id": "t010",
+      "archetype_id": "leia-red",
+      "player": "Player 025",
+      "placement": 31
+    },
+    {
+      "id": "t010-d026",
+      "tournament_id": "t010",
+      "archetype_id": "kylo-green",
+      "player": "Player 026",
+      "placement": 8
+    },
+    {
+      "id": "t010-d027",
+      "tournament_id": "t010",
+      "archetype_id": "leia-red",
+      "player": "Player 027",
+      "placement": 14
+    },
+    {
+      "id": "t010-d028",
+      "tournament_id": "t010",
+      "archetype_id": "quinlan-green",
+      "player": "Player 028",
+      "placement": 21
+    },
+    {
+      "id": "t010-d029",
+      "tournament_id": "t010",
+      "archetype_id": "vader-blue",
+      "player": "Player 029",
+      "placement": 6
+    },
+    {
+      "id": "t010-d030",
+      "tournament_id": "t010",
+      "archetype_id": "vader-blue",
+      "player": "Player 030",
+      "placement": 11
+    },
+    {
+      "id": "t010-d031",
+      "tournament_id": "t010",
+      "archetype_id": "vader-blue",
+      "player": "Player 031",
+      "placement": 27
+    },
+    {
+      "id": "t010-d032",
+      "tournament_id": "t010",
+      "archetype_id": "han-blue",
+      "player": "Player 032",
+      "placement": 15
+    },
+    {
+      "id": "t011-d001",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 001",
+      "placement": 28
+    },
+    {
+      "id": "t011-d002",
+      "tournament_id": "t011",
+      "archetype_id": "quinlan-green",
+      "player": "Player 002",
+      "placement": 30
+    },
+    {
+      "id": "t011-d003",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 003",
+      "placement": 44
+    },
+    {
+      "id": "t011-d004",
+      "tournament_id": "t011",
+      "archetype_id": "iden-red",
+      "player": "Player 004",
+      "placement": 4
+    },
+    {
+      "id": "t011-d005",
+      "tournament_id": "t011",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 005",
+      "placement": 42
+    },
+    {
+      "id": "t011-d006",
+      "tournament_id": "t011",
+      "archetype_id": "vader-blue",
+      "player": "Player 006",
+      "placement": 19
+    },
+    {
+      "id": "t011-d007",
+      "tournament_id": "t011",
+      "archetype_id": "leia-red",
+      "player": "Player 007",
+      "placement": 34
+    },
+    {
+      "id": "t011-d008",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 008",
+      "placement": 8
+    },
+    {
+      "id": "t011-d009",
+      "tournament_id": "t011",
+      "archetype_id": "quinlan-green",
+      "player": "Player 009",
+      "placement": 47
+    },
+    {
+      "id": "t011-d010",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 010",
+      "placement": 46
+    },
+    {
+      "id": "t011-d011",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 011",
+      "placement": 36
+    },
+    {
+      "id": "t011-d012",
+      "tournament_id": "t011",
+      "archetype_id": "kylo-green",
+      "player": "Player 012",
+      "placement": 26
+    },
+    {
+      "id": "t011-d013",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 013",
+      "placement": 39
+    },
+    {
+      "id": "t011-d014",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 014",
+      "placement": 41
+    },
+    {
+      "id": "t011-d015",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 015",
+      "placement": 15
+    },
+    {
+      "id": "t011-d016",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 016",
+      "placement": 23
+    },
+    {
+      "id": "t011-d017",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 017",
+      "placement": 14
+    },
+    {
+      "id": "t011-d018",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 018",
+      "placement": 17
+    },
+    {
+      "id": "t011-d019",
+      "tournament_id": "t011",
+      "archetype_id": "iden-red",
+      "player": "Player 019",
+      "placement": 48
+    },
+    {
+      "id": "t011-d020",
+      "tournament_id": "t011",
+      "archetype_id": "vader-blue",
+      "player": "Player 020",
+      "placement": 13
+    },
+    {
+      "id": "t011-d021",
+      "tournament_id": "t011",
+      "archetype_id": "iden-red",
+      "player": "Player 021",
+      "placement": 16
+    },
+    {
+      "id": "t011-d022",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 022",
+      "placement": 38
+    },
+    {
+      "id": "t011-d023",
+      "tournament_id": "t011",
+      "archetype_id": "kylo-green",
+      "player": "Player 023",
+      "placement": 35
+    },
+    {
+      "id": "t011-d024",
+      "tournament_id": "t011",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 024",
+      "placement": 29
+    },
+    {
+      "id": "t011-d025",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 025",
+      "placement": 27
+    },
+    {
+      "id": "t011-d026",
+      "tournament_id": "t011",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 026",
+      "placement": 20
+    },
+    {
+      "id": "t011-d027",
+      "tournament_id": "t011",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 027",
+      "placement": 43
+    },
+    {
+      "id": "t011-d028",
+      "tournament_id": "t011",
+      "archetype_id": "leia-red",
+      "player": "Player 028",
+      "placement": 5
+    },
+    {
+      "id": "t011-d029",
+      "tournament_id": "t011",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 029",
+      "placement": 22
+    },
+    {
+      "id": "t011-d030",
+      "tournament_id": "t011",
+      "archetype_id": "leia-red",
+      "player": "Player 030",
+      "placement": 21
+    },
+    {
+      "id": "t011-d031",
+      "tournament_id": "t011",
+      "archetype_id": "kylo-green",
+      "player": "Player 031",
+      "placement": 12
+    },
+    {
+      "id": "t011-d032",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 032",
+      "placement": 10
+    },
+    {
+      "id": "t011-d033",
+      "tournament_id": "t011",
+      "archetype_id": "kylo-green",
+      "player": "Player 033",
+      "placement": 9
+    },
+    {
+      "id": "t011-d034",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 034",
+      "placement": 32
+    },
+    {
+      "id": "t011-d035",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 035",
+      "placement": 31
+    },
+    {
+      "id": "t011-d036",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 036",
+      "placement": 33
+    },
+    {
+      "id": "t011-d037",
+      "tournament_id": "t011",
+      "archetype_id": "boba-yellow",
+      "player": "Player 037",
+      "placement": 3
+    },
+    {
+      "id": "t011-d038",
+      "tournament_id": "t011",
+      "archetype_id": "quinlan-green",
+      "player": "Player 038",
+      "placement": 37
+    },
+    {
+      "id": "t011-d039",
+      "tournament_id": "t011",
+      "archetype_id": "vader-blue",
+      "player": "Player 039",
+      "placement": 25
+    },
+    {
+      "id": "t011-d040",
+      "tournament_id": "t011",
+      "archetype_id": "quinlan-green",
+      "player": "Player 040",
+      "placement": 11
+    },
+    {
+      "id": "t011-d041",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 041",
+      "placement": 45
+    },
+    {
+      "id": "t011-d042",
+      "tournament_id": "t011",
+      "archetype_id": "han-blue",
+      "player": "Player 042",
+      "placement": 18
+    },
+    {
+      "id": "t011-d043",
+      "tournament_id": "t011",
+      "archetype_id": "quinlan-green",
+      "player": "Player 043",
+      "placement": 2
+    },
+    {
+      "id": "t011-d044",
+      "tournament_id": "t011",
+      "archetype_id": "quinlan-green",
+      "player": "Player 044",
+      "placement": 24
+    },
+    {
+      "id": "t011-d045",
+      "tournament_id": "t011",
+      "archetype_id": "kylo-green",
+      "player": "Player 045",
+      "placement": 6
+    },
+    {
+      "id": "t011-d046",
+      "tournament_id": "t011",
+      "archetype_id": "quinlan-green",
+      "player": "Player 046",
+      "placement": 1
+    },
+    {
+      "id": "t011-d047",
+      "tournament_id": "t011",
+      "archetype_id": "leia-red",
+      "player": "Player 047",
+      "placement": 40
+    },
+    {
+      "id": "t011-d048",
+      "tournament_id": "t011",
+      "archetype_id": "leia-red",
+      "player": "Player 048",
+      "placement": 7
+    },
+    {
+      "id": "t012-d001",
+      "tournament_id": "t012",
+      "archetype_id": "iden-red",
+      "player": "Player 001",
+      "placement": 28
+    },
+    {
+      "id": "t012-d002",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 002",
+      "placement": 25
+    },
+    {
+      "id": "t012-d003",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 003",
+      "placement": 38
+    },
+    {
+      "id": "t012-d004",
+      "tournament_id": "t012",
+      "archetype_id": "iden-red",
+      "player": "Player 004",
+      "placement": 16
+    },
+    {
+      "id": "t012-d005",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 005",
+      "placement": 27
+    },
+    {
+      "id": "t012-d006",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 006",
+      "placement": 13
+    },
+    {
+      "id": "t012-d007",
+      "tournament_id": "t012",
+      "archetype_id": "kylo-green",
+      "player": "Player 007",
+      "placement": 30
+    },
+    {
+      "id": "t012-d008",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 008",
+      "placement": 43
+    },
+    {
+      "id": "t012-d009",
+      "tournament_id": "t012",
+      "archetype_id": "kylo-green",
+      "player": "Player 009",
+      "placement": 20
+    },
+    {
+      "id": "t012-d010",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 010",
+      "placement": 48
+    },
+    {
+      "id": "t012-d011",
+      "tournament_id": "t012",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 011",
+      "placement": 39
+    },
+    {
+      "id": "t012-d012",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 012",
+      "placement": 44
+    },
+    {
+      "id": "t012-d013",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 013",
+      "placement": 18
+    },
+    {
+      "id": "t012-d014",
+      "tournament_id": "t012",
+      "archetype_id": "quinlan-green",
+      "player": "Player 014",
+      "placement": 19
+    },
+    {
+      "id": "t012-d015",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 015",
+      "placement": 14
+    },
+    {
+      "id": "t012-d016",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 016",
+      "placement": 22
+    },
+    {
+      "id": "t012-d017",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 017",
+      "placement": 29
+    },
+    {
+      "id": "t012-d018",
+      "tournament_id": "t012",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 018",
+      "placement": 24
+    },
+    {
+      "id": "t012-d019",
+      "tournament_id": "t012",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 019",
+      "placement": 4
+    },
+    {
+      "id": "t012-d020",
+      "tournament_id": "t012",
+      "archetype_id": "vader-blue",
+      "player": "Player 020",
+      "placement": 15
+    },
+    {
+      "id": "t012-d021",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 021",
+      "placement": 45
+    },
+    {
+      "id": "t012-d022",
+      "tournament_id": "t012",
+      "archetype_id": "vader-blue",
+      "player": "Player 022",
+      "placement": 1
+    },
+    {
+      "id": "t012-d023",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 023",
+      "placement": 12
+    },
+    {
+      "id": "t012-d024",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 024",
+      "placement": 2
+    },
+    {
+      "id": "t012-d025",
+      "tournament_id": "t012",
+      "archetype_id": "quinlan-green",
+      "player": "Player 025",
+      "placement": 3
+    },
+    {
+      "id": "t012-d026",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 026",
+      "placement": 11
+    },
+    {
+      "id": "t012-d027",
+      "tournament_id": "t012",
+      "archetype_id": "kylo-green",
+      "player": "Player 027",
+      "placement": 34
+    },
+    {
+      "id": "t012-d028",
+      "tournament_id": "t012",
+      "archetype_id": "han-blue",
+      "player": "Player 028",
+      "placement": 31
+    },
+    {
+      "id": "t012-d029",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 029",
+      "placement": 23
+    },
+    {
+      "id": "t012-d030",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 030",
+      "placement": 46
+    },
+    {
+      "id": "t012-d031",
+      "tournament_id": "t012",
+      "archetype_id": "vader-blue",
+      "player": "Player 031",
+      "placement": 8
+    },
+    {
+      "id": "t012-d032",
+      "tournament_id": "t012",
+      "archetype_id": "han-blue",
+      "player": "Player 032",
+      "placement": 32
+    },
+    {
+      "id": "t012-d033",
+      "tournament_id": "t012",
+      "archetype_id": "kylo-green",
+      "player": "Player 033",
+      "placement": 33
+    },
+    {
+      "id": "t012-d034",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 034",
+      "placement": 37
+    },
+    {
+      "id": "t012-d035",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 035",
+      "placement": 42
+    },
+    {
+      "id": "t012-d036",
+      "tournament_id": "t012",
+      "archetype_id": "han-blue",
+      "player": "Player 036",
+      "placement": 41
+    },
+    {
+      "id": "t012-d037",
+      "tournament_id": "t012",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 037",
+      "placement": 21
+    },
+    {
+      "id": "t012-d038",
+      "tournament_id": "t012",
+      "archetype_id": "sabine-ecl",
+      "player": "Player 038",
+      "placement": 17
+    },
+    {
+      "id": "t012-d039",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 039",
+      "placement": 47
+    },
+    {
+      "id": "t012-d040",
+      "tournament_id": "t012",
+      "archetype_id": "leia-red",
+      "player": "Player 040",
+      "placement": 10
+    },
+    {
+      "id": "t012-d041",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 041",
+      "placement": 6
+    },
+    {
+      "id": "t012-d042",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 042",
+      "placement": 7
+    },
+    {
+      "id": "t012-d043",
+      "tournament_id": "t012",
+      "archetype_id": "vader-blue",
+      "player": "Player 043",
+      "placement": 5
+    },
+    {
+      "id": "t012-d044",
+      "tournament_id": "t012",
+      "archetype_id": "han-blue",
+      "player": "Player 044",
+      "placement": 36
+    },
+    {
+      "id": "t012-d045",
+      "tournament_id": "t012",
+      "archetype_id": "boba-yellow",
+      "player": "Player 045",
+      "placement": 40
+    },
+    {
+      "id": "t012-d046",
+      "tournament_id": "t012",
+      "archetype_id": "vader-blue",
+      "player": "Player 046",
+      "placement": 9
+    },
+    {
+      "id": "t012-d047",
+      "tournament_id": "t012",
+      "archetype_id": "kylo-green",
+      "player": "Player 047",
+      "placement": 35
+    },
+    {
+      "id": "t012-d048",
+      "tournament_id": "t012",
+      "archetype_id": "kylo-green",
+      "player": "Player 048",
+      "placement": 26
+    }
+  ]
+}

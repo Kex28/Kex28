@@ -20,16 +20,24 @@ from __future__ import annotations
 import argparse
 import json
 import sys
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+from swu_sync import trends
 from swu_sync.swuapi_client import (
     SwuApiClient,
     normalize_archetypes,
     normalize_cards,
     normalize_current_meta,
+    normalize_decklists,
+    normalize_matches,
     normalize_sets,
+    normalize_tournaments,
 )
+
+# How far back each run re-pulls tournament data. 28 days covers both trend
+# windows, and upserts make the re-pull idempotent.
+LOOKBACK_DAYS = 28
 
 
 def pull(client: SwuApiClient) -> dict[str, list[dict]]:
@@ -44,7 +52,25 @@ def pull(client: SwuApiClient) -> dict[str, list[dict]]:
         print(f"warning: {len(orphans)} meta entries reference unknown archetypes: {orphans[:5]}",
               file=sys.stderr)
 
-    return {"archetypes": archetypes, "meta_entries": meta_entries, "cards": cards, "sets": sets}
+    data = {"archetypes": archetypes, "meta_entries": meta_entries, "cards": cards, "sets": sets,
+            "tournaments": [], "decklists": [], "matches": []}
+
+    # Phase 2: keyed endpoints. Skip gracefully (Phase 1 data still syncs)
+    # when no key is configured.
+    if not client.has_key:
+        print("warning: SWUAPI_API_KEY not set — skipping tournaments/decklists/matches",
+              file=sys.stderr)
+        return data
+
+    since = (datetime.now(timezone.utc).date() - timedelta(days=LOOKBACK_DAYS)).isoformat()
+    tournaments = normalize_tournaments(
+        client.fetch_tournaments(since=None if client.use_fixtures else since))
+    data["tournaments"] = tournaments
+    for tournament in tournaments:
+        tid = tournament["id"]
+        data["decklists"] += normalize_decklists(client.fetch_tournament_decklists(tid), tid)
+        data["matches"] += normalize_matches(client.fetch_matches(tid), tid)
+    return data
 
 
 def load_supabase(data: dict[str, list[dict]]) -> None:
@@ -60,6 +86,9 @@ def load_supabase(data: dict[str, list[dict]]) -> None:
         [{**entry, "snapshot_date": snapshot_date} for entry in data["meta_entries"]],
         on_conflict="snapshot_date,archetype_id",
     )
+    loader.upsert("tournaments", data["tournaments"], on_conflict="id")
+    loader.upsert("decklists", data["decklists"], on_conflict="id")
+    loader.upsert("matches", data["matches"], on_conflict="id")
 
 
 def write_json(data: dict[str, list[dict]], out_path: Path) -> None:
@@ -68,6 +97,10 @@ def write_json(data: dict[str, list[dict]], out_path: Path) -> None:
         "last_updated_at": now,
         "archetypes": data["archetypes"],
         "meta_entries": data["meta_entries"],
+        # Pre-computed here only for the no-database fallback; production
+        # reads the equivalent SQL views instead.
+        "weekly_shares": trends.weekly_shares(data["tournaments"], data["decklists"]),
+        "trends": trends.archetype_trends(data["tournaments"], data["decklists"], data["matches"]),
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(payload, indent=2) + "\n")

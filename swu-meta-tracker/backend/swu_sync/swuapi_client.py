@@ -43,23 +43,37 @@ class SwuApiClient:
     """
 
     def __init__(self, base_url: str | None = None, use_fixtures: bool = False,
-                 timeout: float = 30.0, max_retries: int = 3):
+                 api_key: str | None = None, timeout: float = 30.0, max_retries: int = 3):
         self.base_url = (base_url or os.environ.get("SWUAPI_BASE_URL") or DEFAULT_BASE_URL).rstrip("/")
         self.use_fixtures = use_fixtures
+        self.api_key = api_key or os.environ.get("SWUAPI_API_KEY")
         self.timeout = timeout
         self.max_retries = max_retries
         self._session = requests.Session()
         self._session.headers["User-Agent"] = "swu-meta-tracker/0.1"
 
-    def _get(self, path: str, fixture_name: str) -> Any:
+    @property
+    def has_key(self) -> bool:
+        """Keyed endpoints (tournaments/decklists/matches) are usable —
+        either a real Bearer token is set or fixture mode fakes them."""
+        return self.use_fixtures or bool(self.api_key)
+
+    def _get(self, path: str, fixture_name: str, params: dict | None = None,
+             keyed: bool = False) -> Any:
         if self.use_fixtures:
             fixture_path = FIXTURES_DIR / f"{fixture_name}.json"
             return json.loads(fixture_path.read_text())
+        if keyed:
+            if not self.api_key:
+                raise RuntimeError(
+                    f"GET {path} requires an API key — set SWUAPI_API_KEY "
+                    "(free key via swuapi.com's site/Discord)")
+            self._session.headers["Authorization"] = f"Bearer {self.api_key}"
         url = f"{self.base_url}/{path.lstrip('/')}"
         last_error: Exception | None = None
         for attempt in range(self.max_retries):
             try:
-                resp = self._session.get(url, timeout=self.timeout)
+                resp = self._session.get(url, params=params, timeout=self.timeout)
                 resp.raise_for_status()
                 return resp.json()
             except (requests.ConnectionError, requests.Timeout, requests.HTTPError) as err:
@@ -83,6 +97,29 @@ class SwuApiClient:
 
     def fetch_sets(self) -> Any:
         return self._get("/sets", "sets")
+
+    # -- keyed endpoints (Bearer token; free key from swuapi.com) ------------
+    # In fixture mode the per-tournament endpoints read the single combined
+    # fixture file and filter locally, so fixtures stay easy to regenerate.
+
+    def fetch_tournaments(self, since: str | None = None) -> Any:
+        return self._get("/tournaments", "tournaments",
+                         params={"since": since} if since else None, keyed=True)
+
+    def fetch_tournament_decklists(self, tournament_id: str) -> Any:
+        payload = self._get(f"/tournaments/{tournament_id}/decklists", "decklists", keyed=True)
+        if self.use_fixtures:
+            rows = _as_list(payload, "decklists", "data", "results")
+            return {"decklists": [r for r in rows if r.get("tournament_id") == tournament_id]}
+        return payload
+
+    def fetch_matches(self, tournament_id: str) -> Any:
+        payload = self._get("/matches", "matches",
+                            params={"tournament_id": tournament_id}, keyed=True)
+        if self.use_fixtures:
+            rows = _as_list(payload, "matches", "data", "results")
+            return {"matches": [r for r in rows if r.get("tournament_id") == tournament_id]}
+        return payload
 
 
 # -- normalizers (fix these first when reconciling with the live API) --------
@@ -150,6 +187,49 @@ def normalize_cards(payload: Any) -> list[dict]:
             "aspects": raw.get("aspects") or [],
             "cost": raw.get("cost"),
             "image_url": raw.get("image") or raw.get("image_url") or raw.get("front_art"),
+        })
+    return out
+
+
+def normalize_tournaments(payload: Any) -> list[dict]:
+    out = []
+    for raw in _as_list(payload, "tournaments", "data", "results"):
+        out.append({
+            "id": str(raw.get("id") or ""),
+            "name": raw.get("name") or "",
+            "date": raw.get("date") or raw.get("start_date"),
+            "tier": raw.get("tier") or raw.get("level"),
+            "player_count": raw.get("player_count") or raw.get("players"),
+        })
+    return out
+
+
+def normalize_decklists(payload: Any, tournament_id: str) -> list[dict]:
+    out = []
+    for raw in _as_list(payload, "decklists", "data", "results"):
+        archetype_ref = raw.get("archetype_id") or raw.get("archetype") or ""
+        out.append({
+            "id": str(raw.get("id") or ""),
+            "tournament_id": str(raw.get("tournament_id") or tournament_id),
+            "archetype_id": archetype_ref if archetype_ref.isdigit() or "-" in archetype_ref
+                            else _slug(archetype_ref),
+            "player": raw.get("player") or raw.get("player_name"),
+            "placement": raw.get("placement") or raw.get("rank"),
+        })
+    return out
+
+
+def normalize_matches(payload: Any, tournament_id: str) -> list[dict]:
+    out = []
+    for raw in _as_list(payload, "matches", "data", "results"):
+        result = (raw.get("result") or "").lower()
+        out.append({
+            "id": str(raw.get("id") or ""),
+            "tournament_id": str(raw.get("tournament_id") or tournament_id),
+            "round": raw.get("round"),
+            "decklist_id": str(raw.get("decklist_id") or ""),
+            "opponent_decklist_id": str(raw.get("opponent_decklist_id") or ""),
+            "result": result if result in ("win", "loss", "draw") else None,
         })
     return out
 

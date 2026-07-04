@@ -1,15 +1,36 @@
 import { useEffect, useState } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import DeltaBadge from '../components/DeltaBadge.jsx'
+import { useAuth } from '../lib/auth.jsx'
 import { fetchCardTrends, fetchCurrentMeta, fetchTrends } from '../lib/data.js'
 import { pct } from '../lib/format.js'
+import { fetchWatchlist, toggleWatch } from '../lib/userData.js'
 
 // Only flag cards whose inclusion rate moved meaningfully between windows.
 const MOVER_THRESHOLD = 0.08
 
 export default function ArchetypeDetail() {
   const { id } = useParams()
+  const { user } = useAuth()
+  const navigate = useNavigate()
   const [state, setState] = useState({ status: 'loading' })
+  const [watched, setWatched] = useState(false)
+
+  useEffect(() => {
+    if (!user) return
+    fetchWatchlist()
+      .then((ids) => setWatched(ids.includes(id)))
+      .catch(() => {})
+  }, [user, id])
+
+  const onToggleWatch = async () => {
+    if (!user) {
+      navigate('/login')
+      return
+    }
+    await toggleWatch(id, watched, user.id)
+    setWatched(!watched)
+  }
 
   useEffect(() => {
     setState({ status: 'loading' })
@@ -57,12 +78,30 @@ export default function ArchetypeDetail() {
         >
           ← All archetypes
         </Link>
-        <h2 className="mt-2 text-xl font-bold">{name}</h2>
-        {summary && (summary.leader || summary.base) && (
-          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-            {[summary.leader, summary.base].filter(Boolean).join(' · ')}
-          </p>
-        )}
+        <div className="mt-2 flex items-start justify-between gap-3">
+          <div>
+            <h2 className="text-xl font-bold">{name}</h2>
+            {summary && (summary.leader || summary.base) && (
+              <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+                {[summary.leader, summary.base].filter(Boolean).join(' · ')}
+              </p>
+            )}
+          </div>
+          <button
+            onClick={onToggleWatch}
+            aria-label={watched ? 'Remove from watchlist' : 'Add to watchlist'}
+            title={
+              user
+                ? watched
+                  ? 'Remove from watchlist'
+                  : 'Add to watchlist'
+                : 'Log in to watch this archetype'
+            }
+            className={`neu-button h-11 w-11 text-lg ${watched ? 'text-amber-500' : ''}`}
+          >
+            {watched ? '★' : '☆'}
+          </button>
+        </div>
       </div>
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">

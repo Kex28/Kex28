@@ -4,6 +4,7 @@ import { AuthProvider } from './lib/auth.jsx'
 import About from './pages/About.jsx'
 import ArchetypeDetail from './pages/ArchetypeDetail.jsx'
 import Archetypes from './pages/Archetypes.jsx'
+import Cards from './pages/Cards.jsx'
 import CounterMeta from './pages/CounterMeta.jsx'
 import Dashboard from './pages/Dashboard.jsx'
 import Login from './pages/Login.jsx'
@@ -28,6 +29,7 @@ export default function App() {
               <Route path="tournaments/:id" element={<TournamentDetail />} />
               <Route path="archetypes" element={<Archetypes />} />
               <Route path="archetypes/:id" element={<ArchetypeDetail />} />
+              <Route path="cards" element={<Cards />} />
               <Route path="watchlist" element={<Watchlist />} />
               <Route path="decks" element={<MyDecks />} />
               <Route path="about" element={<About />} />

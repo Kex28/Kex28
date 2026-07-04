@@ -20,6 +20,10 @@ All four build phases of the meta tracker described in
   in-app, and the About/methodology page. Without Supabase configured the
   frontend falls back to a browser-local demo account so these flows stay
   testable in dev.
+- **Polish:** meta-wide Cards page (play-rate risers/fallers with search),
+  date-range + tier filters on Tournaments, aspect/name filters on
+  Archetypes, and the spec's motion touches (page fade-ins, stat count-ups,
+  tactile card presses via Framer Motion).
 
 ## Layout
 
@@ -42,8 +46,8 @@ All four build phases of the meta tracker described in
 - `frontend/` — Vite + React + Tailwind + Recharts app. Hamburger nav,
   dark-mode toggle, neumorphic-lite styling. Pages: Dashboard, Meta
   Trends, Counter Meta, Tournaments (with per-event drill-down),
-  Archetypes (with per-archetype card trends), Watchlist, My Decks,
-  About, and Login/Profile.
+  Archetypes (with per-archetype card trends), Cards, Watchlist,
+  My Decks, About, and Login/Profile.
 - `.github/workflows/swu-sync.yml` — daily cron that runs the sync.
 
 ## Run it locally (no Supabase needed)

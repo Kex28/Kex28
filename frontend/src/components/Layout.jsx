@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useAuth } from '../lib/auth.jsx'
@@ -11,6 +12,7 @@ const NAV = [
   { to: '/counter', label: 'Counter Meta' },
   { to: '/tournaments', label: 'Tournaments' },
   { to: '/archetypes', label: 'Archetypes' },
+  { to: '/cards', label: 'Cards' },
   { to: '/watchlist', label: 'Watchlist' },
   { to: '/decks', label: 'My Decks' },
   { to: '/about', label: 'About' },
@@ -67,7 +69,12 @@ export default function Layout() {
             </div>
           </div>
           {open && (
-            <nav className="neu-card mt-4 flex flex-col p-2">
+            <motion.nav
+              initial={{ opacity: 0, y: -6 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.15, ease: 'easeOut' }}
+              className="neu-card mt-4 flex flex-col p-2"
+            >
               {NAV.map(({ to, label }) => (
                 <NavLink
                   key={to}
@@ -98,11 +105,19 @@ export default function Layout() {
               >
                 {user ? `Profile (${user.email})` : 'Log in'}
               </NavLink>
-            </nav>
+            </motion.nav>
           )}
         </header>
 
-        <Outlet />
+        {/* Keyed on the path so each page fades in as you navigate */}
+        <motion.main
+          key={location.pathname}
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.18, ease: 'easeOut' }}
+        >
+          <Outlet />
+        </motion.main>
 
         <footer className="mt-8 text-center text-xs text-slate-400 dark:text-slate-500">
           data via swuapi.com · refresh-based (no live sync)

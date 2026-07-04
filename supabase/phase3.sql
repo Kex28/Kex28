@@ -116,6 +116,36 @@ join totals tt on tt.archetype_id = wd.archetype_id
 left join cards c on c.id = dc.card_id
 group by wd.archetype_id, dc.card_id, c.name, tt.recent_decks, tt.prior_decks;
 
+-- Same card windows, but across the whole meta — powers the Cards page.
+create or replace view card_trends_overall as
+with windowed_decks as (
+  select d.id,
+         case when t.date >= current_date - 14 then 'recent'
+              when t.date >= current_date - 28 then 'prior' end as w
+  from decklists d
+  join tournaments t on t.id = d.tournament_id
+  where t.date >= current_date - 28
+),
+totals as (
+  select count(*) filter (where w = 'recent') as recent_decks,
+         count(*) filter (where w = 'prior')  as prior_decks
+  from windowed_decks
+)
+select
+  dc.card_id,
+  coalesce(c.name, dc.card_id) as card_name,
+  count(*) filter (where wd.w = 'recent')::int as recent_decks,
+  count(*) filter (where wd.w = 'recent')::float / nullif(tt.recent_decks, 0) as recent_rate,
+  count(*) filter (where wd.w = 'prior')::float  / nullif(tt.prior_decks, 0)  as prior_rate,
+  coalesce(count(*) filter (where wd.w = 'recent')::float / nullif(tt.recent_decks, 0), 0)
+    - coalesce(count(*) filter (where wd.w = 'prior')::float / nullif(tt.prior_decks, 0), 0)
+    as rate_delta
+from decklist_cards dc
+join windowed_decks wd on wd.id = dc.decklist_id
+cross join totals tt
+left join cards c on c.id = dc.card_id
+group by dc.card_id, c.name, tt.recent_decks, tt.prior_decks;
+
 -- Archetype breakdown within each tournament (share + event win rate).
 create or replace view tournament_archetypes as
 with event_wr as (

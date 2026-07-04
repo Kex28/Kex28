@@ -23,6 +23,15 @@
   }
 }
 
+/* For tappable cards: a gentle press-in on tap, matching the neumorphic
+   feel without slowing anything down. */
+@utility neu-tap {
+  transition: transform 120ms ease;
+  &:active {
+    transform: scale(0.98);
+  }
+}
+
 @utility neu-button {
   border-radius: 9999px;
   background: var(--color-surface);

@@ -1,5 +1,5 @@
 {
-  "last_updated_at": "2026-07-04T03:56:35.199374+00:00",
+  "last_updated_at": "2026-07-04T09:49:34.133077+00:00",
   "archetypes": [
     {
       "id": "sabine-ecl",
@@ -1589,6 +1589,526 @@
       "recent_rate": 0.9523809523809523,
       "prior_rate": 0.95,
       "rate_delta": 0.0023809523809523725
+    }
+  ],
+  "card_trends_overall": [
+    {
+      "card_id": "C005",
+      "recent_decks": 25,
+      "recent_rate": 0.10416666666666667,
+      "prior_rate": 0.20703125,
+      "rate_delta": -0.10286458333333333
+    },
+    {
+      "card_id": "C003",
+      "recent_decks": 29,
+      "recent_rate": 0.12083333333333333,
+      "prior_rate": 0.21484375,
+      "rate_delta": -0.09401041666666667
+    },
+    {
+      "card_id": "C004",
+      "recent_decks": 28,
+      "recent_rate": 0.11666666666666667,
+      "prior_rate": 0.20703125,
+      "rate_delta": -0.09036458333333333
+    },
+    {
+      "card_id": "C006",
+      "recent_decks": 31,
+      "recent_rate": 0.12916666666666668,
+      "prior_rate": 0.2109375,
+      "rate_delta": -0.08177083333333332
+    },
+    {
+      "card_id": "C009",
+      "recent_decks": 8,
+      "recent_rate": 0.03333333333333333,
+      "prior_rate": 0.11328125,
+      "rate_delta": -0.07994791666666667
+    },
+    {
+      "card_id": "C011",
+      "recent_decks": 14,
+      "recent_rate": 0.058333333333333334,
+      "prior_rate": 0.125,
+      "rate_delta": -0.06666666666666667
+    },
+    {
+      "card_id": "C016",
+      "recent_decks": 39,
+      "recent_rate": 0.1625,
+      "prior_rate": 0.09765625,
+      "rate_delta": 0.06484375
+    },
+    {
+      "card_id": "C017",
+      "recent_decks": 30,
+      "recent_rate": 0.125,
+      "prior_rate": 0.06640625,
+      "rate_delta": 0.05859375
+    },
+    {
+      "card_id": "C031",
+      "recent_decks": 26,
+      "recent_rate": 0.10833333333333334,
+      "prior_rate": 0.05078125,
+      "rate_delta": 0.05755208333333334
+    },
+    {
+      "card_id": "C010",
+      "recent_decks": 13,
+      "recent_rate": 0.05416666666666667,
+      "prior_rate": 0.109375,
+      "rate_delta": -0.05520833333333333
+    },
+    {
+      "card_id": "C032",
+      "recent_decks": 26,
+      "recent_rate": 0.10833333333333334,
+      "prior_rate": 0.05859375,
+      "rate_delta": 0.04973958333333334
+    },
+    {
+      "card_id": "C061",
+      "recent_decks": 22,
+      "recent_rate": 0.09166666666666666,
+      "prior_rate": 0.04296875,
+      "rate_delta": 0.04869791666666666
+    },
+    {
+      "card_id": "C033",
+      "recent_decks": 25,
+      "recent_rate": 0.10416666666666667,
+      "prior_rate": 0.05859375,
+      "rate_delta": 0.04557291666666667
+    },
+    {
+      "card_id": "C062",
+      "recent_decks": 20,
+      "recent_rate": 0.08333333333333333,
+      "prior_rate": 0.0390625,
+      "rate_delta": 0.04427083333333333
+    },
+    {
+      "card_id": "C034",
+      "recent_decks": 17,
+      "recent_rate": 0.07083333333333333,
+      "prior_rate": 0.02734375,
+      "rate_delta": 0.04348958333333333
+    },
+    {
+      "card_id": "C060",
+      "recent_decks": 30,
+      "recent_rate": 0.125,
+      "prior_rate": 0.08203125,
+      "rate_delta": 0.04296875
+    },
+    {
+      "card_id": "C015",
+      "recent_decks": 48,
+      "recent_rate": 0.2,
+      "prior_rate": 0.16015625,
+      "rate_delta": 0.03984375000000001
+    },
+    {
+      "card_id": "C043",
+      "recent_decks": 18,
+      "recent_rate": 0.075,
+      "prior_rate": 0.03515625,
+      "rate_delta": 0.03984375
+    },
+    {
+      "card_id": "C059",
+      "recent_decks": 27,
+      "recent_rate": 0.1125,
+      "prior_rate": 0.07421875,
+      "rate_delta": 0.03828125
+    },
+    {
+      "card_id": "C014",
+      "recent_decks": 47,
+      "recent_rate": 0.19583333333333333,
+      "prior_rate": 0.16015625,
+      "rate_delta": 0.03567708333333333
+    },
+    {
+      "card_id": "C035",
+      "recent_decks": 14,
+      "recent_rate": 0.058333333333333334,
+      "prior_rate": 0.0234375,
+      "rate_delta": 0.034895833333333334
+    },
+    {
+      "card_id": "C053",
+      "recent_decks": 13,
+      "recent_rate": 0.05416666666666667,
+      "prior_rate": 0.01953125,
+      "rate_delta": 0.03463541666666667
+    },
+    {
+      "card_id": "C057",
+      "recent_decks": 26,
+      "recent_rate": 0.10833333333333334,
+      "prior_rate": 0.07421875,
+      "rate_delta": 0.03411458333333334
+    },
+    {
+      "card_id": "C030",
+      "recent_decks": 22,
+      "recent_rate": 0.09166666666666666,
+      "prior_rate": 0.05859375,
+      "rate_delta": 0.03307291666666666
+    },
+    {
+      "card_id": "C013",
+      "recent_decks": 46,
+      "recent_rate": 0.19166666666666668,
+      "prior_rate": 0.16015625,
+      "rate_delta": 0.03151041666666668
+    },
+    {
+      "card_id": "C052",
+      "recent_decks": 14,
+      "recent_rate": 0.058333333333333334,
+      "prior_rate": 0.02734375,
+      "rate_delta": 0.030989583333333334
+    },
+    {
+      "card_id": "C012",
+      "recent_decks": 44,
+      "recent_rate": 0.18333333333333332,
+      "prior_rate": 0.15234375,
+      "rate_delta": 0.03098958333333332
+    },
+    {
+      "card_id": "C044",
+      "recent_decks": 12,
+      "recent_rate": 0.05,
+      "prior_rate": 0.01953125,
+      "rate_delta": 0.030468750000000003
+    },
+    {
+      "card_id": "C058",
+      "recent_decks": 26,
+      "recent_rate": 0.10833333333333334,
+      "prior_rate": 0.078125,
+      "rate_delta": 0.030208333333333337
+    },
+    {
+      "card_id": "C063",
+      "recent_decks": 6,
+      "recent_rate": 0.025,
+      "prior_rate": 0.0546875,
+      "rate_delta": -0.0296875
+    },
+    {
+      "card_id": "C046",
+      "recent_decks": 7,
+      "recent_rate": 0.029166666666666667,
+      "prior_rate": 0.05859375,
+      "rate_delta": -0.029427083333333333
+    },
+    {
+      "card_id": "C024",
+      "recent_decks": 31,
+      "recent_rate": 0.12916666666666668,
+      "prior_rate": 0.15625,
+      "rate_delta": -0.02708333333333332
+    },
+    {
+      "card_id": "C008",
+      "recent_decks": 21,
+      "recent_rate": 0.0875,
+      "prior_rate": 0.11328125,
+      "rate_delta": -0.025781250000000006
+    },
+    {
+      "card_id": "C064",
+      "recent_decks": 15,
+      "recent_rate": 0.0625,
+      "prior_rate": 0.0390625,
+      "rate_delta": 0.0234375
+    },
+    {
+      "card_id": "C071",
+      "recent_decks": 12,
+      "recent_rate": 0.05,
+      "prior_rate": 0.02734375,
+      "rate_delta": 0.022656250000000003
+    },
+    {
+      "card_id": "C025",
+      "recent_decks": 25,
+      "recent_rate": 0.10416666666666667,
+      "prior_rate": 0.08203125,
+      "rate_delta": 0.02213541666666667
+    },
+    {
+      "card_id": "C020",
+      "recent_decks": 24,
+      "recent_rate": 0.1,
+      "prior_rate": 0.078125,
+      "rate_delta": 0.021875000000000006
+    },
+    {
+      "card_id": "C026",
+      "recent_decks": 22,
+      "recent_rate": 0.09166666666666666,
+      "prior_rate": 0.0703125,
+      "rate_delta": 0.02135416666666666
+    },
+    {
+      "card_id": "C070",
+      "recent_decks": 15,
+      "recent_rate": 0.0625,
+      "prior_rate": 0.04296875,
+      "rate_delta": 0.01953125
+    },
+    {
+      "card_id": "C021",
+      "recent_decks": 33,
+      "recent_rate": 0.1375,
+      "prior_rate": 0.15625,
+      "rate_delta": -0.01874999999999999
+    },
+    {
+      "card_id": "C022",
+      "recent_decks": 33,
+      "recent_rate": 0.1375,
+      "prior_rate": 0.15625,
+      "rate_delta": -0.01874999999999999
+    },
+    {
+      "card_id": "C072",
+      "recent_decks": 5,
+      "recent_rate": 0.020833333333333332,
+      "prior_rate": 0.0390625,
+      "rate_delta": -0.018229166666666668
+    },
+    {
+      "card_id": "C002",
+      "recent_decks": 155,
+      "recent_rate": 0.6458333333333334,
+      "prior_rate": 0.6640625,
+      "rate_delta": -0.01822916666666663
+    },
+    {
+      "card_id": "C055",
+      "recent_decks": 7,
+      "recent_rate": 0.029166666666666667,
+      "prior_rate": 0.046875,
+      "rate_delta": -0.017708333333333333
+    },
+    {
+      "card_id": "C073",
+      "recent_decks": 8,
+      "recent_rate": 0.03333333333333333,
+      "prior_rate": 0.05078125,
+      "rate_delta": -0.017447916666666667
+    },
+    {
+      "card_id": "C040",
+      "recent_decks": 24,
+      "recent_rate": 0.1,
+      "prior_rate": 0.1171875,
+      "rate_delta": -0.017187499999999994
+    },
+    {
+      "card_id": "C074",
+      "recent_decks": 13,
+      "recent_rate": 0.05416666666666667,
+      "prior_rate": 0.0390625,
+      "rate_delta": 0.015104166666666669
+    },
+    {
+      "card_id": "C037",
+      "recent_decks": 12,
+      "recent_rate": 0.05,
+      "prior_rate": 0.03515625,
+      "rate_delta": 0.014843750000000003
+    },
+    {
+      "card_id": "C023",
+      "recent_decks": 33,
+      "recent_rate": 0.1375,
+      "prior_rate": 0.15234375,
+      "rate_delta": -0.014843749999999989
+    },
+    {
+      "card_id": "C054",
+      "recent_decks": 7,
+      "recent_rate": 0.029166666666666667,
+      "prior_rate": 0.04296875,
+      "rate_delta": -0.013802083333333333
+    },
+    {
+      "card_id": "C066",
+      "recent_decks": 21,
+      "recent_rate": 0.0875,
+      "prior_rate": 0.07421875,
+      "rate_delta": 0.013281249999999994
+    },
+    {
+      "card_id": "C067",
+      "recent_decks": 21,
+      "recent_rate": 0.0875,
+      "prior_rate": 0.07421875,
+      "rate_delta": 0.013281249999999994
+    },
+    {
+      "card_id": "C048",
+      "recent_decks": 20,
+      "recent_rate": 0.08333333333333333,
+      "prior_rate": 0.0703125,
+      "rate_delta": 0.013020833333333329
+    },
+    {
+      "card_id": "C018",
+      "recent_decks": 15,
+      "recent_rate": 0.0625,
+      "prior_rate": 0.07421875,
+      "rate_delta": -0.01171875
+    },
+    {
+      "card_id": "C036",
+      "recent_decks": 7,
+      "recent_rate": 0.029166666666666667,
+      "prior_rate": 0.0390625,
+      "rate_delta": -0.009895833333333333
+    },
+    {
+      "card_id": "C041",
+      "recent_decks": 24,
+      "recent_rate": 0.1,
+      "prior_rate": 0.109375,
+      "rate_delta": -0.009374999999999994
+    },
+    {
+      "card_id": "C051",
+      "recent_decks": 20,
+      "recent_rate": 0.08333333333333333,
+      "prior_rate": 0.07421875,
+      "rate_delta": 0.009114583333333329
+    },
+    {
+      "card_id": "C069",
+      "recent_decks": 20,
+      "recent_rate": 0.08333333333333333,
+      "prior_rate": 0.07421875,
+      "rate_delta": 0.009114583333333329
+    },
+    {
+      "card_id": "C050",
+      "recent_decks": 19,
+      "recent_rate": 0.07916666666666666,
+      "prior_rate": 0.0703125,
+      "rate_delta": 0.008854166666666663
+    },
+    {
+      "card_id": "C029",
+      "recent_decks": 18,
+      "recent_rate": 0.075,
+      "prior_rate": 0.06640625,
+      "rate_delta": 0.008593749999999997
+    },
+    {
+      "card_id": "C065",
+      "recent_decks": 13,
+      "recent_rate": 0.05416666666666667,
+      "prior_rate": 0.0625,
+      "rate_delta": -0.008333333333333331
+    },
+    {
+      "card_id": "C028",
+      "recent_decks": 14,
+      "recent_rate": 0.058333333333333334,
+      "prior_rate": 0.06640625,
+      "rate_delta": -0.008072916666666666
+    },
+    {
+      "card_id": "C038",
+      "recent_decks": 11,
+      "recent_rate": 0.04583333333333333,
+      "prior_rate": 0.0390625,
+      "rate_delta": 0.00677083333333333
+    },
+    {
+      "card_id": "C045",
+      "recent_decks": 11,
+      "recent_rate": 0.04583333333333333,
+      "prior_rate": 0.0390625,
+      "rate_delta": 0.00677083333333333
+    },
+    {
+      "card_id": "C019",
+      "recent_decks": 21,
+      "recent_rate": 0.0875,
+      "prior_rate": 0.09375,
+      "rate_delta": -0.0062500000000000056
+    },
+    {
+      "card_id": "C039",
+      "recent_decks": 24,
+      "recent_rate": 0.1,
+      "prior_rate": 0.09375,
+      "rate_delta": 0.0062500000000000056
+    },
+    {
+      "card_id": "C007",
+      "recent_decks": 22,
+      "recent_rate": 0.09166666666666666,
+      "prior_rate": 0.0859375,
+      "rate_delta": 0.00572916666666666
+    },
+    {
+      "card_id": "C001",
+      "recent_decks": 160,
+      "recent_rate": 0.6666666666666666,
+      "prior_rate": 0.671875,
+      "rate_delta": -0.00520833333333337
+    },
+    {
+      "card_id": "C068",
+      "recent_decks": 19,
+      "recent_rate": 0.07916666666666666,
+      "prior_rate": 0.07421875,
+      "rate_delta": 0.004947916666666663
+    },
+    {
+      "card_id": "C047",
+      "recent_decks": 14,
+      "recent_rate": 0.058333333333333334,
+      "prior_rate": 0.0625,
+      "rate_delta": -0.004166666666666666
+    },
+    {
+      "card_id": "C027",
+      "recent_decks": 15,
+      "recent_rate": 0.0625,
+      "prior_rate": 0.05859375,
+      "rate_delta": 0.00390625
+    },
+    {
+      "card_id": "C042",
+      "recent_decks": 24,
+      "recent_rate": 0.1,
+      "prior_rate": 0.1015625,
+      "rate_delta": -0.0015624999999999944
+    },
+    {
+      "card_id": "C049",
+      "recent_decks": 20,
+      "recent_rate": 0.08333333333333333,
+      "prior_rate": 0.08203125,
+      "rate_delta": 0.0013020833333333287
+    },
+    {
+      "card_id": "C056",
+      "recent_decks": 11,
+      "recent_rate": 0.04583333333333333,
+      "prior_rate": 0.046875,
+      "rate_delta": -0.00104166666666667
     }
   ],
   "tournaments": [

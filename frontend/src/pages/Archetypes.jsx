@@ -5,6 +5,8 @@ import { pct } from '../lib/format.js'
 
 export default function Archetypes() {
   const [state, setState] = useState({ status: 'loading' })
+  const [query, setQuery] = useState('')
+  const [aspect, setAspect] = useState('all')
 
   useEffect(() => {
     fetchCurrentMeta()
@@ -25,6 +27,15 @@ export default function Archetypes() {
     )
   }
 
+  const aspects = [...new Set(state.rows.flatMap((r) => r.aspects ?? []))].sort()
+  const q = query.trim().toLowerCase()
+  const visible = state.rows.filter(
+    (row) =>
+      (aspect === 'all' || (row.aspects ?? []).includes(aspect)) &&
+      (!q ||
+        [row.name, row.leader, row.base].some((f) => f?.toLowerCase().includes(q))),
+  )
+
   return (
     <div className="space-y-6">
       <p className="-mt-4 text-sm text-slate-500 dark:text-slate-400">
@@ -35,12 +46,43 @@ export default function Archetypes() {
           </span>
         )}
       </p>
+
+      <input
+        type="search"
+        value={query}
+        onChange={(e) => setQuery(e.target.value)}
+        placeholder="Search by name, leader, or base…"
+        aria-label="Search archetypes"
+        className="w-full rounded-xl border border-slate-300/60 bg-white/60 px-4 py-2.5 text-sm outline-none focus:border-blue-500 dark:border-slate-600/60 dark:bg-slate-800/60"
+      />
+
+      <div className="flex flex-wrap gap-2">
+        {['all', ...aspects].map((a) => (
+          <button
+            key={a}
+            onClick={() => setAspect(a)}
+            aria-pressed={aspect === a}
+            className={`neu-button px-4 py-2 text-xs font-semibold ${
+              aspect === a ? 'text-blue-700 dark:text-blue-400' : ''
+            }`}
+          >
+            {a === 'all' ? 'All aspects' : a}
+          </button>
+        ))}
+      </div>
+
+      {visible.length === 0 && (
+        <div className="neu-card p-8 text-center text-sm text-slate-500 dark:text-slate-400">
+          No archetypes match these filters.
+        </div>
+      )}
+
       <div className="grid gap-4 sm:grid-cols-2">
-        {state.rows.map((row) => (
+        {visible.map((row) => (
           <Link
             key={row.archetype_id}
             to={`/archetypes/${row.archetype_id}`}
-            className="neu-card block p-5"
+            className="neu-card neu-tap block p-5"
           >
             <div className="font-semibold">{row.name}</div>
             {(row.leader || row.base) && (

@@ -180,6 +180,25 @@ export async function fetchCardTrends(archetypeId) {
   }
 }
 
+// Rows: { card_id, card_name, recent_decks, recent_rate, prior_rate,
+// rate_delta } across the whole meta, sorted by |rate_delta| desc.
+export async function fetchCardTrendsOverall() {
+  if (useSupabase()) {
+    const rows = await supabaseSelect('card_trends_overall?select=*')
+    rows.sort((a, b) => Math.abs(b.rate_delta) - Math.abs(a.rate_delta))
+    return { rows, source: 'supabase' }
+  }
+  const data = await sampleData()
+  const cardNames = nameMap(data.cards)
+  return {
+    rows: data.card_trends_overall.map((r) => ({
+      ...r,
+      card_name: cardNames[r.card_id] ?? r.card_id,
+    })),
+    source: 'sample',
+  }
+}
+
 // Rows: { week: 'YYYY-MM-DD', archetype_id, name, meta_share }
 export async function fetchWeeklyShares() {
   if (useSupabase()) {

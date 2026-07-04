@@ -29,18 +29,17 @@ create table if not exists archetypes (
   last_updated_at timestamptz not null default now()
 );
 
--- One row per archetype per daily snapshot; the sync upserts on
--- (snapshot_date, archetype_id), so re-running the same day refreshes
--- in place instead of duplicating. Keeping history here is what Phase 2's
--- trend windows will read.
-create table if not exists meta_snapshot_entries (
-  snapshot_date   date not null,
-  archetype_id    text not null references archetypes(id),
-  meta_share      double precision, -- fraction 0..1
-  win_rate        double precision, -- fraction 0..1
-  deck_count      int,
-  last_updated_at timestamptz not null default now(),
-  primary key (snapshot_date, archetype_id)
+-- Meta eras from GET /metas: competitive periods defined by card pool and
+-- ban list (e.g. "A Lawless Time"). Reference data — the upstream API has
+-- no archetype-share endpoint, so "current meta" share/win-rate is computed
+-- from decklists by the current_meta view in phase2.sql.
+create table if not exists meta_eras (
+  id              text primary key,
+  name            text not null,
+  format          text,
+  starts_on       date,
+  ends_on         date,
+  last_updated_at timestamptz not null default now()
 );
 
 -- Refresh last_updated_at on every upsert, so the "last updated" display
@@ -55,7 +54,7 @@ end $$;
 do $$
 declare t text;
 begin
-  foreach t in array array['sets', 'cards', 'archetypes', 'meta_snapshot_entries'] loop
+  foreach t in array array['sets', 'cards', 'archetypes', 'meta_eras'] loop
     execute format('drop trigger if exists touch_%I on %I', t, t);
     execute format(
       'create trigger touch_%I before update on %I for each row execute function touch_last_updated_at()',
@@ -63,30 +62,12 @@ begin
   end loop;
 end $$;
 
--- What the frontend's Phase 1 page reads: latest snapshot joined to
--- archetype names.
-create or replace view current_meta as
-select
-  e.snapshot_date,
-  e.archetype_id,
-  a.name,
-  a.leader,
-  a.base,
-  a.aspects,
-  e.meta_share,
-  e.win_rate,
-  e.deck_count,
-  e.last_updated_at
-from meta_snapshot_entries e
-join archetypes a on a.id = e.archetype_id
-where e.snapshot_date = (select max(snapshot_date) from meta_snapshot_entries);
-
 -- RLS: anonymous frontend gets read-only access; writes happen only through
 -- the service-role key used by the sync job (service role bypasses RLS).
-alter table sets                  enable row level security;
-alter table cards                 enable row level security;
-alter table archetypes            enable row level security;
-alter table meta_snapshot_entries enable row level security;
+alter table sets       enable row level security;
+alter table cards      enable row level security;
+alter table archetypes enable row level security;
+alter table meta_eras  enable row level security;
 
 drop policy if exists "public read sets" on sets;
 create policy "public read sets" on sets for select using (true);
@@ -94,5 +75,5 @@ drop policy if exists "public read cards" on cards;
 create policy "public read cards" on cards for select using (true);
 drop policy if exists "public read archetypes" on archetypes;
 create policy "public read archetypes" on archetypes for select using (true);
-drop policy if exists "public read meta" on meta_snapshot_entries;
-create policy "public read meta" on meta_snapshot_entries for select using (true);
+drop policy if exists "public read meta_eras" on meta_eras;
+create policy "public read meta_eras" on meta_eras for select using (true);

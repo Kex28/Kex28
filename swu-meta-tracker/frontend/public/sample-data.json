@@ -1,5 +1,5 @@
 {
-  "last_updated_at": "2026-07-04T09:49:34.133077+00:00",
+  "last_updated_at": "2026-07-04T14:29:04.227103+00:00",
   "archetypes": [
     {
       "id": "sabine-ecl",
@@ -85,51 +85,51 @@
   "meta_entries": [
     {
       "archetype_id": "sabine-ecl",
-      "meta_share": 0.184,
-      "win_rate": 0.542,
-      "deck_count": 131
-    },
-    {
-      "archetype_id": "boba-yellow",
-      "meta_share": 0.151,
-      "win_rate": 0.528,
-      "deck_count": 108
+      "meta_share": 0.1840277777777778,
+      "win_rate": 0.5295857988165681,
+      "deck_count": 53
     },
     {
       "archetype_id": "han-blue",
-      "meta_share": 0.11900000000000001,
-      "win_rate": 0.515,
-      "deck_count": 85
+      "meta_share": 0.16319444444444445,
+      "win_rate": 0.4560260586319218,
+      "deck_count": 47
     },
     {
-      "archetype_id": "iden-red",
-      "meta_share": 0.096,
-      "win_rate": 0.49700000000000005,
-      "deck_count": 68
-    },
-    {
-      "archetype_id": "kylo-green",
-      "meta_share": 0.08199999999999999,
-      "win_rate": 0.509,
-      "deck_count": 58
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "meta_share": 0.064,
-      "win_rate": 0.48100000000000004,
-      "deck_count": 46
+      "archetype_id": "boba-yellow",
+      "meta_share": 0.15625,
+      "win_rate": 0.5217391304347826,
+      "deck_count": 45
     },
     {
       "archetype_id": "leia-red",
-      "meta_share": 0.055,
-      "win_rate": 0.536,
-      "deck_count": 39
+      "meta_share": 0.13194444444444445,
+      "win_rate": 0.5139442231075697,
+      "deck_count": 38
+    },
+    {
+      "archetype_id": "iden-red",
+      "meta_share": 0.1076388888888889,
+      "win_rate": 0.5,
+      "deck_count": 31
+    },
+    {
+      "archetype_id": "kylo-green",
+      "meta_share": 0.1076388888888889,
+      "win_rate": 0.4975609756097561,
+      "deck_count": 31
     },
     {
       "archetype_id": "vader-blue",
-      "meta_share": 0.048,
-      "win_rate": 0.473,
-      "deck_count": 34
+      "meta_share": 0.0798611111111111,
+      "win_rate": 0.5064102564102564,
+      "deck_count": 23
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "meta_share": 0.06944444444444445,
+      "win_rate": 0.4453125,
+      "deck_count": 20
     }
   ],
   "cards": [
@@ -433,542 +433,542 @@
   "weekly_shares": [
     {
       "week": "2026-05-18",
-      "archetype_id": "boba-yellow",
-      "deck_count": 22,
-      "meta_share": 0.22916666666666666
+      "archetype_id": "sabine-ecl",
+      "deck_count": 27,
+      "meta_share": 0.28125
     },
     {
       "week": "2026-05-18",
-      "archetype_id": "sabine-ecl",
-      "deck_count": 20,
-      "meta_share": 0.20833333333333334
+      "archetype_id": "boba-yellow",
+      "deck_count": 15,
+      "meta_share": 0.15625
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "iden-red",
+      "deck_count": 14,
+      "meta_share": 0.14583333333333334
     },
     {
       "week": "2026-05-18",
       "archetype_id": "han-blue",
-      "deck_count": 16,
-      "meta_share": 0.16666666666666666
-    },
-    {
-      "week": "2026-05-18",
-      "archetype_id": "quinlan-green",
       "deck_count": 13,
       "meta_share": 0.13541666666666666
     },
     {
       "week": "2026-05-18",
       "archetype_id": "kylo-green",
-      "deck_count": 12,
-      "meta_share": 0.125
-    },
-    {
-      "week": "2026-05-18",
-      "archetype_id": "vader-blue",
-      "deck_count": 5,
-      "meta_share": 0.052083333333333336
-    },
-    {
-      "week": "2026-05-18",
-      "archetype_id": "iden-red",
-      "deck_count": 4,
-      "meta_share": 0.041666666666666664
-    },
-    {
-      "week": "2026-05-18",
-      "archetype_id": "leia-red",
-      "deck_count": 4,
-      "meta_share": 0.041666666666666664
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "sabine-ecl",
-      "deck_count": 18,
-      "meta_share": 0.225
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "iden-red",
-      "deck_count": 12,
-      "meta_share": 0.15
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "han-blue",
-      "deck_count": 12,
-      "meta_share": 0.15
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "kylo-green",
-      "deck_count": 10,
-      "meta_share": 0.125
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "boba-yellow",
-      "deck_count": 10,
-      "meta_share": 0.125
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "quinlan-green",
-      "deck_count": 8,
-      "meta_share": 0.1
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "vader-blue",
-      "deck_count": 7,
-      "meta_share": 0.0875
-    },
-    {
-      "week": "2026-05-25",
-      "archetype_id": "leia-red",
-      "deck_count": 3,
-      "meta_share": 0.0375
-    },
-    {
-      "week": "2026-06-01",
-      "archetype_id": "sabine-ecl",
-      "deck_count": 37,
-      "meta_share": 0.23125
-    },
-    {
-      "week": "2026-06-01",
-      "archetype_id": "boba-yellow",
-      "deck_count": 30,
-      "meta_share": 0.1875
-    },
-    {
-      "week": "2026-06-01",
-      "archetype_id": "han-blue",
-      "deck_count": 21,
-      "meta_share": 0.13125
-    },
-    {
-      "week": "2026-06-01",
-      "archetype_id": "kylo-green",
-      "deck_count": 20,
-      "meta_share": 0.125
-    },
-    {
-      "week": "2026-06-01",
-      "archetype_id": "quinlan-green",
-      "deck_count": 15,
+      "deck_count": 9,
       "meta_share": 0.09375
     },
     {
-      "week": "2026-06-01",
+      "week": "2026-05-18",
+      "archetype_id": "quinlan-green",
+      "deck_count": 7,
+      "meta_share": 0.07291666666666667
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "vader-blue",
+      "deck_count": 7,
+      "meta_share": 0.07291666666666667
+    },
+    {
+      "week": "2026-05-18",
       "archetype_id": "leia-red",
+      "deck_count": 4,
+      "meta_share": 0.041666666666666664
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "han-blue",
+      "deck_count": 22,
+      "meta_share": 0.19642857142857142
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 22,
+      "meta_share": 0.19642857142857142
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "boba-yellow",
+      "deck_count": 18,
+      "meta_share": 0.16071428571428573
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "iden-red",
       "deck_count": 14,
-      "meta_share": 0.0875
+      "meta_share": 0.125
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "leia-red",
+      "deck_count": 11,
+      "meta_share": 0.09821428571428571
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "kylo-green",
+      "deck_count": 11,
+      "meta_share": 0.09821428571428571
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "vader-blue",
+      "deck_count": 9,
+      "meta_share": 0.08035714285714286
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "quinlan-green",
+      "deck_count": 5,
+      "meta_share": 0.044642857142857144
     },
     {
       "week": "2026-06-01",
-      "archetype_id": "vader-blue",
-      "deck_count": 12,
-      "meta_share": 0.075
+      "archetype_id": "sabine-ecl",
+      "deck_count": 30,
+      "meta_share": 0.26785714285714285
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "boba-yellow",
+      "deck_count": 20,
+      "meta_share": 0.17857142857142858
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "han-blue",
+      "deck_count": 18,
+      "meta_share": 0.16071428571428573
     },
     {
       "week": "2026-06-01",
       "archetype_id": "iden-red",
-      "deck_count": 11,
-      "meta_share": 0.06875
+      "deck_count": 16,
+      "meta_share": 0.14285714285714285
     },
     {
-      "week": "2026-06-08",
-      "archetype_id": "han-blue",
-      "deck_count": 23,
-      "meta_share": 0.23958333333333334
+      "week": "2026-06-01",
+      "archetype_id": "quinlan-green",
+      "deck_count": 12,
+      "meta_share": 0.10714285714285714
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "vader-blue",
+      "deck_count": 6,
+      "meta_share": 0.05357142857142857
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "leia-red",
+      "deck_count": 5,
+      "meta_share": 0.044642857142857144
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "kylo-green",
+      "deck_count": 5,
+      "meta_share": 0.044642857142857144
     },
     {
       "week": "2026-06-08",
       "archetype_id": "sabine-ecl",
-      "deck_count": 21,
-      "meta_share": 0.21875
+      "deck_count": 19,
+      "meta_share": 0.19791666666666666
     },
     {
       "week": "2026-06-08",
       "archetype_id": "boba-yellow",
+      "deck_count": 16,
+      "meta_share": 0.16666666666666666
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "iden-red",
       "deck_count": 14,
       "meta_share": 0.14583333333333334
     },
     {
       "week": "2026-06-08",
-      "archetype_id": "kylo-green",
-      "deck_count": 11,
-      "meta_share": 0.11458333333333333
+      "archetype_id": "han-blue",
+      "deck_count": 13,
+      "meta_share": 0.13541666666666666
     },
     {
       "week": "2026-06-08",
       "archetype_id": "leia-red",
-      "deck_count": 8,
-      "meta_share": 0.08333333333333333
+      "deck_count": 12,
+      "meta_share": 0.125
     },
     {
       "week": "2026-06-08",
-      "archetype_id": "vader-blue",
-      "deck_count": 8,
-      "meta_share": 0.08333333333333333
+      "archetype_id": "kylo-green",
+      "deck_count": 9,
+      "meta_share": 0.09375
     },
     {
       "week": "2026-06-08",
       "archetype_id": "quinlan-green",
+      "deck_count": 7,
+      "meta_share": 0.07291666666666667
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "vader-blue",
       "deck_count": 6,
       "meta_share": 0.0625
     },
     {
-      "week": "2026-06-08",
+      "week": "2026-06-15",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 27,
+      "meta_share": 0.28125
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "han-blue",
+      "deck_count": 14,
+      "meta_share": 0.14583333333333334
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "boba-yellow",
+      "deck_count": 12,
+      "meta_share": 0.125
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "leia-red",
+      "deck_count": 11,
+      "meta_share": 0.11458333333333333
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "kylo-green",
+      "deck_count": 10,
+      "meta_share": 0.10416666666666667
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "quinlan-green",
+      "deck_count": 9,
+      "meta_share": 0.09375
+    },
+    {
+      "week": "2026-06-15",
       "archetype_id": "iden-red",
+      "deck_count": 8,
+      "meta_share": 0.08333333333333333
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "vader-blue",
       "deck_count": 5,
       "meta_share": 0.052083333333333336
     },
     {
-      "week": "2026-06-15",
-      "archetype_id": "sabine-ecl",
-      "deck_count": 14,
-      "meta_share": 0.175
-    },
-    {
-      "week": "2026-06-15",
+      "week": "2026-06-22",
       "archetype_id": "boba-yellow",
-      "deck_count": 14,
-      "meta_share": 0.175
+      "deck_count": 33,
+      "meta_share": 0.171875
     },
     {
-      "week": "2026-06-15",
-      "archetype_id": "quinlan-green",
-      "deck_count": 12,
-      "meta_share": 0.15
-    },
-    {
-      "week": "2026-06-15",
+      "week": "2026-06-22",
       "archetype_id": "han-blue",
-      "deck_count": 12,
-      "meta_share": 0.15
-    },
-    {
-      "week": "2026-06-15",
-      "archetype_id": "iden-red",
-      "deck_count": 12,
-      "meta_share": 0.15
-    },
-    {
-      "week": "2026-06-15",
-      "archetype_id": "vader-blue",
-      "deck_count": 7,
-      "meta_share": 0.0875
-    },
-    {
-      "week": "2026-06-15",
-      "archetype_id": "leia-red",
-      "deck_count": 5,
-      "meta_share": 0.0625
-    },
-    {
-      "week": "2026-06-15",
-      "archetype_id": "kylo-green",
-      "deck_count": 4,
-      "meta_share": 0.05
-    },
-    {
-      "week": "2026-06-22",
-      "archetype_id": "boba-yellow",
-      "deck_count": 35,
-      "meta_share": 0.21875
+      "deck_count": 33,
+      "meta_share": 0.171875
     },
     {
       "week": "2026-06-22",
       "archetype_id": "leia-red",
+      "deck_count": 27,
+      "meta_share": 0.140625
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "sabine-ecl",
       "deck_count": 26,
-      "meta_share": 0.1625
-    },
-    {
-      "week": "2026-06-22",
-      "archetype_id": "han-blue",
-      "deck_count": 23,
-      "meta_share": 0.14375
-    },
-    {
-      "week": "2026-06-22",
-      "archetype_id": "kylo-green",
-      "deck_count": 22,
-      "meta_share": 0.1375
-    },
-    {
-      "week": "2026-06-22",
-      "archetype_id": "sabine-ecl",
-      "deck_count": 17,
-      "meta_share": 0.10625
+      "meta_share": 0.13541666666666666
     },
     {
       "week": "2026-06-22",
       "archetype_id": "iden-red",
-      "deck_count": 14,
-      "meta_share": 0.0875
+      "deck_count": 23,
+      "meta_share": 0.11979166666666667
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "kylo-green",
+      "deck_count": 21,
+      "meta_share": 0.109375
     },
     {
       "week": "2026-06-22",
       "archetype_id": "vader-blue",
-      "deck_count": 14,
-      "meta_share": 0.0875
+      "deck_count": 18,
+      "meta_share": 0.09375
     },
     {
       "week": "2026-06-22",
       "archetype_id": "quinlan-green",
-      "deck_count": 9,
-      "meta_share": 0.05625
+      "deck_count": 11,
+      "meta_share": 0.057291666666666664
     }
   ],
   "trends": [
     {
-      "archetype_id": "iden-red",
-      "recent_decks": 26,
-      "prior_decks": 16,
-      "recent_share": 0.10833333333333334,
-      "prior_share": 0.0625,
-      "share_delta": 0.04583333333333334,
-      "recent_win_rate": 0.4967741935483871,
-      "prior_win_rate": 0.42,
-      "win_rate_delta": 0.0767741935483871
-    },
-    {
       "archetype_id": "leia-red",
-      "recent_decks": 31,
-      "prior_decks": 22,
-      "recent_share": 0.12916666666666668,
-      "prior_share": 0.0859375,
-      "share_delta": 0.04322916666666668,
-      "recent_win_rate": 0.4925373134328358,
-      "prior_win_rate": 0.48872180451127817,
-      "win_rate_delta": 0.003815508921557631
-    },
-    {
-      "archetype_id": "boba-yellow",
-      "recent_decks": 49,
-      "prior_decks": 44,
-      "recent_share": 0.20416666666666666,
-      "prior_share": 0.171875,
-      "share_delta": 0.03229166666666666,
-      "recent_win_rate": 0.5288461538461539,
-      "prior_win_rate": 0.4963768115942029,
-      "win_rate_delta": 0.03246934225195097
-    },
-    {
-      "archetype_id": "vader-blue",
-      "recent_decks": 21,
-      "prior_decks": 20,
-      "recent_share": 0.0875,
-      "prior_share": 0.078125,
-      "share_delta": 0.009374999999999994,
-      "recent_win_rate": 0.49206349206349204,
-      "prior_win_rate": 0.5703125,
-      "win_rate_delta": -0.07824900793650796
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "recent_decks": 21,
-      "prior_decks": 21,
-      "recent_share": 0.0875,
-      "prior_share": 0.08203125,
-      "share_delta": 0.0054687499999999944,
-      "recent_win_rate": 0.48412698412698413,
-      "prior_win_rate": 0.4573643410852713,
-      "win_rate_delta": 0.02676264304171283
+      "recent_decks": 38,
+      "prior_decks": 17,
+      "recent_share": 0.13194444444444445,
+      "prior_share": 0.08173076923076923,
+      "share_delta": 0.050213675213675216,
+      "recent_win_rate": 0.5139442231075697,
+      "prior_win_rate": 0.48514851485148514,
+      "win_rate_delta": 0.028795708256084573
     },
     {
       "archetype_id": "kylo-green",
-      "recent_decks": 26,
-      "prior_decks": 31,
-      "recent_share": 0.10833333333333334,
-      "prior_share": 0.12109375,
-      "share_delta": -0.012760416666666663,
-      "recent_win_rate": 0.4647058823529412,
-      "prior_win_rate": 0.4696969696969697,
-      "win_rate_delta": -0.004991087344028533
+      "recent_decks": 31,
+      "prior_decks": 14,
+      "recent_share": 0.1076388888888889,
+      "prior_share": 0.0673076923076923,
+      "share_delta": 0.04033119658119659,
+      "recent_win_rate": 0.4975609756097561,
+      "prior_win_rate": 0.5063291139240507,
+      "win_rate_delta": -0.008768138314294571
+    },
+    {
+      "archetype_id": "vader-blue",
+      "recent_decks": 23,
+      "prior_decks": 12,
+      "recent_share": 0.0798611111111111,
+      "prior_share": 0.057692307692307696,
+      "share_delta": 0.02216880341880341,
+      "recent_win_rate": 0.5064102564102564,
+      "prior_win_rate": 0.4027777777777778,
+      "win_rate_delta": 0.1036324786324786
     },
     {
       "archetype_id": "han-blue",
-      "recent_decks": 35,
-      "prior_decks": 44,
-      "recent_share": 0.14583333333333334,
-      "prior_share": 0.171875,
-      "share_delta": -0.026041666666666657,
-      "recent_win_rate": 0.4796380090497738,
-      "prior_win_rate": 0.4721189591078067,
-      "win_rate_delta": 0.00751904994196706
+      "recent_decks": 47,
+      "prior_decks": 31,
+      "recent_share": 0.16319444444444445,
+      "prior_share": 0.14903846153846154,
+      "share_delta": 0.014155982905982911,
+      "recent_win_rate": 0.4560260586319218,
+      "prior_win_rate": 0.5737704918032787,
+      "win_rate_delta": -0.11774443317135685
+    },
+    {
+      "archetype_id": "boba-yellow",
+      "recent_decks": 45,
+      "prior_decks": 36,
+      "recent_share": 0.15625,
+      "prior_share": 0.17307692307692307,
+      "share_delta": -0.016826923076923073,
+      "recent_win_rate": 0.5217391304347826,
+      "prior_win_rate": 0.5047619047619047,
+      "win_rate_delta": 0.01697722567287785
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "recent_decks": 20,
+      "prior_decks": 19,
+      "recent_share": 0.06944444444444445,
+      "prior_share": 0.09134615384615384,
+      "share_delta": -0.021901709401709393,
+      "recent_win_rate": 0.4453125,
+      "prior_win_rate": 0.4864864864864865,
+      "win_rate_delta": -0.041173986486486513
+    },
+    {
+      "archetype_id": "iden-red",
+      "recent_decks": 31,
+      "prior_decks": 30,
+      "recent_share": 0.1076388888888889,
+      "prior_share": 0.14423076923076922,
+      "share_delta": -0.03659188034188032,
+      "recent_win_rate": 0.5,
+      "prior_win_rate": 0.4277456647398844,
+      "win_rate_delta": 0.0722543352601156
     },
     {
       "archetype_id": "sabine-ecl",
-      "recent_decks": 31,
-      "prior_decks": 58,
-      "recent_share": 0.12916666666666668,
-      "prior_share": 0.2265625,
-      "share_delta": -0.09739583333333332,
-      "recent_win_rate": 0.533678756476684,
-      "prior_win_rate": 0.555858310626703,
-      "win_rate_delta": -0.022179554150019043
+      "recent_decks": 53,
+      "prior_decks": 49,
+      "recent_share": 0.1840277777777778,
+      "prior_share": 0.23557692307692307,
+      "share_delta": -0.05154914529914528,
+      "recent_win_rate": 0.5295857988165681,
+      "prior_win_rate": 0.5261324041811847,
+      "win_rate_delta": 0.003453394635383411
     }
   ],
   "top_archetypes": [
-    "boba-yellow",
+    "sabine-ecl",
     "han-blue",
-    "leia-red"
+    "boba-yellow"
   ],
   "counter_meta": [
     {
       "archetype_id": "boba-yellow",
-      "overall_win_rate": 0.5136054421768708,
-      "overall_n": 588,
-      "vs_top_win_rate": 0.5433526011560693,
-      "vs_top_n": 173,
+      "overall_win_rate": 0.5147347740667977,
+      "overall_n": 509,
+      "vs_top_win_rate": 0.5310734463276836,
+      "vs_top_n": 177,
       "matchups": {
-        "leia-red": {
-          "win_rate": 0.5128205128205128,
-          "n": 78
-        },
         "han-blue": {
-          "win_rate": 0.5684210526315789,
-          "n": 95
+          "win_rate": 0.5529411764705883,
+          "n": 85
+        },
+        "sabine-ecl": {
+          "win_rate": 0.5108695652173914,
+          "n": 92
         }
       }
     },
     {
       "archetype_id": "vader-blue",
-      "overall_win_rate": 0.531496062992126,
-      "overall_n": 254,
-      "vs_top_win_rate": 0.5309734513274337,
-      "vs_top_n": 113,
+      "overall_win_rate": 0.47368421052631576,
+      "overall_n": 228,
+      "vs_top_win_rate": 0.5042735042735043,
+      "vs_top_n": 117,
       "matchups": {
-        "han-blue": {
-          "win_rate": 0.6,
+        "sabine-ecl": {
+          "win_rate": 0.5,
+          "n": 38
+        },
+        "boba-yellow": {
+          "win_rate": 0.525,
           "n": 40
         },
-        "leia-red": {
-          "win_rate": 0.4074074074074074,
-          "n": 27
-        },
-        "boba-yellow": {
-          "win_rate": 0.5434782608695652,
-          "n": 46
-        }
-      }
-    },
-    {
-      "archetype_id": "iden-red",
-      "overall_win_rate": 0.4666666666666667,
-      "overall_n": 255,
-      "vs_top_win_rate": 0.5277777777777778,
-      "vs_top_n": 108,
-      "matchups": {
         "han-blue": {
-          "win_rate": 0.5227272727272727,
-          "n": 44
-        },
-        "boba-yellow": {
-          "win_rate": 0.5238095238095238,
-          "n": 42
-        },
-        "leia-red": {
-          "win_rate": 0.5454545454545454,
-          "n": 22
-        }
-      }
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "overall_win_rate": 0.47058823529411764,
-      "overall_n": 255,
-      "vs_top_win_rate": 0.5169491525423728,
-      "vs_top_n": 118,
-      "matchups": {
-        "leia-red": {
-          "win_rate": 0.5666666666666667,
-          "n": 30
-        },
-        "han-blue": {
-          "win_rate": 0.55,
-          "n": 40
-        },
-        "boba-yellow": {
-          "win_rate": 0.4583333333333333,
-          "n": 48
+          "win_rate": 0.48717948717948717,
+          "n": 39
         }
       }
     },
     {
       "archetype_id": "sabine-ecl",
-      "overall_win_rate": 0.5482142857142858,
-      "overall_n": 560,
-      "vs_top_win_rate": 0.5043478260869565,
-      "vs_top_n": 230,
+      "overall_win_rate": 0.528,
+      "overall_n": 625,
+      "vs_top_win_rate": 0.49246231155778897,
+      "vs_top_n": 199,
       "matchups": {
-        "leia-red": {
-          "win_rate": 0.49019607843137253,
-          "n": 51
+        "han-blue": {
+          "win_rate": 0.4953271028037383,
+          "n": 107
         },
         "boba-yellow": {
-          "win_rate": 0.5274725274725275,
-          "n": 91
-        },
-        "han-blue": {
-          "win_rate": 0.48863636363636365,
-          "n": 88
+          "win_rate": 0.4891304347826087,
+          "n": 92
         }
       }
     },
     {
       "archetype_id": "kylo-green",
-      "overall_win_rate": 0.4673913043478261,
-      "overall_n": 368,
-      "vs_top_win_rate": 0.4869109947643979,
-      "vs_top_n": 191,
+      "overall_win_rate": 0.5,
+      "overall_n": 284,
+      "vs_top_win_rate": 0.4868421052631579,
+      "vs_top_n": 152,
       "matchups": {
         "han-blue": {
-          "win_rate": 0.5384615384615384,
-          "n": 65
+          "win_rate": 0.625,
+          "n": 40
+        },
+        "sabine-ecl": {
+          "win_rate": 0.4838709677419355,
+          "n": 62
         },
         "boba-yellow": {
-          "win_rate": 0.45,
-          "n": 80
-        },
-        "leia-red": {
-          "win_rate": 0.4782608695652174,
-          "n": 46
-        }
-      }
-    },
-    {
-      "archetype_id": "han-blue",
-      "overall_win_rate": 0.47551020408163264,
-      "overall_n": 490,
-      "vs_top_win_rate": 0.4748201438848921,
-      "vs_top_n": 139,
-      "matchups": {
-        "leia-red": {
-          "win_rate": 0.5681818181818182,
-          "n": 44
-        },
-        "boba-yellow": {
-          "win_rate": 0.43157894736842106,
-          "n": 95
+          "win_rate": 0.38,
+          "n": 50
         }
       }
     },
     {
       "archetype_id": "leia-red",
-      "overall_win_rate": 0.49101796407185627,
-      "overall_n": 334,
-      "vs_top_win_rate": 0.4672131147540984,
+      "overall_win_rate": 0.5056818181818182,
+      "overall_n": 352,
+      "vs_top_win_rate": 0.48044692737430167,
+      "vs_top_n": 179,
+      "matchups": {
+        "sabine-ecl": {
+          "win_rate": 0.4126984126984127,
+          "n": 63
+        },
+        "boba-yellow": {
+          "win_rate": 0.5238095238095238,
+          "n": 63
+        },
+        "han-blue": {
+          "win_rate": 0.5094339622641509,
+          "n": 53
+        }
+      }
+    },
+    {
+      "archetype_id": "han-blue",
+      "overall_win_rate": 0.5,
+      "overall_n": 490,
+      "vs_top_win_rate": 0.4791666666666667,
+      "vs_top_n": 192,
+      "matchups": {
+        "boba-yellow": {
+          "win_rate": 0.4470588235294118,
+          "n": 85
+        },
+        "sabine-ecl": {
+          "win_rate": 0.5046728971962616,
+          "n": 107
+        }
+      }
+    },
+    {
+      "archetype_id": "iden-red",
+      "overall_win_rate": 0.46684350132625996,
+      "overall_n": 377,
+      "vs_top_win_rate": 0.4421052631578947,
+      "vs_top_n": 190,
+      "matchups": {
+        "han-blue": {
+          "win_rate": 0.40816326530612246,
+          "n": 49
+        },
+        "sabine-ecl": {
+          "win_rate": 0.43209876543209874,
+          "n": 81
+        },
+        "boba-yellow": {
+          "win_rate": 0.48333333333333334,
+          "n": 60
+        }
+      }
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "overall_win_rate": 0.46443514644351463,
+      "overall_n": 239,
+      "vs_top_win_rate": 0.4262295081967213,
       "vs_top_n": 122,
       "matchups": {
         "boba-yellow": {
-          "win_rate": 0.48717948717948717,
-          "n": 78
+          "win_rate": 0.5510204081632653,
+          "n": 49
+        },
+        "sabine-ecl": {
+          "win_rate": 0.3333333333333333,
+          "n": 42
         },
         "han-blue": {
-          "win_rate": 0.4318181818181818,
-          "n": 44
+          "win_rate": 0.3548387096774194,
+          "n": 31
         }
       }
     }
@@ -977,2240 +977,1540 @@
     {
       "archetype_id": "boba-yellow",
       "card_id": "C016",
-      "recent_rate": 0.7959183673469388,
-      "prior_rate": 0.5681818181818182,
-      "rate_delta": 0.22773654916512054
+      "recent_rate": 0.8222222222222222,
+      "prior_rate": 0.5,
+      "rate_delta": 0.3222222222222222
     },
     {
       "archetype_id": "boba-yellow",
-      "card_id": "C017",
-      "recent_rate": 0.6122448979591837,
-      "prior_rate": 0.38636363636363635,
-      "rate_delta": 0.22588126159554733
-    },
-    {
-      "archetype_id": "boba-yellow",
-      "card_id": "C002",
-      "recent_rate": 0.6326530612244898,
-      "prior_rate": 0.4772727272727273,
-      "rate_delta": 0.15538033395176254
+      "card_id": "C001",
+      "recent_rate": 0.8,
+      "prior_rate": 0.5555555555555556,
+      "rate_delta": 0.24444444444444446
     },
     {
       "archetype_id": "boba-yellow",
       "card_id": "C018",
-      "recent_rate": 0.30612244897959184,
-      "prior_rate": 0.4318181818181818,
-      "rate_delta": -0.12569573283858998
-    },
-    {
-      "archetype_id": "boba-yellow",
-      "card_id": "C019",
-      "recent_rate": 0.42857142857142855,
-      "prior_rate": 0.5454545454545454,
-      "rate_delta": -0.11688311688311687
-    },
-    {
-      "archetype_id": "boba-yellow",
-      "card_id": "C001",
-      "recent_rate": 0.7346938775510204,
-      "prior_rate": 0.6818181818181818,
-      "rate_delta": 0.05287569573283868
+      "recent_rate": 0.2,
+      "prior_rate": 0.4166666666666667,
+      "rate_delta": -0.21666666666666667
     },
     {
       "archetype_id": "boba-yellow",
       "card_id": "C015",
-      "recent_rate": 0.9795918367346939,
-      "prior_rate": 0.9318181818181818,
-      "rate_delta": 0.04777365491651209
+      "recent_rate": 0.8444444444444444,
+      "prior_rate": 0.9722222222222222,
+      "rate_delta": -0.12777777777777777
     },
     {
       "archetype_id": "boba-yellow",
-      "card_id": "C020",
-      "recent_rate": 0.4897959183673469,
-      "prior_rate": 0.45454545454545453,
-      "rate_delta": 0.0352504638218924
+      "card_id": "C017",
+      "recent_rate": 0.6222222222222222,
+      "prior_rate": 0.5277777777777778,
+      "rate_delta": 0.09444444444444444
     },
     {
       "archetype_id": "boba-yellow",
-      "card_id": "C014",
-      "recent_rate": 0.9591836734693877,
-      "prior_rate": 0.9318181818181818,
-      "rate_delta": 0.027365491651205942
-    },
-    {
-      "archetype_id": "boba-yellow",
-      "card_id": "C012",
-      "recent_rate": 0.8979591836734694,
-      "prior_rate": 0.8863636363636364,
-      "rate_delta": 0.011595547309833032
+      "card_id": "C002",
+      "recent_rate": 0.5777777777777777,
+      "prior_rate": 0.6388888888888888,
+      "rate_delta": -0.061111111111111116
     },
     {
       "archetype_id": "boba-yellow",
       "card_id": "C013",
-      "recent_rate": 0.9387755102040817,
-      "prior_rate": 0.9318181818181818,
-      "rate_delta": 0.006957328385899908
+      "recent_rate": 0.8888888888888888,
+      "prior_rate": 0.9444444444444444,
+      "rate_delta": -0.05555555555555558
+    },
+    {
+      "archetype_id": "boba-yellow",
+      "card_id": "C020",
+      "recent_rate": 0.4222222222222222,
+      "prior_rate": 0.4722222222222222,
+      "rate_delta": -0.04999999999999999
+    },
+    {
+      "archetype_id": "boba-yellow",
+      "card_id": "C014",
+      "recent_rate": 0.8444444444444444,
+      "prior_rate": 0.8888888888888888,
+      "rate_delta": -0.0444444444444444
+    },
+    {
+      "archetype_id": "boba-yellow",
+      "card_id": "C019",
+      "recent_rate": 0.35555555555555557,
+      "prior_rate": 0.3888888888888889,
+      "rate_delta": -0.033333333333333326
+    },
+    {
+      "archetype_id": "boba-yellow",
+      "card_id": "C012",
+      "recent_rate": 0.8888888888888888,
+      "prior_rate": 0.8611111111111112,
+      "rate_delta": 0.02777777777777768
     },
     {
       "archetype_id": "han-blue",
       "card_id": "C025",
-      "recent_rate": 0.7142857142857143,
-      "prior_rate": 0.4772727272727273,
-      "rate_delta": 0.237012987012987
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C026",
-      "recent_rate": 0.6285714285714286,
-      "prior_rate": 0.4090909090909091,
-      "rate_delta": 0.21948051948051944
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C002",
-      "recent_rate": 0.6285714285714286,
-      "prior_rate": 0.7954545454545454,
-      "rate_delta": -0.16688311688311686
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C029",
-      "recent_rate": 0.5142857142857142,
-      "prior_rate": 0.38636363636363635,
-      "rate_delta": 0.12792207792207788
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C027",
-      "recent_rate": 0.42857142857142855,
-      "prior_rate": 0.3409090909090909,
-      "rate_delta": 0.08766233766233766
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C001",
-      "recent_rate": 0.7142857142857143,
-      "prior_rate": 0.6363636363636364,
-      "rate_delta": 0.07792207792207795
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C023",
-      "recent_rate": 0.9428571428571428,
-      "prior_rate": 0.8863636363636364,
-      "rate_delta": 0.056493506493506485
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C021",
-      "recent_rate": 0.9428571428571428,
-      "prior_rate": 0.9090909090909091,
-      "rate_delta": 0.03376623376623378
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C022",
-      "recent_rate": 0.9428571428571428,
-      "prior_rate": 0.9090909090909091,
-      "rate_delta": 0.03376623376623378
-    },
-    {
-      "archetype_id": "han-blue",
-      "card_id": "C024",
-      "recent_rate": 0.8857142857142857,
-      "prior_rate": 0.9090909090909091,
-      "rate_delta": -0.023376623376623384
+      "recent_rate": 0.851063829787234,
+      "prior_rate": 0.5483870967741935,
+      "rate_delta": 0.30267673301304054
     },
     {
       "archetype_id": "han-blue",
       "card_id": "C028",
-      "recent_rate": 0.4,
-      "prior_rate": 0.38636363636363635,
-      "rate_delta": 0.013636363636363669
+      "recent_rate": 0.2553191489361702,
+      "prior_rate": 0.5483870967741935,
+      "rate_delta": -0.2930679478380233
     },
     {
-      "archetype_id": "iden-red",
-      "card_id": "C036",
-      "recent_rate": 0.2692307692307692,
-      "prior_rate": 0.625,
-      "rate_delta": -0.3557692307692308
+      "archetype_id": "han-blue",
+      "card_id": "C026",
+      "recent_rate": 0.46808510638297873,
+      "prior_rate": 0.22580645161290322,
+      "rate_delta": 0.2422786547700755
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C027",
+      "recent_rate": 0.2765957446808511,
+      "prior_rate": 0.5161290322580645,
+      "rate_delta": -0.23953328757721343
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C001",
+      "recent_rate": 0.7446808510638298,
+      "prior_rate": 0.6451612903225806,
+      "rate_delta": 0.09951956074124912
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C029",
+      "recent_rate": 0.425531914893617,
+      "prior_rate": 0.5161290322580645,
+      "rate_delta": -0.09059711736444748
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C023",
+      "recent_rate": 0.9148936170212766,
+      "prior_rate": 1.0,
+      "rate_delta": -0.08510638297872342
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C002",
+      "recent_rate": 0.723404255319149,
+      "prior_rate": 0.6451612903225806,
+      "rate_delta": 0.07824296499656835
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C022",
+      "recent_rate": 0.9361702127659575,
+      "prior_rate": 0.8709677419354839,
+      "rate_delta": 0.06520247083047359
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C021",
+      "recent_rate": 0.9148936170212766,
+      "prior_rate": 0.9354838709677419,
+      "rate_delta": -0.020590253946465298
+    },
+    {
+      "archetype_id": "han-blue",
+      "card_id": "C024",
+      "recent_rate": 0.8936170212765957,
+      "prior_rate": 0.9032258064516129,
+      "rate_delta": -0.009608785175017176
     },
     {
       "archetype_id": "iden-red",
       "card_id": "C034",
-      "recent_rate": 0.6538461538461539,
-      "prior_rate": 0.4375,
-      "rate_delta": 0.21634615384615385
-    },
-    {
-      "archetype_id": "iden-red",
-      "card_id": "C038",
-      "recent_rate": 0.4230769230769231,
-      "prior_rate": 0.625,
-      "rate_delta": -0.20192307692307693
-    },
-    {
-      "archetype_id": "iden-red",
-      "card_id": "C031",
-      "recent_rate": 1.0,
-      "prior_rate": 0.8125,
-      "rate_delta": 0.1875
+      "recent_rate": 0.8064516129032258,
+      "prior_rate": 0.5,
+      "rate_delta": 0.30645161290322576
     },
     {
       "archetype_id": "iden-red",
       "card_id": "C035",
-      "recent_rate": 0.5384615384615384,
-      "prior_rate": 0.375,
-      "rate_delta": 0.16346153846153844
+      "recent_rate": 0.5161290322580645,
+      "prior_rate": 0.23333333333333334,
+      "rate_delta": 0.28279569892473116
     },
     {
       "archetype_id": "iden-red",
-      "card_id": "C037",
-      "recent_rate": 0.46153846153846156,
-      "prior_rate": 0.5625,
-      "rate_delta": -0.10096153846153844
+      "card_id": "C036",
+      "recent_rate": 0.3225806451612903,
+      "prior_rate": 0.5,
+      "rate_delta": -0.1774193548387097
     },
     {
       "archetype_id": "iden-red",
-      "card_id": "C030",
-      "recent_rate": 0.8461538461538461,
-      "prior_rate": 0.9375,
-      "rate_delta": -0.09134615384615385
+      "card_id": "C001",
+      "recent_rate": 0.6129032258064516,
+      "prior_rate": 0.4666666666666667,
+      "rate_delta": 0.14623655913978495
     },
     {
       "archetype_id": "iden-red",
       "card_id": "C002",
-      "recent_rate": 0.5384615384615384,
-      "prior_rate": 0.625,
-      "rate_delta": -0.08653846153846156
+      "recent_rate": 0.6774193548387096,
+      "prior_rate": 0.5333333333333333,
+      "rate_delta": 0.1440860215053763
+    },
+    {
+      "archetype_id": "iden-red",
+      "card_id": "C038",
+      "recent_rate": 0.5161290322580645,
+      "prior_rate": 0.4,
+      "rate_delta": 0.11612903225806448
+    },
+    {
+      "archetype_id": "iden-red",
+      "card_id": "C031",
+      "recent_rate": 0.967741935483871,
+      "prior_rate": 0.8666666666666667,
+      "rate_delta": 0.1010752688172043
     },
     {
       "archetype_id": "iden-red",
       "card_id": "C032",
-      "recent_rate": 1.0,
-      "prior_rate": 0.9375,
-      "rate_delta": 0.0625
+      "recent_rate": 0.9354838709677419,
+      "prior_rate": 0.8666666666666667,
+      "rate_delta": 0.06881720430107519
+    },
+    {
+      "archetype_id": "iden-red",
+      "card_id": "C030",
+      "recent_rate": 0.9032258064516129,
+      "prior_rate": 0.9666666666666667,
+      "rate_delta": -0.0634408602150538
+    },
+    {
+      "archetype_id": "iden-red",
+      "card_id": "C037",
+      "recent_rate": 0.3870967741935484,
+      "prior_rate": 0.43333333333333335,
+      "rate_delta": -0.04623655913978497
     },
     {
       "archetype_id": "iden-red",
       "card_id": "C033",
-      "recent_rate": 0.9615384615384616,
-      "prior_rate": 0.9375,
-      "rate_delta": 0.024038461538461564
-    },
-    {
-      "archetype_id": "iden-red",
-      "card_id": "C001",
-      "recent_rate": 0.5769230769230769,
-      "prior_rate": 0.5625,
-      "rate_delta": 0.014423076923076872
-    },
-    {
-      "archetype_id": "kylo-green",
-      "card_id": "C043",
-      "recent_rate": 0.6923076923076923,
-      "prior_rate": 0.2903225806451613,
-      "rate_delta": 0.401985111662531
+      "recent_rate": 0.8709677419354839,
+      "prior_rate": 0.9,
+      "rate_delta": -0.029032258064516148
     },
     {
       "archetype_id": "kylo-green",
       "card_id": "C044",
-      "recent_rate": 0.46153846153846156,
-      "prior_rate": 0.16129032258064516,
-      "rate_delta": 0.30024813895781644
+      "recent_rate": 0.7096774193548387,
+      "prior_rate": 0.35714285714285715,
+      "rate_delta": 0.3525345622119816
     },
     {
       "archetype_id": "kylo-green",
-      "card_id": "C002",
-      "recent_rate": 0.46153846153846156,
-      "prior_rate": 0.6774193548387096,
-      "rate_delta": -0.21588089330024807
-    },
-    {
-      "archetype_id": "kylo-green",
-      "card_id": "C046",
-      "recent_rate": 0.2692307692307692,
-      "prior_rate": 0.4838709677419355,
-      "rate_delta": -0.21464019851116628
-    },
-    {
-      "archetype_id": "kylo-green",
-      "card_id": "C001",
-      "recent_rate": 0.46153846153846156,
-      "prior_rate": 0.6129032258064516,
-      "rate_delta": -0.15136476426799006
-    },
-    {
-      "archetype_id": "kylo-green",
-      "card_id": "C039",
-      "recent_rate": 0.9230769230769231,
-      "prior_rate": 0.7741935483870968,
-      "rate_delta": 0.14888337468982638
-    },
-    {
-      "archetype_id": "kylo-green",
-      "card_id": "C045",
-      "recent_rate": 0.4230769230769231,
-      "prior_rate": 0.3225806451612903,
-      "rate_delta": 0.10049627791563276
-    },
-    {
-      "archetype_id": "kylo-green",
-      "card_id": "C042",
-      "recent_rate": 0.9230769230769231,
-      "prior_rate": 0.8387096774193549,
-      "rate_delta": 0.08436724565756826
+      "card_id": "C043",
+      "recent_rate": 0.8387096774193549,
+      "prior_rate": 0.6428571428571429,
+      "rate_delta": 0.19585253456221197
     },
     {
       "archetype_id": "kylo-green",
       "card_id": "C040",
-      "recent_rate": 0.9230769230769231,
-      "prior_rate": 0.967741935483871,
-      "rate_delta": -0.04466501240694787
+      "recent_rate": 0.967741935483871,
+      "prior_rate": 0.8571428571428571,
+      "rate_delta": 0.1105990783410139
+    },
+    {
+      "archetype_id": "kylo-green",
+      "card_id": "C046",
+      "recent_rate": 0.3870967741935484,
+      "prior_rate": 0.2857142857142857,
+      "rate_delta": 0.10138248847926268
+    },
+    {
+      "archetype_id": "kylo-green",
+      "card_id": "C002",
+      "recent_rate": 0.6451612903225806,
+      "prior_rate": 0.7142857142857143,
+      "rate_delta": -0.06912442396313367
+    },
+    {
+      "archetype_id": "kylo-green",
+      "card_id": "C045",
+      "recent_rate": 0.2903225806451613,
+      "prior_rate": 0.35714285714285715,
+      "rate_delta": -0.06682027649769584
+    },
+    {
+      "archetype_id": "kylo-green",
+      "card_id": "C001",
+      "recent_rate": 0.7741935483870968,
+      "prior_rate": 0.7142857142857143,
+      "rate_delta": 0.05990783410138245
     },
     {
       "archetype_id": "kylo-green",
       "card_id": "C047",
-      "recent_rate": 0.5384615384615384,
-      "prior_rate": 0.5161290322580645,
-      "rate_delta": 0.022332506203473934
+      "recent_rate": 0.5483870967741935,
+      "prior_rate": 0.5,
+      "rate_delta": 0.048387096774193505
+    },
+    {
+      "archetype_id": "kylo-green",
+      "card_id": "C042",
+      "recent_rate": 0.9032258064516129,
+      "prior_rate": 0.8571428571428571,
+      "rate_delta": 0.04608294930875578
+    },
+    {
+      "archetype_id": "kylo-green",
+      "card_id": "C039",
+      "recent_rate": 0.967741935483871,
+      "prior_rate": 1.0,
+      "rate_delta": -0.032258064516129004
     },
     {
       "archetype_id": "kylo-green",
       "card_id": "C041",
-      "recent_rate": 0.9230769230769231,
-      "prior_rate": 0.9032258064516129,
-      "rate_delta": 0.01985111662531025
-    },
-    {
-      "archetype_id": "leia-red",
-      "card_id": "C063",
-      "recent_rate": 0.1935483870967742,
-      "prior_rate": 0.6363636363636364,
-      "rate_delta": -0.44281524926686217
-    },
-    {
-      "archetype_id": "leia-red",
-      "card_id": "C065",
-      "recent_rate": 0.41935483870967744,
-      "prior_rate": 0.7272727272727273,
-      "rate_delta": -0.30791788856304986
+      "recent_rate": 0.967741935483871,
+      "prior_rate": 1.0,
+      "rate_delta": -0.032258064516129004
     },
     {
       "archetype_id": "leia-red",
       "card_id": "C061",
-      "recent_rate": 0.7096774193548387,
-      "prior_rate": 0.5,
-      "rate_delta": 0.20967741935483875
+      "recent_rate": 0.8157894736842105,
+      "prior_rate": 0.5294117647058824,
+      "rate_delta": 0.28637770897832815
     },
     {
       "archetype_id": "leia-red",
-      "card_id": "C062",
-      "recent_rate": 0.6451612903225806,
-      "prior_rate": 0.45454545454545453,
-      "rate_delta": 0.1906158357771261
+      "card_id": "C063",
+      "recent_rate": 0.18421052631578946,
+      "prior_rate": 0.35294117647058826,
+      "rate_delta": -0.1687306501547988
     },
     {
       "archetype_id": "leia-red",
-      "card_id": "C001",
-      "recent_rate": 0.6451612903225806,
-      "prior_rate": 0.7272727272727273,
-      "rate_delta": -0.08211143695014667
-    },
-    {
-      "archetype_id": "leia-red",
-      "card_id": "C058",
-      "recent_rate": 0.8387096774193549,
-      "prior_rate": 0.9090909090909091,
-      "rate_delta": -0.07038123167155419
+      "card_id": "C002",
+      "recent_rate": 0.631578947368421,
+      "prior_rate": 0.7647058823529411,
+      "rate_delta": -0.1331269349845201
     },
     {
       "archetype_id": "leia-red",
       "card_id": "C064",
-      "recent_rate": 0.4838709677419355,
-      "prior_rate": 0.45454545454545453,
-      "rate_delta": 0.029325513196480968
+      "recent_rate": 0.42105263157894735,
+      "prior_rate": 0.29411764705882354,
+      "rate_delta": 0.1269349845201238
+    },
+    {
+      "archetype_id": "leia-red",
+      "card_id": "C001",
+      "recent_rate": 0.6842105263157895,
+      "prior_rate": 0.5882352941176471,
+      "rate_delta": 0.09597523219814241
+    },
+    {
+      "archetype_id": "leia-red",
+      "card_id": "C062",
+      "recent_rate": 0.5526315789473685,
+      "prior_rate": 0.47058823529411764,
+      "rate_delta": 0.08204334365325083
+    },
+    {
+      "archetype_id": "leia-red",
+      "card_id": "C058",
+      "recent_rate": 0.8947368421052632,
+      "prior_rate": 0.8235294117647058,
+      "rate_delta": 0.07120743034055732
     },
     {
       "archetype_id": "leia-red",
       "card_id": "C057",
-      "recent_rate": 0.8387096774193549,
-      "prior_rate": 0.8636363636363636,
-      "rate_delta": -0.024926686217008776
-    },
-    {
-      "archetype_id": "leia-red",
-      "card_id": "C060",
-      "recent_rate": 0.967741935483871,
-      "prior_rate": 0.9545454545454546,
-      "rate_delta": 0.01319648093841641
-    },
-    {
-      "archetype_id": "leia-red",
-      "card_id": "C002",
-      "recent_rate": 0.8064516129032258,
-      "prior_rate": 0.8181818181818182,
-      "rate_delta": -0.011730205278592476
+      "recent_rate": 0.9473684210526315,
+      "prior_rate": 0.8823529411764706,
+      "rate_delta": 0.06501547987616096
     },
     {
       "archetype_id": "leia-red",
       "card_id": "C059",
-      "recent_rate": 0.8709677419354839,
-      "prior_rate": 0.8636363636363636,
-      "rate_delta": 0.007331378299120228
+      "recent_rate": 0.9736842105263158,
+      "prior_rate": 0.9411764705882353,
+      "rate_delta": 0.03250773993808054
     },
     {
-      "archetype_id": "quinlan-green",
-      "card_id": "C053",
-      "recent_rate": 0.6190476190476191,
-      "prior_rate": 0.23809523809523808,
-      "rate_delta": 0.380952380952381
+      "archetype_id": "leia-red",
+      "card_id": "C060",
+      "recent_rate": 0.9473684210526315,
+      "prior_rate": 0.9411764705882353,
+      "rate_delta": 0.006191950464396245
     },
     {
-      "archetype_id": "quinlan-green",
-      "card_id": "C052",
-      "recent_rate": 0.6666666666666666,
-      "prior_rate": 0.3333333333333333,
-      "rate_delta": 0.3333333333333333
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "card_id": "C055",
-      "recent_rate": 0.3333333333333333,
-      "prior_rate": 0.5714285714285714,
-      "rate_delta": -0.23809523809523808
+      "archetype_id": "leia-red",
+      "card_id": "C065",
+      "recent_rate": 0.47368421052631576,
+      "prior_rate": 0.47058823529411764,
+      "rate_delta": 0.0030959752321981227
     },
     {
       "archetype_id": "quinlan-green",
       "card_id": "C054",
-      "recent_rate": 0.3333333333333333,
-      "prior_rate": 0.5238095238095238,
-      "rate_delta": -0.19047619047619052
+      "recent_rate": 0.25,
+      "prior_rate": 0.6842105263157895,
+      "rate_delta": -0.4342105263157895
     },
     {
       "archetype_id": "quinlan-green",
       "card_id": "C001",
-      "recent_rate": 0.8095238095238095,
-      "prior_rate": 0.6190476190476191,
-      "rate_delta": 0.19047619047619047
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "card_id": "C048",
-      "recent_rate": 0.9523809523809523,
-      "prior_rate": 0.8571428571428571,
-      "rate_delta": 0.09523809523809523
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "card_id": "C049",
-      "recent_rate": 0.9523809523809523,
-      "prior_rate": 1.0,
-      "rate_delta": -0.04761904761904767
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "card_id": "C050",
-      "recent_rate": 0.9047619047619048,
-      "prior_rate": 0.8571428571428571,
-      "rate_delta": 0.04761904761904767
-    },
-    {
-      "archetype_id": "quinlan-green",
-      "card_id": "C051",
-      "recent_rate": 0.9523809523809523,
-      "prior_rate": 0.9047619047619048,
-      "rate_delta": 0.04761904761904756
+      "recent_rate": 0.35,
+      "prior_rate": 0.7368421052631579,
+      "rate_delta": -0.3868421052631579
     },
     {
       "archetype_id": "quinlan-green",
       "card_id": "C056",
-      "recent_rate": 0.5238095238095238,
-      "prior_rate": 0.5714285714285714,
-      "rate_delta": -0.04761904761904756
+      "recent_rate": 0.3,
+      "prior_rate": 0.631578947368421,
+      "rate_delta": -0.33157894736842103
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "card_id": "C052",
+      "recent_rate": 0.75,
+      "prior_rate": 0.5263157894736842,
+      "rate_delta": 0.22368421052631582
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "card_id": "C053",
+      "recent_rate": 0.65,
+      "prior_rate": 0.47368421052631576,
+      "rate_delta": 0.17631578947368426
     },
     {
       "archetype_id": "quinlan-green",
       "card_id": "C002",
-      "recent_rate": 0.6666666666666666,
-      "prior_rate": 0.6190476190476191,
-      "rate_delta": 0.04761904761904756
+      "recent_rate": 0.55,
+      "prior_rate": 0.6842105263157895,
+      "rate_delta": -0.13421052631578945
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "card_id": "C050",
+      "recent_rate": 1.0,
+      "prior_rate": 0.8947368421052632,
+      "rate_delta": 0.10526315789473684
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "card_id": "C049",
+      "recent_rate": 0.9,
+      "prior_rate": 0.9473684210526315,
+      "rate_delta": -0.047368421052631504
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "card_id": "C055",
+      "recent_rate": 0.4,
+      "prior_rate": 0.42105263157894735,
+      "rate_delta": -0.021052631578947323
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "card_id": "C048",
+      "recent_rate": 0.95,
+      "prior_rate": 0.9473684210526315,
+      "rate_delta": 0.0026315789473684292
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "card_id": "C051",
+      "recent_rate": 0.95,
+      "prior_rate": 0.9473684210526315,
+      "rate_delta": 0.0026315789473684292
     },
     {
       "archetype_id": "sabine-ecl",
       "card_id": "C007",
-      "recent_rate": 0.7096774193548387,
-      "prior_rate": 0.3793103448275862,
-      "rate_delta": 0.33036707452725256
+      "recent_rate": 0.7547169811320755,
+      "prior_rate": 0.32653061224489793,
+      "rate_delta": 0.4281863688871776
     },
     {
       "archetype_id": "sabine-ecl",
       "card_id": "C009",
-      "recent_rate": 0.25806451612903225,
-      "prior_rate": 0.5,
-      "rate_delta": -0.24193548387096775
-    },
-    {
-      "archetype_id": "sabine-ecl",
-      "card_id": "C008",
-      "recent_rate": 0.6774193548387096,
-      "prior_rate": 0.5,
-      "rate_delta": 0.17741935483870963
-    },
-    {
-      "archetype_id": "sabine-ecl",
-      "card_id": "C005",
-      "recent_rate": 0.8064516129032258,
-      "prior_rate": 0.9137931034482759,
-      "rate_delta": -0.10734149054505016
-    },
-    {
-      "archetype_id": "sabine-ecl",
-      "card_id": "C011",
-      "recent_rate": 0.45161290322580644,
-      "prior_rate": 0.5517241379310345,
-      "rate_delta": -0.10011123470522804
-    },
-    {
-      "archetype_id": "sabine-ecl",
-      "card_id": "C006",
-      "recent_rate": 1.0,
-      "prior_rate": 0.9310344827586207,
-      "rate_delta": 0.06896551724137934
+      "recent_rate": 0.24528301886792453,
+      "prior_rate": 0.6122448979591837,
+      "rate_delta": -0.36696187909125916
     },
     {
       "archetype_id": "sabine-ecl",
       "card_id": "C010",
-      "recent_rate": 0.41935483870967744,
-      "prior_rate": 0.4827586206896552,
-      "rate_delta": -0.06340378197997776
-    },
-    {
-      "archetype_id": "sabine-ecl",
-      "card_id": "C001",
-      "recent_rate": 0.6451612903225806,
-      "prior_rate": 0.7068965517241379,
-      "rate_delta": -0.06173526140155727
-    },
-    {
-      "archetype_id": "sabine-ecl",
-      "card_id": "C002",
-      "recent_rate": 0.6774193548387096,
-      "prior_rate": 0.7241379310344828,
-      "rate_delta": -0.04671857619577313
-    },
-    {
-      "archetype_id": "sabine-ecl",
-      "card_id": "C003",
-      "recent_rate": 0.9354838709677419,
-      "prior_rate": 0.9482758620689655,
-      "rate_delta": -0.012791991101223643
+      "recent_rate": 0.2830188679245283,
+      "prior_rate": 0.5918367346938775,
+      "rate_delta": -0.30881786676934925
     },
     {
       "archetype_id": "sabine-ecl",
       "card_id": "C004",
-      "recent_rate": 0.9032258064516129,
-      "prior_rate": 0.9137931034482759,
-      "rate_delta": -0.010567296996663034
+      "recent_rate": 0.9622641509433962,
+      "prior_rate": 0.8775510204081632,
+      "rate_delta": 0.084713130535233
     },
     {
-      "archetype_id": "vader-blue",
-      "card_id": "C073",
-      "recent_rate": 0.38095238095238093,
-      "prior_rate": 0.65,
-      "rate_delta": -0.2690476190476191
+      "archetype_id": "sabine-ecl",
+      "card_id": "C008",
+      "recent_rate": 0.49056603773584906,
+      "prior_rate": 0.42857142857142855,
+      "rate_delta": 0.06199460916442051
     },
     {
-      "archetype_id": "vader-blue",
-      "card_id": "C072",
-      "recent_rate": 0.23809523809523808,
-      "prior_rate": 0.5,
-      "rate_delta": -0.2619047619047619
+      "archetype_id": "sabine-ecl",
+      "card_id": "C003",
+      "recent_rate": 0.9245283018867925,
+      "prior_rate": 0.9795918367346939,
+      "rate_delta": -0.055063534847901385
     },
     {
-      "archetype_id": "vader-blue",
+      "archetype_id": "sabine-ecl",
+      "card_id": "C006",
+      "recent_rate": 0.9056603773584906,
+      "prior_rate": 0.9591836734693877,
+      "rate_delta": -0.05352329611089712
+    },
+    {
+      "archetype_id": "sabine-ecl",
+      "card_id": "C005",
+      "recent_rate": 0.8867924528301887,
+      "prior_rate": 0.9183673469387755,
+      "rate_delta": -0.031574894108586826
+    },
+    {
+      "archetype_id": "sabine-ecl",
       "card_id": "C002",
-      "recent_rate": 0.7619047619047619,
-      "prior_rate": 0.5,
-      "rate_delta": 0.26190476190476186
+      "recent_rate": 0.660377358490566,
+      "prior_rate": 0.6326530612244898,
+      "rate_delta": 0.02772429726607617
     },
     {
-      "archetype_id": "vader-blue",
-      "card_id": "C071",
-      "recent_rate": 0.5714285714285714,
-      "prior_rate": 0.35,
-      "rate_delta": 0.22142857142857142
+      "archetype_id": "sabine-ecl",
+      "card_id": "C011",
+      "recent_rate": 0.4716981132075472,
+      "prior_rate": 0.4489795918367347,
+      "rate_delta": 0.022718521370812483
+    },
+    {
+      "archetype_id": "sabine-ecl",
+      "card_id": "C001",
+      "recent_rate": 0.6792452830188679,
+      "prior_rate": 0.6938775510204082,
+      "rate_delta": -0.014632268001540272
     },
     {
       "archetype_id": "vader-blue",
       "card_id": "C070",
-      "recent_rate": 0.7142857142857143,
-      "prior_rate": 0.55,
-      "rate_delta": 0.16428571428571426
+      "recent_rate": 0.8260869565217391,
+      "prior_rate": 0.5833333333333334,
+      "rate_delta": 0.24275362318840576
     },
     {
       "archetype_id": "vader-blue",
-      "card_id": "C074",
-      "recent_rate": 0.6190476190476191,
+      "card_id": "C072",
+      "recent_rate": 0.2608695652173913,
       "prior_rate": 0.5,
-      "rate_delta": 0.11904761904761907
+      "rate_delta": -0.2391304347826087
     },
     {
       "archetype_id": "vader-blue",
-      "card_id": "C001",
-      "recent_rate": 0.7142857142857143,
-      "prior_rate": 0.8,
-      "rate_delta": -0.08571428571428574
+      "card_id": "C002",
+      "recent_rate": 0.7391304347826086,
+      "prior_rate": 0.5,
+      "rate_delta": 0.23913043478260865
     },
     {
       "archetype_id": "vader-blue",
-      "card_id": "C066",
-      "recent_rate": 1.0,
-      "prior_rate": 0.95,
-      "rate_delta": 0.050000000000000044
+      "card_id": "C073",
+      "recent_rate": 0.17391304347826086,
+      "prior_rate": 0.3333333333333333,
+      "rate_delta": -0.15942028985507245
     },
     {
       "archetype_id": "vader-blue",
-      "card_id": "C067",
-      "recent_rate": 1.0,
-      "prior_rate": 0.95,
-      "rate_delta": 0.050000000000000044
-    },
-    {
-      "archetype_id": "vader-blue",
-      "card_id": "C068",
-      "recent_rate": 0.9047619047619048,
-      "prior_rate": 0.95,
-      "rate_delta": -0.04523809523809519
+      "card_id": "C071",
+      "recent_rate": 0.6086956521739131,
+      "prior_rate": 0.5,
+      "rate_delta": 0.10869565217391308
     },
     {
       "archetype_id": "vader-blue",
       "card_id": "C069",
-      "recent_rate": 0.9523809523809523,
-      "prior_rate": 0.95,
-      "rate_delta": 0.0023809523809523725
+      "recent_rate": 0.9130434782608695,
+      "prior_rate": 1.0,
+      "rate_delta": -0.08695652173913049
+    },
+    {
+      "archetype_id": "vader-blue",
+      "card_id": "C068",
+      "recent_rate": 1.0,
+      "prior_rate": 0.9166666666666666,
+      "rate_delta": 0.08333333333333337
+    },
+    {
+      "archetype_id": "vader-blue",
+      "card_id": "C001",
+      "recent_rate": 0.6086956521739131,
+      "prior_rate": 0.6666666666666666,
+      "rate_delta": -0.05797101449275355
+    },
+    {
+      "archetype_id": "vader-blue",
+      "card_id": "C066",
+      "recent_rate": 0.9565217391304348,
+      "prior_rate": 0.9166666666666666,
+      "rate_delta": 0.03985507246376818
+    },
+    {
+      "archetype_id": "vader-blue",
+      "card_id": "C074",
+      "recent_rate": 0.5217391304347826,
+      "prior_rate": 0.5,
+      "rate_delta": 0.021739130434782594
+    },
+    {
+      "archetype_id": "vader-blue",
+      "card_id": "C067",
+      "recent_rate": 0.9130434782608695,
+      "prior_rate": 0.9166666666666666,
+      "rate_delta": -0.0036231884057971175
     }
   ],
   "card_trends_overall": [
     {
-      "card_id": "C005",
-      "recent_decks": 25,
-      "recent_rate": 0.10416666666666667,
-      "prior_rate": 0.20703125,
-      "rate_delta": -0.10286458333333333
-    },
-    {
-      "card_id": "C003",
-      "recent_decks": 29,
-      "recent_rate": 0.12083333333333333,
-      "prior_rate": 0.21484375,
-      "rate_delta": -0.09401041666666667
-    },
-    {
-      "card_id": "C004",
-      "recent_decks": 28,
-      "recent_rate": 0.11666666666666667,
-      "prior_rate": 0.20703125,
-      "rate_delta": -0.09036458333333333
-    },
-    {
-      "card_id": "C006",
-      "recent_decks": 31,
-      "recent_rate": 0.12916666666666668,
-      "prior_rate": 0.2109375,
-      "rate_delta": -0.08177083333333332
-    },
-    {
       "card_id": "C009",
-      "recent_decks": 8,
-      "recent_rate": 0.03333333333333333,
-      "prior_rate": 0.11328125,
-      "rate_delta": -0.07994791666666667
-    },
-    {
-      "card_id": "C011",
-      "recent_decks": 14,
-      "recent_rate": 0.058333333333333334,
-      "prior_rate": 0.125,
-      "rate_delta": -0.06666666666666667
-    },
-    {
-      "card_id": "C016",
-      "recent_decks": 39,
-      "recent_rate": 0.1625,
-      "prior_rate": 0.09765625,
-      "rate_delta": 0.06484375
-    },
-    {
-      "card_id": "C017",
-      "recent_decks": 30,
-      "recent_rate": 0.125,
-      "prior_rate": 0.06640625,
-      "rate_delta": 0.05859375
-    },
-    {
-      "card_id": "C031",
-      "recent_decks": 26,
-      "recent_rate": 0.10833333333333334,
-      "prior_rate": 0.05078125,
-      "rate_delta": 0.05755208333333334
+      "recent_decks": 13,
+      "recent_rate": 0.04513888888888889,
+      "prior_rate": 0.14423076923076922,
+      "rate_delta": -0.09909188034188032
     },
     {
       "card_id": "C010",
-      "recent_decks": 13,
-      "recent_rate": 0.05416666666666667,
-      "prior_rate": 0.109375,
-      "rate_delta": -0.05520833333333333
-    },
-    {
-      "card_id": "C032",
-      "recent_decks": 26,
-      "recent_rate": 0.10833333333333334,
-      "prior_rate": 0.05859375,
-      "rate_delta": 0.04973958333333334
+      "recent_decks": 15,
+      "recent_rate": 0.052083333333333336,
+      "prior_rate": 0.13942307692307693,
+      "rate_delta": -0.08733974358974358
     },
     {
       "card_id": "C061",
-      "recent_decks": 22,
-      "recent_rate": 0.09166666666666666,
-      "prior_rate": 0.04296875,
-      "rate_delta": 0.04869791666666666
-    },
-    {
-      "card_id": "C033",
-      "recent_decks": 25,
-      "recent_rate": 0.10416666666666667,
-      "prior_rate": 0.05859375,
-      "rate_delta": 0.04557291666666667
-    },
-    {
-      "card_id": "C062",
-      "recent_decks": 20,
-      "recent_rate": 0.08333333333333333,
-      "prior_rate": 0.0390625,
-      "rate_delta": 0.04427083333333333
-    },
-    {
-      "card_id": "C034",
-      "recent_decks": 17,
-      "recent_rate": 0.07083333333333333,
-      "prior_rate": 0.02734375,
-      "rate_delta": 0.04348958333333333
-    },
-    {
-      "card_id": "C060",
-      "recent_decks": 30,
-      "recent_rate": 0.125,
-      "prior_rate": 0.08203125,
-      "rate_delta": 0.04296875
-    },
-    {
-      "card_id": "C015",
-      "recent_decks": 48,
-      "recent_rate": 0.2,
-      "prior_rate": 0.16015625,
-      "rate_delta": 0.03984375000000001
-    },
-    {
-      "card_id": "C043",
-      "recent_decks": 18,
-      "recent_rate": 0.075,
-      "prior_rate": 0.03515625,
-      "rate_delta": 0.03984375
-    },
-    {
-      "card_id": "C059",
-      "recent_decks": 27,
-      "recent_rate": 0.1125,
-      "prior_rate": 0.07421875,
-      "rate_delta": 0.03828125
-    },
-    {
-      "card_id": "C014",
-      "recent_decks": 47,
-      "recent_rate": 0.19583333333333333,
-      "prior_rate": 0.16015625,
-      "rate_delta": 0.03567708333333333
-    },
-    {
-      "card_id": "C035",
-      "recent_decks": 14,
-      "recent_rate": 0.058333333333333334,
-      "prior_rate": 0.0234375,
-      "rate_delta": 0.034895833333333334
-    },
-    {
-      "card_id": "C053",
-      "recent_decks": 13,
-      "recent_rate": 0.05416666666666667,
-      "prior_rate": 0.01953125,
-      "rate_delta": 0.03463541666666667
-    },
-    {
-      "card_id": "C057",
-      "recent_decks": 26,
-      "recent_rate": 0.10833333333333334,
-      "prior_rate": 0.07421875,
-      "rate_delta": 0.03411458333333334
-    },
-    {
-      "card_id": "C030",
-      "recent_decks": 22,
-      "recent_rate": 0.09166666666666666,
-      "prior_rate": 0.05859375,
-      "rate_delta": 0.03307291666666666
-    },
-    {
-      "card_id": "C013",
-      "recent_decks": 46,
-      "recent_rate": 0.19166666666666668,
-      "prior_rate": 0.16015625,
-      "rate_delta": 0.03151041666666668
-    },
-    {
-      "card_id": "C052",
-      "recent_decks": 14,
-      "recent_rate": 0.058333333333333334,
-      "prior_rate": 0.02734375,
-      "rate_delta": 0.030989583333333334
-    },
-    {
-      "card_id": "C012",
-      "recent_decks": 44,
-      "recent_rate": 0.18333333333333332,
-      "prior_rate": 0.15234375,
-      "rate_delta": 0.03098958333333332
-    },
-    {
-      "card_id": "C044",
-      "recent_decks": 12,
-      "recent_rate": 0.05,
-      "prior_rate": 0.01953125,
-      "rate_delta": 0.030468750000000003
-    },
-    {
-      "card_id": "C058",
-      "recent_decks": 26,
-      "recent_rate": 0.10833333333333334,
-      "prior_rate": 0.078125,
-      "rate_delta": 0.030208333333333337
-    },
-    {
-      "card_id": "C063",
-      "recent_decks": 6,
-      "recent_rate": 0.025,
-      "prior_rate": 0.0546875,
-      "rate_delta": -0.0296875
-    },
-    {
-      "card_id": "C046",
-      "recent_decks": 7,
-      "recent_rate": 0.029166666666666667,
-      "prior_rate": 0.05859375,
-      "rate_delta": -0.029427083333333333
-    },
-    {
-      "card_id": "C024",
       "recent_decks": 31,
-      "recent_rate": 0.12916666666666668,
-      "prior_rate": 0.15625,
-      "rate_delta": -0.02708333333333332
+      "recent_rate": 0.1076388888888889,
+      "prior_rate": 0.04326923076923077,
+      "rate_delta": 0.06436965811965813
     },
     {
-      "card_id": "C008",
-      "recent_decks": 21,
-      "recent_rate": 0.0875,
-      "prior_rate": 0.11328125,
-      "rate_delta": -0.025781250000000006
+      "card_id": "C007",
+      "recent_decks": 40,
+      "recent_rate": 0.1388888888888889,
+      "prior_rate": 0.07692307692307693,
+      "rate_delta": 0.06196581196581197
     },
     {
-      "card_id": "C064",
-      "recent_decks": 15,
-      "recent_rate": 0.0625,
-      "prior_rate": 0.0390625,
-      "rate_delta": 0.0234375
+      "card_id": "C003",
+      "recent_decks": 49,
+      "recent_rate": 0.1701388888888889,
+      "prior_rate": 0.23076923076923078,
+      "rate_delta": -0.06063034188034189
     },
     {
-      "card_id": "C071",
-      "recent_decks": 12,
-      "recent_rate": 0.05,
-      "prior_rate": 0.02734375,
-      "rate_delta": 0.022656250000000003
+      "card_id": "C006",
+      "recent_decks": 48,
+      "recent_rate": 0.16666666666666666,
+      "prior_rate": 0.22596153846153846,
+      "rate_delta": -0.059294871794871806
+    },
+    {
+      "card_id": "C001",
+      "recent_decks": 197,
+      "recent_rate": 0.6840277777777778,
+      "prior_rate": 0.625,
+      "rate_delta": 0.05902777777777779
     },
     {
       "card_id": "C025",
-      "recent_decks": 25,
-      "recent_rate": 0.10416666666666667,
-      "prior_rate": 0.08203125,
-      "rate_delta": 0.02213541666666667
+      "recent_decks": 40,
+      "recent_rate": 0.1388888888888889,
+      "prior_rate": 0.08173076923076923,
+      "rate_delta": 0.05715811965811966
     },
     {
-      "card_id": "C020",
-      "recent_decks": 24,
-      "recent_rate": 0.1,
-      "prior_rate": 0.078125,
-      "rate_delta": 0.021875000000000006
+      "card_id": "C005",
+      "recent_decks": 47,
+      "recent_rate": 0.16319444444444445,
+      "prior_rate": 0.21634615384615385,
+      "rate_delta": -0.05315170940170941
+    },
+    {
+      "card_id": "C057",
+      "recent_decks": 36,
+      "recent_rate": 0.125,
+      "prior_rate": 0.07211538461538461,
+      "rate_delta": 0.05288461538461539
+    },
+    {
+      "card_id": "C044",
+      "recent_decks": 22,
+      "recent_rate": 0.0763888888888889,
+      "prior_rate": 0.02403846153846154,
+      "rate_delta": 0.05235042735042736
+    },
+    {
+      "card_id": "C059",
+      "recent_decks": 37,
+      "recent_rate": 0.1284722222222222,
+      "prior_rate": 0.07692307692307693,
+      "rate_delta": 0.05154914529914528
+    },
+    {
+      "card_id": "C058",
+      "recent_decks": 34,
+      "recent_rate": 0.11805555555555555,
+      "prior_rate": 0.0673076923076923,
+      "rate_delta": 0.05074786324786325
+    },
+    {
+      "card_id": "C060",
+      "recent_decks": 36,
+      "recent_rate": 0.125,
+      "prior_rate": 0.07692307692307693,
+      "rate_delta": 0.04807692307692307
+    },
+    {
+      "card_id": "C043",
+      "recent_decks": 26,
+      "recent_rate": 0.09027777777777778,
+      "prior_rate": 0.04326923076923077,
+      "rate_delta": 0.04700854700854701
+    },
+    {
+      "card_id": "C040",
+      "recent_decks": 30,
+      "recent_rate": 0.10416666666666667,
+      "prior_rate": 0.057692307692307696,
+      "rate_delta": 0.046474358974358976
+    },
+    {
+      "card_id": "C054",
+      "recent_decks": 5,
+      "recent_rate": 0.017361111111111112,
+      "prior_rate": 0.0625,
+      "rate_delta": -0.04513888888888889
     },
     {
       "card_id": "C026",
       "recent_decks": 22,
-      "recent_rate": 0.09166666666666666,
-      "prior_rate": 0.0703125,
-      "rate_delta": 0.02135416666666666
+      "recent_rate": 0.0763888888888889,
+      "prior_rate": 0.03365384615384615,
+      "rate_delta": 0.04273504273504274
+    },
+    {
+      "card_id": "C030",
+      "recent_decks": 28,
+      "recent_rate": 0.09722222222222222,
+      "prior_rate": 0.13942307692307693,
+      "rate_delta": -0.042200854700854704
+    },
+    {
+      "card_id": "C016",
+      "recent_decks": 37,
+      "recent_rate": 0.1284722222222222,
+      "prior_rate": 0.08653846153846154,
+      "rate_delta": 0.041933760683760674
+    },
+    {
+      "card_id": "C018",
+      "recent_decks": 9,
+      "recent_rate": 0.03125,
+      "prior_rate": 0.07211538461538461,
+      "rate_delta": -0.04086538461538461
+    },
+    {
+      "card_id": "C028",
+      "recent_decks": 12,
+      "recent_rate": 0.041666666666666664,
+      "prior_rate": 0.08173076923076923,
+      "rate_delta": -0.04006410256410257
+    },
+    {
+      "card_id": "C042",
+      "recent_decks": 28,
+      "recent_rate": 0.09722222222222222,
+      "prior_rate": 0.057692307692307696,
+      "rate_delta": 0.03952991452991453
+    },
+    {
+      "card_id": "C036",
+      "recent_decks": 10,
+      "recent_rate": 0.034722222222222224,
+      "prior_rate": 0.07211538461538461,
+      "rate_delta": -0.037393162393162385
+    },
+    {
+      "card_id": "C056",
+      "recent_decks": 6,
+      "recent_rate": 0.020833333333333332,
+      "prior_rate": 0.057692307692307696,
+      "rate_delta": -0.03685897435897437
+    },
+    {
+      "card_id": "C039",
+      "recent_decks": 30,
+      "recent_rate": 0.10416666666666667,
+      "prior_rate": 0.0673076923076923,
+      "rate_delta": 0.03685897435897437
+    },
+    {
+      "card_id": "C041",
+      "recent_decks": 30,
+      "recent_rate": 0.10416666666666667,
+      "prior_rate": 0.0673076923076923,
+      "rate_delta": 0.03685897435897437
+    },
+    {
+      "card_id": "C015",
+      "recent_decks": 38,
+      "recent_rate": 0.13194444444444445,
+      "prior_rate": 0.16826923076923078,
+      "rate_delta": -0.036324786324786335
+    },
+    {
+      "card_id": "C033",
+      "recent_decks": 27,
+      "recent_rate": 0.09375,
+      "prior_rate": 0.12980769230769232,
+      "rate_delta": -0.03605769230769232
+    },
+    {
+      "card_id": "C062",
+      "recent_decks": 21,
+      "recent_rate": 0.07291666666666667,
+      "prior_rate": 0.038461538461538464,
+      "rate_delta": 0.03445512820512821
     },
     {
       "card_id": "C070",
-      "recent_decks": 15,
-      "recent_rate": 0.0625,
-      "prior_rate": 0.04296875,
-      "rate_delta": 0.01953125
+      "recent_decks": 19,
+      "recent_rate": 0.06597222222222222,
+      "prior_rate": 0.03365384615384615,
+      "rate_delta": 0.03231837606837607
     },
     {
-      "card_id": "C021",
-      "recent_decks": 33,
-      "recent_rate": 0.1375,
-      "prior_rate": 0.15625,
-      "rate_delta": -0.01874999999999999
+      "card_id": "C027",
+      "recent_decks": 13,
+      "recent_rate": 0.04513888888888889,
+      "prior_rate": 0.07692307692307693,
+      "rate_delta": -0.03178418803418804
+    },
+    {
+      "card_id": "C064",
+      "recent_decks": 16,
+      "recent_rate": 0.05555555555555555,
+      "prior_rate": 0.02403846153846154,
+      "rate_delta": 0.031517094017094016
+    },
+    {
+      "card_id": "C004",
+      "recent_decks": 51,
+      "recent_rate": 0.17708333333333334,
+      "prior_rate": 0.20673076923076922,
+      "rate_delta": -0.029647435897435875
+    },
+    {
+      "card_id": "C068",
+      "recent_decks": 23,
+      "recent_rate": 0.0798611111111111,
+      "prior_rate": 0.052884615384615384,
+      "rate_delta": 0.02697649572649572
+    },
+    {
+      "card_id": "C047",
+      "recent_decks": 17,
+      "recent_rate": 0.059027777777777776,
+      "prior_rate": 0.03365384615384615,
+      "rate_delta": 0.025373931623931624
+    },
+    {
+      "card_id": "C013",
+      "recent_decks": 40,
+      "recent_rate": 0.1388888888888889,
+      "prior_rate": 0.16346153846153846,
+      "rate_delta": -0.02457264957264957
+    },
+    {
+      "card_id": "C032",
+      "recent_decks": 29,
+      "recent_rate": 0.10069444444444445,
+      "prior_rate": 0.125,
+      "rate_delta": -0.024305555555555552
+    },
+    {
+      "card_id": "C049",
+      "recent_decks": 18,
+      "recent_rate": 0.0625,
+      "prior_rate": 0.08653846153846154,
+      "rate_delta": -0.024038461538461536
+    },
+    {
+      "card_id": "C065",
+      "recent_decks": 18,
+      "recent_rate": 0.0625,
+      "prior_rate": 0.038461538461538464,
+      "rate_delta": 0.024038461538461536
+    },
+    {
+      "card_id": "C066",
+      "recent_decks": 22,
+      "recent_rate": 0.0763888888888889,
+      "prior_rate": 0.052884615384615384,
+      "rate_delta": 0.02350427350427351
     },
     {
       "card_id": "C022",
-      "recent_decks": 33,
-      "recent_rate": 0.1375,
-      "prior_rate": 0.15625,
-      "rate_delta": -0.01874999999999999
+      "recent_decks": 44,
+      "recent_rate": 0.1527777777777778,
+      "prior_rate": 0.12980769230769232,
+      "rate_delta": 0.022970085470085472
     },
     {
-      "card_id": "C072",
-      "recent_decks": 5,
-      "recent_rate": 0.020833333333333332,
-      "prior_rate": 0.0390625,
-      "rate_delta": -0.018229166666666668
+      "card_id": "C046",
+      "recent_decks": 12,
+      "recent_rate": 0.041666666666666664,
+      "prior_rate": 0.019230769230769232,
+      "rate_delta": 0.022435897435897433
     },
     {
-      "card_id": "C002",
-      "recent_decks": 155,
-      "recent_rate": 0.6458333333333334,
-      "prior_rate": 0.6640625,
-      "rate_delta": -0.01822916666666663
+      "card_id": "C014",
+      "recent_decks": 38,
+      "recent_rate": 0.13194444444444445,
+      "prior_rate": 0.15384615384615385,
+      "rate_delta": -0.021901709401709407
     },
     {
-      "card_id": "C055",
-      "recent_decks": 7,
-      "recent_rate": 0.029166666666666667,
-      "prior_rate": 0.046875,
-      "rate_delta": -0.017708333333333333
-    },
-    {
-      "card_id": "C073",
-      "recent_decks": 8,
-      "recent_rate": 0.03333333333333333,
-      "prior_rate": 0.05078125,
-      "rate_delta": -0.017447916666666667
-    },
-    {
-      "card_id": "C040",
-      "recent_decks": 24,
-      "recent_rate": 0.1,
-      "prior_rate": 0.1171875,
-      "rate_delta": -0.017187499999999994
-    },
-    {
-      "card_id": "C074",
-      "recent_decks": 13,
-      "recent_rate": 0.05416666666666667,
-      "prior_rate": 0.0390625,
-      "rate_delta": 0.015104166666666669
+      "card_id": "C035",
+      "recent_decks": 16,
+      "recent_rate": 0.05555555555555555,
+      "prior_rate": 0.03365384615384615,
+      "rate_delta": 0.0219017094017094
     },
     {
       "card_id": "C037",
       "recent_decks": 12,
-      "recent_rate": 0.05,
-      "prior_rate": 0.03515625,
-      "rate_delta": 0.014843750000000003
+      "recent_rate": 0.041666666666666664,
+      "prior_rate": 0.0625,
+      "rate_delta": -0.020833333333333336
     },
     {
-      "card_id": "C023",
-      "recent_decks": 33,
-      "recent_rate": 0.1375,
-      "prior_rate": 0.15234375,
-      "rate_delta": -0.014843749999999989
+      "card_id": "C031",
+      "recent_decks": 30,
+      "recent_rate": 0.10416666666666667,
+      "prior_rate": 0.125,
+      "rate_delta": -0.02083333333333333
     },
     {
-      "card_id": "C054",
-      "recent_decks": 7,
-      "recent_rate": 0.029166666666666667,
-      "prior_rate": 0.04296875,
-      "rate_delta": -0.013802083333333333
+      "card_id": "C048",
+      "recent_decks": 19,
+      "recent_rate": 0.06597222222222222,
+      "prior_rate": 0.08653846153846154,
+      "rate_delta": -0.020566239316239313
     },
     {
-      "card_id": "C066",
-      "recent_decks": 21,
-      "recent_rate": 0.0875,
-      "prior_rate": 0.07421875,
-      "rate_delta": 0.013281249999999994
+      "card_id": "C051",
+      "recent_decks": 19,
+      "recent_rate": 0.06597222222222222,
+      "prior_rate": 0.08653846153846154,
+      "rate_delta": -0.020566239316239313
     },
     {
       "card_id": "C067",
       "recent_decks": 21,
-      "recent_rate": 0.0875,
-      "prior_rate": 0.07421875,
-      "rate_delta": 0.013281249999999994
+      "recent_rate": 0.07291666666666667,
+      "prior_rate": 0.052884615384615384,
+      "rate_delta": 0.020032051282051287
     },
     {
-      "card_id": "C048",
-      "recent_decks": 20,
-      "recent_rate": 0.08333333333333333,
-      "prior_rate": 0.0703125,
-      "rate_delta": 0.013020833333333329
+      "card_id": "C071",
+      "recent_decks": 14,
+      "recent_rate": 0.04861111111111111,
+      "prior_rate": 0.028846153846153848,
+      "rate_delta": 0.019764957264957264
     },
     {
-      "card_id": "C018",
-      "recent_decks": 15,
-      "recent_rate": 0.0625,
-      "prior_rate": 0.07421875,
-      "rate_delta": -0.01171875
+      "card_id": "C011",
+      "recent_decks": 25,
+      "recent_rate": 0.08680555555555555,
+      "prior_rate": 0.10576923076923077,
+      "rate_delta": -0.018963675213675216
     },
     {
-      "card_id": "C036",
-      "recent_decks": 7,
-      "recent_rate": 0.029166666666666667,
-      "prior_rate": 0.0390625,
-      "rate_delta": -0.009895833333333333
+      "card_id": "C002",
+      "recent_decks": 188,
+      "recent_rate": 0.6527777777777778,
+      "prior_rate": 0.6346153846153846,
+      "rate_delta": 0.01816239316239321
     },
     {
-      "card_id": "C041",
-      "recent_decks": 24,
-      "recent_rate": 0.1,
-      "prior_rate": 0.109375,
-      "rate_delta": -0.009374999999999994
-    },
-    {
-      "card_id": "C051",
-      "recent_decks": 20,
-      "recent_rate": 0.08333333333333333,
-      "prior_rate": 0.07421875,
-      "rate_delta": 0.009114583333333329
+      "card_id": "C020",
+      "recent_decks": 19,
+      "recent_rate": 0.06597222222222222,
+      "prior_rate": 0.08173076923076923,
+      "rate_delta": -0.015758547008547008
     },
     {
       "card_id": "C069",
-      "recent_decks": 20,
-      "recent_rate": 0.08333333333333333,
-      "prior_rate": 0.07421875,
-      "rate_delta": 0.009114583333333329
+      "recent_decks": 21,
+      "recent_rate": 0.07291666666666667,
+      "prior_rate": 0.057692307692307696,
+      "rate_delta": 0.015224358974358976
+    },
+    {
+      "card_id": "C034",
+      "recent_decks": 25,
+      "recent_rate": 0.08680555555555555,
+      "prior_rate": 0.07211538461538461,
+      "rate_delta": 0.014690170940170943
+    },
+    {
+      "card_id": "C074",
+      "recent_decks": 12,
+      "recent_rate": 0.041666666666666664,
+      "prior_rate": 0.028846153846153848,
+      "rate_delta": 0.012820512820512817
     },
     {
       "card_id": "C050",
-      "recent_decks": 19,
-      "recent_rate": 0.07916666666666666,
-      "prior_rate": 0.0703125,
-      "rate_delta": 0.008854166666666663
-    },
-    {
-      "card_id": "C029",
-      "recent_decks": 18,
-      "recent_rate": 0.075,
-      "prior_rate": 0.06640625,
-      "rate_delta": 0.008593749999999997
-    },
-    {
-      "card_id": "C065",
-      "recent_decks": 13,
-      "recent_rate": 0.05416666666666667,
-      "prior_rate": 0.0625,
-      "rate_delta": -0.008333333333333331
-    },
-    {
-      "card_id": "C028",
-      "recent_decks": 14,
-      "recent_rate": 0.058333333333333334,
-      "prior_rate": 0.06640625,
-      "rate_delta": -0.008072916666666666
-    },
-    {
-      "card_id": "C038",
-      "recent_decks": 11,
-      "recent_rate": 0.04583333333333333,
-      "prior_rate": 0.0390625,
-      "rate_delta": 0.00677083333333333
-    },
-    {
-      "card_id": "C045",
-      "recent_decks": 11,
-      "recent_rate": 0.04583333333333333,
-      "prior_rate": 0.0390625,
-      "rate_delta": 0.00677083333333333
+      "recent_decks": 20,
+      "recent_rate": 0.06944444444444445,
+      "prior_rate": 0.08173076923076923,
+      "rate_delta": -0.012286324786324784
     },
     {
       "card_id": "C019",
-      "recent_decks": 21,
-      "recent_rate": 0.0875,
-      "prior_rate": 0.09375,
-      "rate_delta": -0.0062500000000000056
+      "recent_decks": 16,
+      "recent_rate": 0.05555555555555555,
+      "prior_rate": 0.0673076923076923,
+      "rate_delta": -0.011752136752136752
     },
     {
-      "card_id": "C039",
-      "recent_decks": 24,
-      "recent_rate": 0.1,
-      "prior_rate": 0.09375,
-      "rate_delta": 0.0062500000000000056
+      "card_id": "C024",
+      "recent_decks": 42,
+      "recent_rate": 0.14583333333333334,
+      "prior_rate": 0.1346153846153846,
+      "rate_delta": 0.011217948717948734
     },
     {
-      "card_id": "C007",
-      "recent_decks": 22,
-      "recent_rate": 0.09166666666666666,
-      "prior_rate": 0.0859375,
-      "rate_delta": 0.00572916666666666
+      "card_id": "C055",
+      "recent_decks": 8,
+      "recent_rate": 0.027777777777777776,
+      "prior_rate": 0.038461538461538464,
+      "rate_delta": -0.010683760683760687
     },
     {
-      "card_id": "C001",
-      "recent_decks": 160,
-      "recent_rate": 0.6666666666666666,
-      "prior_rate": 0.671875,
-      "rate_delta": -0.00520833333333337
+      "card_id": "C008",
+      "recent_decks": 26,
+      "recent_rate": 0.09027777777777778,
+      "prior_rate": 0.10096153846153846,
+      "rate_delta": -0.010683760683760687
     },
     {
-      "card_id": "C068",
-      "recent_decks": 19,
-      "recent_rate": 0.07916666666666666,
-      "prior_rate": 0.07421875,
-      "rate_delta": 0.004947916666666663
+      "card_id": "C012",
+      "recent_decks": 40,
+      "recent_rate": 0.1388888888888889,
+      "prior_rate": 0.14903846153846154,
+      "rate_delta": -0.010149572649572641
     },
     {
-      "card_id": "C047",
-      "recent_decks": 14,
-      "recent_rate": 0.058333333333333334,
-      "prior_rate": 0.0625,
-      "rate_delta": -0.004166666666666666
+      "card_id": "C021",
+      "recent_decks": 43,
+      "recent_rate": 0.14930555555555555,
+      "prior_rate": 0.13942307692307693,
+      "rate_delta": 0.009882478632478625
     },
     {
-      "card_id": "C027",
-      "recent_decks": 15,
-      "recent_rate": 0.0625,
-      "prior_rate": 0.05859375,
-      "rate_delta": 0.00390625
+      "card_id": "C072",
+      "recent_decks": 6,
+      "recent_rate": 0.020833333333333332,
+      "prior_rate": 0.028846153846153848,
+      "rate_delta": -0.008012820512820516
     },
     {
-      "card_id": "C042",
-      "recent_decks": 24,
-      "recent_rate": 0.1,
-      "prior_rate": 0.1015625,
-      "rate_delta": -0.0015624999999999944
-    },
-    {
-      "card_id": "C049",
+      "card_id": "C029",
       "recent_decks": 20,
-      "recent_rate": 0.08333333333333333,
-      "prior_rate": 0.08203125,
-      "rate_delta": 0.0013020833333333287
+      "recent_rate": 0.06944444444444445,
+      "prior_rate": 0.07692307692307693,
+      "rate_delta": -0.00747863247863248
     },
     {
-      "card_id": "C056",
-      "recent_decks": 11,
-      "recent_rate": 0.04583333333333333,
-      "prior_rate": 0.046875,
-      "rate_delta": -0.00104166666666667
+      "card_id": "C045",
+      "recent_decks": 9,
+      "recent_rate": 0.03125,
+      "prior_rate": 0.02403846153846154,
+      "rate_delta": 0.00721153846153846
+    },
+    {
+      "card_id": "C017",
+      "recent_decks": 28,
+      "recent_rate": 0.09722222222222222,
+      "prior_rate": 0.09134615384615384,
+      "rate_delta": 0.005876068376068383
+    },
+    {
+      "card_id": "C073",
+      "recent_decks": 4,
+      "recent_rate": 0.013888888888888888,
+      "prior_rate": 0.019230769230769232,
+      "rate_delta": -0.005341880341880344
+    },
+    {
+      "card_id": "C063",
+      "recent_decks": 7,
+      "recent_rate": 0.024305555555555556,
+      "prior_rate": 0.028846153846153848,
+      "rate_delta": -0.004540598290598292
+    },
+    {
+      "card_id": "C052",
+      "recent_decks": 15,
+      "recent_rate": 0.052083333333333336,
+      "prior_rate": 0.04807692307692308,
+      "rate_delta": 0.004006410256410256
+    },
+    {
+      "card_id": "C038",
+      "recent_decks": 16,
+      "recent_rate": 0.05555555555555555,
+      "prior_rate": 0.057692307692307696,
+      "rate_delta": -0.002136752136752143
+    },
+    {
+      "card_id": "C053",
+      "recent_decks": 13,
+      "recent_rate": 0.04513888888888889,
+      "prior_rate": 0.04326923076923077,
+      "rate_delta": 0.00186965811965812
+    },
+    {
+      "card_id": "C023",
+      "recent_decks": 43,
+      "recent_rate": 0.14930555555555555,
+      "prior_rate": 0.14903846153846154,
+      "rate_delta": 0.00026709401709401615
     }
   ],
   "tournaments": [
     {
       "id": "t011",
-      "name": "Naboo Store Showdown",
+      "name": "Endor Planetary Qualifier",
       "date": "2026-06-28",
-      "tier": "Store Showdown",
-      "player_count": 64,
-      "deck_count": 64,
+      "tier": "PQ",
+      "player_count": 96,
+      "deck_count": 96,
       "archetypes": [
         {
-          "archetype_id": "boba-yellow",
-          "decks": 11,
-          "share": 0.171875,
-          "win_rate": 0.5
+          "archetype_id": "leia-red",
+          "decks": 18,
+          "share": 0.1875,
+          "win_rate": 0.5238095238095238
         },
         {
-          "archetype_id": "iden-red",
-          "decks": 10,
-          "share": 0.15625,
-          "win_rate": 0.5666666666666667
+          "archetype_id": "boba-yellow",
+          "decks": 18,
+          "share": 0.1875,
+          "win_rate": 0.5158730158730159
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 18,
+          "share": 0.1875,
+          "win_rate": 0.4523809523809524
+        },
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 11,
+          "share": 0.11458333333333333,
+          "win_rate": 0.6233766233766234
         },
         {
           "archetype_id": "vader-blue",
           "decks": 10,
-          "share": 0.15625,
-          "win_rate": 0.5166666666666667
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 9,
-          "share": 0.140625,
-          "win_rate": 0.48148148148148145
-        },
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 7,
-          "share": 0.109375,
-          "win_rate": 0.5714285714285714
-        },
-        {
-          "archetype_id": "han-blue",
-          "decks": 7,
-          "share": 0.109375,
-          "win_rate": 0.42857142857142855
+          "share": 0.10416666666666667,
+          "win_rate": 0.4714285714285714
         },
         {
           "archetype_id": "kylo-green",
-          "decks": 6,
-          "share": 0.09375,
-          "win_rate": 0.3888888888888889
+          "decks": 8,
+          "share": 0.08333333333333333,
+          "win_rate": 0.44642857142857145
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 7,
+          "share": 0.07291666666666667,
+          "win_rate": 0.46938775510204084
         },
         {
           "archetype_id": "quinlan-green",
-          "decks": 4,
+          "decks": 6,
           "share": 0.0625,
-          "win_rate": 0.5
+          "win_rate": 0.4523809523809524
         }
       ],
       "standings": [
         {
           "placement": 1,
-          "player": "Player 033",
-          "archetype_id": "boba-yellow"
+          "player": "Player 024",
+          "archetype_id": "kylo-green"
         },
         {
           "placement": 2,
-          "player": "Player 043",
-          "archetype_id": "boba-yellow"
+          "player": "Player 051",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 3,
-          "player": "Player 056",
-          "archetype_id": "iden-red"
+          "player": "Player 034",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 4,
-          "player": "Player 006",
+          "player": "Player 005",
           "archetype_id": "quinlan-green"
         },
         {
           "placement": 5,
-          "player": "Player 047",
-          "archetype_id": "iden-red"
+          "player": "Player 025",
+          "archetype_id": "boba-yellow"
         },
         {
           "placement": 6,
-          "player": "Player 002",
-          "archetype_id": "iden-red"
+          "player": "Player 009",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 7,
-          "player": "Player 003",
-          "archetype_id": "leia-red"
+          "player": "Player 018",
+          "archetype_id": "boba-yellow"
         },
         {
           "placement": 8,
-          "player": "Player 057",
-          "archetype_id": "vader-blue"
+          "player": "Player 035",
+          "archetype_id": "han-blue"
         }
       ]
     },
     {
       "id": "t012",
-      "name": "Coruscant Planetary Qualifier",
+      "name": "Endor Planetary Qualifier",
       "date": "2026-06-27",
-      "tier": "Planetary Qualifier",
+      "tier": "PQ",
       "player_count": 96,
       "deck_count": 96,
       "archetypes": [
         {
-          "archetype_id": "boba-yellow",
-          "decks": 24,
-          "share": 0.25,
-          "win_rate": 0.5595238095238095
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 17,
-          "share": 0.17708333333333334,
-          "win_rate": 0.5042016806722689
+          "archetype_id": "iden-red",
+          "decks": 16,
+          "share": 0.16666666666666666,
+          "win_rate": 0.49107142857142855
         },
         {
           "archetype_id": "han-blue",
-          "decks": 16,
-          "share": 0.16666666666666666,
-          "win_rate": 0.48214285714285715
+          "decks": 15,
+          "share": 0.15625,
+          "win_rate": 0.4857142857142857
         },
         {
-          "archetype_id": "kylo-green",
-          "decks": 16,
-          "share": 0.16666666666666666,
-          "win_rate": 0.48214285714285715
+          "archetype_id": "boba-yellow",
+          "decks": 15,
+          "share": 0.15625,
+          "win_rate": 0.47619047619047616
         },
         {
           "archetype_id": "sabine-ecl",
-          "decks": 10,
-          "share": 0.10416666666666667,
-          "win_rate": 0.45714285714285713
+          "decks": 15,
+          "share": 0.15625,
+          "win_rate": 0.5333333333333333
+        },
+        {
+          "archetype_id": "kylo-green",
+          "decks": 13,
+          "share": 0.13541666666666666,
+          "win_rate": 0.5164835164835165
+        },
+        {
+          "archetype_id": "leia-red",
+          "decks": 9,
+          "share": 0.09375,
+          "win_rate": 0.6190476190476191
+        },
+        {
+          "archetype_id": "vader-blue",
+          "decks": 8,
+          "share": 0.08333333333333333,
+          "win_rate": 0.4642857142857143
         },
         {
           "archetype_id": "quinlan-green",
           "decks": 5,
           "share": 0.052083333333333336,
-          "win_rate": 0.4857142857142857
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 4,
-          "share": 0.041666666666666664,
-          "win_rate": 0.5357142857142857
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 4,
-          "share": 0.041666666666666664,
-          "win_rate": 0.35714285714285715
+          "win_rate": 0.34285714285714286
         }
       ],
       "standings": [
         {
           "placement": 1,
-          "player": "Player 006",
-          "archetype_id": "boba-yellow"
+          "player": "Player 059",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 2,
-          "player": "Player 060",
-          "archetype_id": "vader-blue"
+          "player": "Player 019",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 3,
-          "player": "Player 043",
+          "player": "Player 020",
           "archetype_id": "han-blue"
         },
         {
           "placement": 4,
-          "player": "Player 008",
-          "archetype_id": "leia-red"
+          "player": "Player 072",
+          "archetype_id": "boba-yellow"
         },
         {
           "placement": 5,
-          "player": "Player 058",
-          "archetype_id": "vader-blue"
+          "player": "Player 068",
+          "archetype_id": "iden-red"
         },
         {
           "placement": 6,
-          "player": "Player 032",
-          "archetype_id": "boba-yellow"
+          "player": "Player 040",
+          "archetype_id": "sabine-ecl"
         },
         {
           "placement": 7,
-          "player": "Player 028",
-          "archetype_id": "boba-yellow"
+          "player": "Player 079",
+          "archetype_id": "iden-red"
         },
         {
           "placement": 8,
-          "player": "Player 019",
-          "archetype_id": "leia-red"
+          "player": "Player 080",
+          "archetype_id": "iden-red"
         }
       ]
     },
     {
       "id": "t009",
-      "name": "Tatooine Store Showdown",
+      "name": "Hoth Regional Qualifier",
       "date": "2026-06-21",
-      "tier": "Store Showdown",
+      "tier": "RQ",
       "player_count": 32,
       "deck_count": 32,
       "archetypes": [
         {
-          "archetype_id": "boba-yellow",
+          "archetype_id": "han-blue",
+          "decks": 8,
+          "share": 0.25,
+          "win_rate": 0.45
+        },
+        {
+          "archetype_id": "sabine-ecl",
           "decks": 6,
           "share": 0.1875,
-          "win_rate": 0.4
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 5,
-          "share": 0.15625,
-          "win_rate": 0.32
-        },
-        {
-          "archetype_id": "han-blue",
-          "decks": 5,
-          "share": 0.15625,
-          "win_rate": 0.6
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 5,
-          "share": 0.15625,
-          "win_rate": 0.56
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 4,
-          "share": 0.125,
-          "win_rate": 0.55
-        },
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 3,
-          "share": 0.09375,
-          "win_rate": 0.6666666666666666
-        },
-        {
-          "archetype_id": "kylo-green",
-          "decks": 2,
-          "share": 0.0625,
-          "win_rate": 0.4
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 2,
-          "share": 0.0625,
-          "win_rate": 0.6
-        }
-      ],
-      "standings": [
-        {
-          "placement": 1,
-          "player": "Player 008",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 2,
-          "player": "Player 027",
-          "archetype_id": "leia-red"
-        },
-        {
-          "placement": 3,
-          "player": "Player 009",
-          "archetype_id": "vader-blue"
-        },
-        {
-          "placement": 4,
-          "player": "Player 016",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 5,
-          "player": "Player 026",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 6,
-          "player": "Player 022",
-          "archetype_id": "leia-red"
-        },
-        {
-          "placement": 7,
-          "player": "Player 014",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 8,
-          "player": "Player 003",
-          "archetype_id": "vader-blue"
-        }
-      ]
-    },
-    {
-      "id": "t010",
-      "name": "Kessel Regional",
-      "date": "2026-06-20",
-      "tier": "Store Showdown",
-      "player_count": 48,
-      "deck_count": 48,
-      "archetypes": [
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 11,
-          "share": 0.22916666666666666,
-          "win_rate": 0.5606060606060606
-        },
-        {
-          "archetype_id": "boba-yellow",
-          "decks": 8,
-          "share": 0.16666666666666666,
-          "win_rate": 0.5416666666666666
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 7,
-          "share": 0.14583333333333334,
-          "win_rate": 0.5714285714285714
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 7,
-          "share": 0.14583333333333334,
-          "win_rate": 0.3333333333333333
-        },
-        {
-          "archetype_id": "han-blue",
-          "decks": 7,
-          "share": 0.14583333333333334,
-          "win_rate": 0.4523809523809524
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 3,
-          "share": 0.0625,
-          "win_rate": 0.3888888888888889
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 3,
-          "share": 0.0625,
-          "win_rate": 0.5555555555555556
-        },
-        {
-          "archetype_id": "kylo-green",
-          "decks": 2,
-          "share": 0.041666666666666664,
-          "win_rate": 0.5833333333333334
-        }
-      ],
-      "standings": [
-        {
-          "placement": 1,
-          "player": "Player 045",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 2,
-          "player": "Player 001",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 3,
-          "player": "Player 022",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 4,
-          "player": "Player 017",
-          "archetype_id": "iden-red"
-        },
-        {
-          "placement": 5,
-          "player": "Player 016",
-          "archetype_id": "iden-red"
-        },
-        {
-          "placement": 6,
-          "player": "Player 018",
-          "archetype_id": "quinlan-green"
-        },
-        {
-          "placement": 7,
-          "player": "Player 003",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 8,
-          "player": "Player 023",
-          "archetype_id": "boba-yellow"
-        }
-      ]
-    },
-    {
-      "id": "t007",
-      "name": "Endor Planetary Qualifier",
-      "date": "2026-06-14",
-      "tier": "Regional",
-      "player_count": 64,
-      "deck_count": 64,
-      "archetypes": [
-        {
-          "archetype_id": "han-blue",
-          "decks": 18,
-          "share": 0.28125,
-          "win_rate": 0.46296296296296297
-        },
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 15,
-          "share": 0.234375,
           "win_rate": 0.5666666666666667
         },
         {
-          "archetype_id": "kylo-green",
-          "decks": 9,
-          "share": 0.140625,
-          "win_rate": 0.4074074074074074
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 7,
-          "share": 0.109375,
-          "win_rate": 0.5952380952380952
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 4,
-          "share": 0.0625,
-          "win_rate": 0.4166666666666667
-        },
-        {
-          "archetype_id": "boba-yellow",
-          "decks": 4,
-          "share": 0.0625,
-          "win_rate": 0.625
-        },
-        {
           "archetype_id": "iden-red",
-          "decks": 4,
-          "share": 0.0625,
-          "win_rate": 0.5
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 3,
-          "share": 0.046875,
-          "win_rate": 0.3888888888888889
-        }
-      ],
-      "standings": [
-        {
-          "placement": 1,
-          "player": "Player 027",
-          "archetype_id": "quinlan-green"
-        },
-        {
-          "placement": 2,
-          "player": "Player 030",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 3,
-          "player": "Player 026",
-          "archetype_id": "kylo-green"
-        },
-        {
-          "placement": 4,
-          "player": "Player 051",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 5,
-          "player": "Player 049",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 6,
-          "player": "Player 037",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 7,
-          "player": "Player 012",
-          "archetype_id": "quinlan-green"
-        },
-        {
-          "placement": 8,
-          "player": "Player 043",
-          "archetype_id": "kylo-green"
-        }
-      ]
-    },
-    {
-      "id": "t008",
-      "name": "Coruscant Planetary Qualifier",
-      "date": "2026-06-13",
-      "tier": "Regional",
-      "player_count": 32,
-      "deck_count": 32,
-      "archetypes": [
-        {
-          "archetype_id": "boba-yellow",
-          "decks": 10,
-          "share": 0.3125,
-          "win_rate": 0.4
-        },
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 6,
-          "share": 0.1875,
-          "win_rate": 0.5333333333333333
-        },
-        {
-          "archetype_id": "han-blue",
           "decks": 5,
           "share": 0.15625,
-          "win_rate": 0.48
+          "win_rate": 0.52
         },
         {
           "archetype_id": "leia-red",
           "decks": 4,
           "share": 0.125,
-          "win_rate": 0.7
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 3,
-          "share": 0.09375,
-          "win_rate": 0.5333333333333333
-        },
-        {
-          "archetype_id": "kylo-green",
-          "decks": 2,
-          "share": 0.0625,
-          "win_rate": 0.5
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 1,
-          "share": 0.03125,
-          "win_rate": 0.8
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 1,
-          "share": 0.03125,
-          "win_rate": 0.2
-        }
-      ],
-      "standings": [
-        {
-          "placement": 1,
-          "player": "Player 016",
-          "archetype_id": "vader-blue"
-        },
-        {
-          "placement": 2,
-          "player": "Player 022",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 3,
-          "player": "Player 015",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 4,
-          "player": "Player 031",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 5,
-          "player": "Player 018",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 6,
-          "player": "Player 020",
-          "archetype_id": "leia-red"
-        },
-        {
-          "placement": 7,
-          "player": "Player 011",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 8,
-          "player": "Player 030",
-          "archetype_id": "quinlan-green"
-        }
-      ]
-    },
-    {
-      "id": "t005",
-      "name": "Endor Store Showdown",
-      "date": "2026-06-07",
-      "tier": "Store Showdown",
-      "player_count": 64,
-      "deck_count": 64,
-      "archetypes": [
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 12,
-          "share": 0.1875,
-          "win_rate": 0.5138888888888888
-        },
-        {
-          "archetype_id": "han-blue",
-          "decks": 11,
-          "share": 0.171875,
-          "win_rate": 0.45454545454545453
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 9,
-          "share": 0.140625,
-          "win_rate": 0.4444444444444444
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 9,
-          "share": 0.140625,
-          "win_rate": 0.5185185185185185
+          "win_rate": 0.3
         },
         {
           "archetype_id": "boba-yellow",
-          "decks": 8,
-          "share": 0.125,
-          "win_rate": 0.625
-        },
-        {
-          "archetype_id": "kylo-green",
-          "decks": 6,
-          "share": 0.09375,
-          "win_rate": 0.5277777777777778
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 6,
-          "share": 0.09375,
-          "win_rate": 0.4444444444444444
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 3,
-          "share": 0.046875,
-          "win_rate": 0.4444444444444444
-        }
-      ],
-      "standings": [
-        {
-          "placement": 1,
-          "player": "Player 055",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 2,
-          "player": "Player 051",
-          "archetype_id": "vader-blue"
-        },
-        {
-          "placement": 3,
-          "player": "Player 038",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 4,
-          "player": "Player 064",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 5,
-          "player": "Player 024",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 6,
-          "player": "Player 040",
-          "archetype_id": "vader-blue"
-        },
-        {
-          "placement": 7,
-          "player": "Player 016",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 8,
-          "player": "Player 034",
-          "archetype_id": "boba-yellow"
-        }
-      ]
-    },
-    {
-      "id": "t006",
-      "name": "Endor Regional",
-      "date": "2026-06-06",
-      "tier": "Store Showdown",
-      "player_count": 96,
-      "deck_count": 96,
-      "archetypes": [
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 25,
-          "share": 0.2604166666666667,
-          "win_rate": 0.5714285714285714
-        },
-        {
-          "archetype_id": "boba-yellow",
-          "decks": 22,
-          "share": 0.22916666666666666,
-          "win_rate": 0.4675324675324675
-        },
-        {
-          "archetype_id": "kylo-green",
-          "decks": 14,
-          "share": 0.14583333333333334,
-          "win_rate": 0.47959183673469385
-        },
-        {
-          "archetype_id": "han-blue",
-          "decks": 10,
-          "share": 0.10416666666666667,
-          "win_rate": 0.5
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 9,
-          "share": 0.09375,
-          "win_rate": 0.5714285714285714
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 6,
-          "share": 0.0625,
-          "win_rate": 0.47619047619047616
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 5,
-          "share": 0.052083333333333336,
-          "win_rate": 0.37142857142857144
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 5,
-          "share": 0.052083333333333336,
-          "win_rate": 0.37142857142857144
-        }
-      ],
-      "standings": [
-        {
-          "placement": 1,
-          "player": "Player 077",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 2,
-          "player": "Player 093",
-          "archetype_id": "kylo-green"
-        },
-        {
-          "placement": 3,
-          "player": "Player 032",
-          "archetype_id": "vader-blue"
-        },
-        {
-          "placement": 4,
-          "player": "Player 010",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 5,
-          "player": "Player 078",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 6,
-          "player": "Player 006",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 7,
-          "player": "Player 057",
-          "archetype_id": "sabine-ecl"
-        },
-        {
-          "placement": 8,
-          "player": "Player 084",
-          "archetype_id": "sabine-ecl"
-        }
-      ]
-    },
-    {
-      "id": "t003",
-      "name": "Hoth Store Showdown",
-      "date": "2026-05-31",
-      "tier": "Regional",
-      "player_count": 48,
-      "deck_count": 48,
-      "archetypes": [
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 10,
-          "share": 0.20833333333333334,
-          "win_rate": 0.6
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 9,
-          "share": 0.1875,
-          "win_rate": 0.46296296296296297
-        },
-        {
-          "archetype_id": "kylo-green",
-          "decks": 8,
-          "share": 0.16666666666666666,
-          "win_rate": 0.4791666666666667
-        },
-        {
-          "archetype_id": "han-blue",
-          "decks": 7,
-          "share": 0.14583333333333334,
-          "win_rate": 0.42857142857142855
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 4,
-          "share": 0.08333333333333333,
-          "win_rate": 0.4166666666666667
-        },
-        {
-          "archetype_id": "boba-yellow",
-          "decks": 4,
-          "share": 0.08333333333333333,
-          "win_rate": 0.375
-        },
-        {
-          "archetype_id": "leia-red",
-          "decks": 3,
-          "share": 0.0625,
-          "win_rate": 0.6111111111111112
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 3,
-          "share": 0.0625,
-          "win_rate": 0.6666666666666666
-        }
-      ],
-      "standings": [
-        {
-          "placement": 1,
-          "player": "Player 018",
-          "archetype_id": "leia-red"
-        },
-        {
-          "placement": 2,
-          "player": "Player 042",
-          "archetype_id": "vader-blue"
-        },
-        {
-          "placement": 3,
-          "player": "Player 022",
-          "archetype_id": "leia-red"
-        },
-        {
-          "placement": 4,
-          "player": "Player 008",
-          "archetype_id": "boba-yellow"
-        },
-        {
-          "placement": 5,
-          "player": "Player 011",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 6,
-          "player": "Player 048",
-          "archetype_id": "han-blue"
-        },
-        {
-          "placement": 7,
-          "player": "Player 033",
-          "archetype_id": "iden-red"
-        },
-        {
-          "placement": 8,
-          "player": "Player 031",
-          "archetype_id": "sabine-ecl"
-        }
-      ]
-    },
-    {
-      "id": "t004",
-      "name": "Kessel Store Showdown",
-      "date": "2026-05-30",
-      "tier": "Planetary Qualifier",
-      "player_count": 32,
-      "deck_count": 32,
-      "archetypes": [
-        {
-          "archetype_id": "sabine-ecl",
-          "decks": 8,
-          "share": 0.25,
-          "win_rate": 0.5
-        },
-        {
-          "archetype_id": "boba-yellow",
-          "decks": 6,
-          "share": 0.1875,
-          "win_rate": 0.4666666666666667
-        },
-        {
-          "archetype_id": "han-blue",
-          "decks": 5,
-          "share": 0.15625,
-          "win_rate": 0.4
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 4,
-          "share": 0.125,
-          "win_rate": 0.5
-        },
-        {
-          "archetype_id": "vader-blue",
           "decks": 4,
           "share": 0.125,
           "win_rate": 0.75
         },
         {
-          "archetype_id": "iden-red",
+          "archetype_id": "quinlan-green",
           "decks": 3,
           "share": 0.09375,
-          "win_rate": 0.4
+          "win_rate": 0.4666666666666667
         },
         {
           "archetype_id": "kylo-green",
           "decks": 2,
           "share": 0.0625,
-          "win_rate": 0.5
+          "win_rate": 0.4
         }
       ],
       "standings": [
         {
           "placement": 1,
-          "player": "Player 029",
-          "archetype_id": "vader-blue"
+          "player": "Player 018",
+          "archetype_id": "iden-red"
         },
         {
           "placement": 2,
-          "player": "Player 004",
+          "player": "Player 008",
           "archetype_id": "han-blue"
         },
         {
           "placement": 3,
           "player": "Player 020",
-          "archetype_id": "han-blue"
+          "archetype_id": "iden-red"
         },
         {
           "placement": 4,
-          "player": "Player 008",
-          "archetype_id": "han-blue"
+          "player": "Player 014",
+          "archetype_id": "iden-red"
         },
         {
           "placement": 5,
-          "player": "Player 031",
+          "player": "Player 022",
           "archetype_id": "boba-yellow"
         },
         {
           "placement": 6,
-          "player": "Player 011",
+          "player": "Player 023",
           "archetype_id": "sabine-ecl"
         },
         {
           "placement": 7,
           "player": "Player 024",
-          "archetype_id": "quinlan-green"
+          "archetype_id": "boba-yellow"
         },
         {
           "placement": 8,
-          "player": "Player 022",
-          "archetype_id": "vader-blue"
+          "player": "Player 031",
+          "archetype_id": "iden-red"
         }
       ]
     },
     {
-      "id": "t001",
-      "name": "Naboo Planetary Qualifier",
-      "date": "2026-05-24",
-      "tier": "Regional",
+      "id": "t010",
+      "name": "Coruscant Store Showdown",
+      "date": "2026-06-20",
+      "tier": "SS",
       "player_count": 64,
       "deck_count": 64,
       "archetypes": [
         {
-          "archetype_id": "boba-yellow",
-          "decks": 17,
-          "share": 0.265625,
-          "win_rate": 0.5
-        },
-        {
           "archetype_id": "sabine-ecl",
-          "decks": 13,
-          "share": 0.203125,
-          "win_rate": 0.48717948717948717
+          "decks": 21,
+          "share": 0.328125,
+          "win_rate": 0.4603174603174603
         },
         {
-          "archetype_id": "han-blue",
-          "decks": 11,
-          "share": 0.171875,
-          "win_rate": 0.5303030303030303
+          "archetype_id": "boba-yellow",
+          "decks": 8,
+          "share": 0.125,
+          "win_rate": 0.5416666666666666
         },
         {
           "archetype_id": "kylo-green",
-          "decks": 9,
-          "share": 0.140625,
-          "win_rate": 0.46296296296296297
-        },
-        {
-          "archetype_id": "quinlan-green",
-          "decks": 7,
-          "share": 0.109375,
-          "win_rate": 0.5238095238095238
-        },
-        {
-          "archetype_id": "vader-blue",
-          "decks": 3,
-          "share": 0.046875,
-          "win_rate": 0.3888888888888889
-        },
-        {
-          "archetype_id": "iden-red",
-          "decks": 2,
-          "share": 0.03125,
-          "win_rate": 0.5833333333333334
+          "decks": 8,
+          "share": 0.125,
+          "win_rate": 0.5416666666666666
         },
         {
           "archetype_id": "leia-red",
-          "decks": 2,
-          "share": 0.03125,
-          "win_rate": 0.5833333333333334
+          "decks": 7,
+          "share": 0.109375,
+          "win_rate": 0.42857142857142855
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 6,
+          "share": 0.09375,
+          "win_rate": 0.5277777777777778
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 6,
+          "share": 0.09375,
+          "win_rate": 0.3888888888888889
+        },
+        {
+          "archetype_id": "vader-blue",
+          "decks": 5,
+          "share": 0.078125,
+          "win_rate": 0.6666666666666666
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 3,
+          "share": 0.046875,
+          "win_rate": 0.6111111111111112
         }
       ],
       "standings": [
         {
           "placement": 1,
-          "player": "Player 036",
-          "archetype_id": "sabine-ecl"
+          "player": "Player 026",
+          "archetype_id": "boba-yellow"
         },
         {
           "placement": 2,
-          "player": "Player 053",
+          "player": "Player 030",
           "archetype_id": "kylo-green"
         },
         {
           "placement": 3,
-          "player": "Player 039",
-          "archetype_id": "sabine-ecl"
+          "player": "Player 045",
+          "archetype_id": "kylo-green"
         },
         {
           "placement": 4,
-          "player": "Player 063",
-          "archetype_id": "quinlan-green"
+          "player": "Player 034",
+          "archetype_id": "sabine-ecl"
         },
         {
           "placement": 5,
-          "player": "Player 019",
-          "archetype_id": "leia-red"
+          "player": "Player 042",
+          "archetype_id": "boba-yellow"
         },
         {
           "placement": 6,
-          "player": "Player 003",
-          "archetype_id": "boba-yellow"
+          "player": "Player 059",
+          "archetype_id": "vader-blue"
         },
         {
           "placement": 7,
-          "player": "Player 046",
-          "archetype_id": "boba-yellow"
+          "player": "Player 063",
+          "archetype_id": "iden-red"
         },
         {
           "placement": 8,
-          "player": "Player 045",
+          "player": "Player 053",
           "archetype_id": "sabine-ecl"
         }
       ]
     },
     {
-      "id": "t002",
-      "name": "Kessel Regional",
-      "date": "2026-05-23",
-      "tier": "Store Showdown",
+      "id": "t007",
+      "name": "Kessel Store Showdown",
+      "date": "2026-06-14",
+      "tier": "SS",
       "player_count": 32,
       "deck_count": 32,
       "archetypes": [
@@ -3218,61 +2518,743 @@
           "archetype_id": "sabine-ecl",
           "decks": 7,
           "share": 0.21875,
-          "win_rate": 0.5142857142857142
+          "win_rate": 0.6
         },
         {
-          "archetype_id": "quinlan-green",
+          "archetype_id": "iden-red",
+          "decks": 7,
+          "share": 0.21875,
+          "win_rate": 0.4
+        },
+        {
+          "archetype_id": "boba-yellow",
           "decks": 6,
           "share": 0.1875,
           "win_rate": 0.5333333333333333
         },
         {
-          "archetype_id": "boba-yellow",
+          "archetype_id": "kylo-green",
           "decks": 5,
           "share": 0.15625,
-          "win_rate": 0.44
+          "win_rate": 0.6
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 3,
+          "share": 0.09375,
+          "win_rate": 0.3333333333333333
         },
         {
           "archetype_id": "han-blue",
-          "decks": 5,
+          "decks": 3,
+          "share": 0.09375,
+          "win_rate": 0.4666666666666667
+        },
+        {
+          "archetype_id": "leia-red",
+          "decks": 1,
+          "share": 0.03125,
+          "win_rate": 0.4
+        }
+      ],
+      "standings": [
+        {
+          "placement": 1,
+          "player": "Player 011",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 2,
+          "player": "Player 005",
+          "archetype_id": "han-blue"
+        },
+        {
+          "placement": 3,
+          "player": "Player 032",
+          "archetype_id": "kylo-green"
+        },
+        {
+          "placement": 4,
+          "player": "Player 027",
+          "archetype_id": "boba-yellow"
+        },
+        {
+          "placement": 5,
+          "player": "Player 009",
+          "archetype_id": "boba-yellow"
+        },
+        {
+          "placement": 6,
+          "player": "Player 024",
+          "archetype_id": "kylo-green"
+        },
+        {
+          "placement": 7,
+          "player": "Player 010",
+          "archetype_id": "boba-yellow"
+        },
+        {
+          "placement": 8,
+          "player": "Player 030",
+          "archetype_id": "quinlan-green"
+        }
+      ]
+    },
+    {
+      "id": "t008",
+      "name": "Hoth Store Showdown",
+      "date": "2026-06-13",
+      "tier": "SS",
+      "player_count": 64,
+      "deck_count": 64,
+      "archetypes": [
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 12,
+          "share": 0.1875,
+          "win_rate": 0.5
+        },
+        {
+          "archetype_id": "leia-red",
+          "decks": 11,
+          "share": 0.171875,
+          "win_rate": 0.48484848484848486
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 10,
           "share": 0.15625,
-          "win_rate": 0.44
+          "win_rate": 0.6666666666666666
+        },
+        {
+          "archetype_id": "boba-yellow",
+          "decks": 10,
+          "share": 0.15625,
+          "win_rate": 0.5166666666666667
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 7,
+          "share": 0.109375,
+          "win_rate": 0.4523809523809524
+        },
+        {
+          "archetype_id": "vader-blue",
+          "decks": 6,
+          "share": 0.09375,
+          "win_rate": 0.3055555555555556
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 4,
+          "share": 0.0625,
+          "win_rate": 0.5416666666666666
+        },
+        {
+          "archetype_id": "kylo-green",
+          "decks": 4,
+          "share": 0.0625,
+          "win_rate": 0.4166666666666667
+        }
+      ],
+      "standings": [
+        {
+          "placement": 1,
+          "player": "Player 028",
+          "archetype_id": "han-blue"
+        },
+        {
+          "placement": 2,
+          "player": "Player 012",
+          "archetype_id": "han-blue"
+        },
+        {
+          "placement": 3,
+          "player": "Player 052",
+          "archetype_id": "vader-blue"
+        },
+        {
+          "placement": 4,
+          "player": "Player 004",
+          "archetype_id": "leia-red"
+        },
+        {
+          "placement": 5,
+          "player": "Player 003",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 6,
+          "player": "Player 044",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 7,
+          "player": "Player 035",
+          "archetype_id": "iden-red"
+        },
+        {
+          "placement": 8,
+          "player": "Player 009",
+          "archetype_id": "han-blue"
+        }
+      ]
+    },
+    {
+      "id": "t005",
+      "name": "Naboo Store Showdown",
+      "date": "2026-06-07",
+      "tier": "SS",
+      "player_count": 64,
+      "deck_count": 64,
+      "archetypes": [
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 13,
+          "share": 0.203125,
+          "win_rate": 0.5641025641025641
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 11,
+          "share": 0.171875,
+          "win_rate": 0.4090909090909091
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 11,
+          "share": 0.171875,
+          "win_rate": 0.5454545454545454
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 9,
+          "share": 0.140625,
+          "win_rate": 0.48148148148148145
+        },
+        {
+          "archetype_id": "boba-yellow",
+          "decks": 8,
+          "share": 0.125,
+          "win_rate": 0.4791666666666667
+        },
+        {
+          "archetype_id": "vader-blue",
+          "decks": 5,
+          "share": 0.078125,
+          "win_rate": 0.4666666666666667
+        },
+        {
+          "archetype_id": "leia-red",
+          "decks": 5,
+          "share": 0.078125,
+          "win_rate": 0.5
+        },
+        {
+          "archetype_id": "kylo-green",
+          "decks": 2,
+          "share": 0.03125,
+          "win_rate": 0.5833333333333334
+        }
+      ],
+      "standings": [
+        {
+          "placement": 1,
+          "player": "Player 044",
+          "archetype_id": "leia-red"
+        },
+        {
+          "placement": 2,
+          "player": "Player 002",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 3,
+          "player": "Player 052",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 4,
+          "player": "Player 038",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 5,
+          "player": "Player 028",
+          "archetype_id": "han-blue"
+        },
+        {
+          "placement": 6,
+          "player": "Player 051",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 7,
+          "player": "Player 059",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 8,
+          "player": "Player 001",
+          "archetype_id": "iden-red"
+        }
+      ]
+    },
+    {
+      "id": "t006",
+      "name": "Coruscant Store Showdown",
+      "date": "2026-06-06",
+      "tier": "SS",
+      "player_count": 48,
+      "deck_count": 48,
+      "archetypes": [
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 17,
+          "share": 0.3541666666666667,
+          "win_rate": 0.49019607843137253
+        },
+        {
+          "archetype_id": "boba-yellow",
+          "decks": 12,
+          "share": 0.25,
+          "win_rate": 0.5
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 7,
+          "share": 0.14583333333333334,
+          "win_rate": 0.5238095238095238
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 5,
+          "share": 0.10416666666666667,
+          "win_rate": 0.4666666666666667
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 3,
+          "share": 0.0625,
+          "win_rate": 0.5555555555555556
         },
         {
           "archetype_id": "kylo-green",
           "decks": 3,
-          "share": 0.09375,
-          "win_rate": 0.6
+          "share": 0.0625,
+          "win_rate": 0.4444444444444444
         },
         {
           "archetype_id": "vader-blue",
-          "decks": 2,
-          "share": 0.0625,
-          "win_rate": 0.7
+          "decks": 1,
+          "share": 0.020833333333333332,
+          "win_rate": 0.6666666666666666
+        }
+      ],
+      "standings": [
+        {
+          "placement": 1,
+          "player": "Player 041",
+          "archetype_id": "vader-blue"
+        },
+        {
+          "placement": 2,
+          "player": "Player 012",
+          "archetype_id": "boba-yellow"
+        },
+        {
+          "placement": 3,
+          "player": "Player 048",
+          "archetype_id": "han-blue"
+        },
+        {
+          "placement": 4,
+          "player": "Player 039",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 5,
+          "player": "Player 027",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 6,
+          "player": "Player 021",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 7,
+          "player": "Player 026",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 8,
+          "player": "Player 008",
+          "archetype_id": "boba-yellow"
+        }
+      ]
+    },
+    {
+      "id": "t003",
+      "name": "Coruscant Regional Qualifier",
+      "date": "2026-05-31",
+      "tier": "RQ",
+      "player_count": 64,
+      "deck_count": 64,
+      "archetypes": [
+        {
+          "archetype_id": "han-blue",
+          "decks": 12,
+          "share": 0.1875,
+          "win_rate": 0.5138888888888888
+        },
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 12,
+          "share": 0.1875,
+          "win_rate": 0.4444444444444444
         },
         {
           "archetype_id": "iden-red",
+          "decks": 8,
+          "share": 0.125,
+          "win_rate": 0.4583333333333333
+        },
+        {
+          "archetype_id": "leia-red",
+          "decks": 8,
+          "share": 0.125,
+          "win_rate": 0.6458333333333334
+        },
+        {
+          "archetype_id": "kylo-green",
+          "decks": 8,
+          "share": 0.125,
+          "win_rate": 0.5833333333333334
+        },
+        {
+          "archetype_id": "boba-yellow",
+          "decks": 8,
+          "share": 0.125,
+          "win_rate": 0.5208333333333334
+        },
+        {
+          "archetype_id": "vader-blue",
+          "decks": 5,
+          "share": 0.078125,
+          "win_rate": 0.36666666666666664
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 3,
+          "share": 0.046875,
+          "win_rate": 0.3333333333333333
+        }
+      ],
+      "standings": [
+        {
+          "placement": 1,
+          "player": "Player 039",
+          "archetype_id": "leia-red"
+        },
+        {
+          "placement": 2,
+          "player": "Player 009",
+          "archetype_id": "leia-red"
+        },
+        {
+          "placement": 3,
+          "player": "Player 064",
+          "archetype_id": "kylo-green"
+        },
+        {
+          "placement": 4,
+          "player": "Player 018",
+          "archetype_id": "boba-yellow"
+        },
+        {
+          "placement": 5,
+          "player": "Player 031",
+          "archetype_id": "boba-yellow"
+        },
+        {
+          "placement": 6,
+          "player": "Player 043",
+          "archetype_id": "boba-yellow"
+        },
+        {
+          "placement": 7,
+          "player": "Player 053",
+          "archetype_id": "leia-red"
+        },
+        {
+          "placement": 8,
+          "player": "Player 012",
+          "archetype_id": "kylo-green"
+        }
+      ]
+    },
+    {
+      "id": "t004",
+      "name": "Coruscant Regional Qualifier",
+      "date": "2026-05-30",
+      "tier": "RQ",
+      "player_count": 48,
+      "deck_count": 48,
+      "archetypes": [
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 10,
+          "share": 0.20833333333333334,
+          "win_rate": 0.65
+        },
+        {
+          "archetype_id": "boba-yellow",
+          "decks": 10,
+          "share": 0.20833333333333334,
+          "win_rate": 0.5333333333333333
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 10,
+          "share": 0.20833333333333334,
+          "win_rate": 0.4166666666666667
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 6,
+          "share": 0.125,
+          "win_rate": 0.3888888888888889
+        },
+        {
+          "archetype_id": "vader-blue",
+          "decks": 4,
+          "share": 0.08333333333333333,
+          "win_rate": 0.5833333333333334
+        },
+        {
+          "archetype_id": "leia-red",
+          "decks": 3,
+          "share": 0.0625,
+          "win_rate": 0.5
+        },
+        {
+          "archetype_id": "kylo-green",
+          "decks": 3,
+          "share": 0.0625,
+          "win_rate": 0.4444444444444444
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 2,
+          "share": 0.041666666666666664,
+          "win_rate": 0.25
+        }
+      ],
+      "standings": [
+        {
+          "placement": 1,
+          "player": "Player 002",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 2,
+          "player": "Player 029",
+          "archetype_id": "iden-red"
+        },
+        {
+          "placement": 3,
+          "player": "Player 043",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 4,
+          "player": "Player 001",
+          "archetype_id": "vader-blue"
+        },
+        {
+          "placement": 5,
+          "player": "Player 044",
+          "archetype_id": "kylo-green"
+        },
+        {
+          "placement": 6,
+          "player": "Player 033",
+          "archetype_id": "han-blue"
+        },
+        {
+          "placement": 7,
+          "player": "Player 003",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 8,
+          "player": "Player 018",
+          "archetype_id": "han-blue"
+        }
+      ]
+    },
+    {
+      "id": "t001",
+      "name": "Hoth Store Showdown",
+      "date": "2026-05-24",
+      "tier": "SS",
+      "player_count": 64,
+      "deck_count": 64,
+      "archetypes": [
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 18,
+          "share": 0.28125,
+          "win_rate": 0.5462962962962963
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 11,
+          "share": 0.171875,
+          "win_rate": 0.45454545454545453
+        },
+        {
+          "archetype_id": "boba-yellow",
+          "decks": 10,
+          "share": 0.15625,
+          "win_rate": 0.5833333333333334
+        },
+        {
+          "archetype_id": "quinlan-green",
+          "decks": 7,
+          "share": 0.109375,
+          "win_rate": 0.35714285714285715
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 6,
+          "share": 0.09375,
+          "win_rate": 0.4444444444444444
+        },
+        {
+          "archetype_id": "vader-blue",
+          "decks": 5,
+          "share": 0.078125,
+          "win_rate": 0.5
+        },
+        {
+          "archetype_id": "kylo-green",
+          "decks": 4,
+          "share": 0.0625,
+          "win_rate": 0.5416666666666666
+        },
+        {
+          "archetype_id": "leia-red",
+          "decks": 3,
+          "share": 0.046875,
+          "win_rate": 0.5
+        }
+      ],
+      "standings": [
+        {
+          "placement": 1,
+          "player": "Player 032",
+          "archetype_id": "quinlan-green"
+        },
+        {
+          "placement": 2,
+          "player": "Player 048",
+          "archetype_id": "iden-red"
+        },
+        {
+          "placement": 3,
+          "player": "Player 035",
+          "archetype_id": "kylo-green"
+        },
+        {
+          "placement": 4,
+          "player": "Player 057",
+          "archetype_id": "iden-red"
+        },
+        {
+          "placement": 5,
+          "player": "Player 014",
+          "archetype_id": "iden-red"
+        },
+        {
+          "placement": 6,
+          "player": "Player 011",
+          "archetype_id": "sabine-ecl"
+        },
+        {
+          "placement": 7,
+          "player": "Player 041",
+          "archetype_id": "iden-red"
+        },
+        {
+          "placement": 8,
+          "player": "Player 040",
+          "archetype_id": "sabine-ecl"
+        }
+      ]
+    },
+    {
+      "id": "t002",
+      "name": "Tatooine Store Showdown",
+      "date": "2026-05-23",
+      "tier": "SS",
+      "player_count": 32,
+      "deck_count": 32,
+      "archetypes": [
+        {
+          "archetype_id": "sabine-ecl",
+          "decks": 9,
+          "share": 0.28125,
+          "win_rate": 0.5555555555555556
+        },
+        {
+          "archetype_id": "han-blue",
+          "decks": 7,
+          "share": 0.21875,
+          "win_rate": 0.45714285714285713
+        },
+        {
+          "archetype_id": "kylo-green",
+          "decks": 5,
+          "share": 0.15625,
+          "win_rate": 0.64
+        },
+        {
+          "archetype_id": "boba-yellow",
+          "decks": 5,
+          "share": 0.15625,
+          "win_rate": 0.4
+        },
+        {
+          "archetype_id": "iden-red",
+          "decks": 3,
+          "share": 0.09375,
+          "win_rate": 0.4
+        },
+        {
+          "archetype_id": "vader-blue",
           "decks": 2,
           "share": 0.0625,
           "win_rate": 0.5
         },
         {
           "archetype_id": "leia-red",
-          "decks": 2,
-          "share": 0.0625,
-          "win_rate": 0.3
+          "decks": 1,
+          "share": 0.03125,
+          "win_rate": 0.4
         }
       ],
       "standings": [
         {
           "placement": 1,
-          "player": "Player 031",
-          "archetype_id": "vader-blue"
+          "player": "Player 028",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 2,
-          "player": "Player 016",
-          "archetype_id": "sabine-ecl"
+          "player": "Player 002",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 3,
@@ -3281,27 +3263,27 @@
         },
         {
           "placement": 4,
-          "player": "Player 023",
-          "archetype_id": "han-blue"
+          "player": "Player 020",
+          "archetype_id": "kylo-green"
         },
         {
           "placement": 5,
-          "player": "Player 018",
-          "archetype_id": "quinlan-green"
+          "player": "Player 032",
+          "archetype_id": "han-blue"
         },
         {
           "placement": 6,
-          "player": "Player 027",
-          "archetype_id": "leia-red"
+          "player": "Player 024",
+          "archetype_id": "sabine-ecl"
         },
         {
           "placement": 7,
-          "player": "Player 019",
-          "archetype_id": "boba-yellow"
+          "player": "Player 017",
+          "archetype_id": "vader-blue"
         },
         {
           "placement": 8,
-          "player": "Player 030",
+          "player": "Player 027",
           "archetype_id": "sabine-ecl"
         }
       ]

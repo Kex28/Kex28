@@ -17,7 +17,7 @@ export default function Dashboard() {
   return (
     <>
       <p className="-mt-4 mb-6 text-sm text-slate-500 dark:text-slate-400">
-        Current meta snapshot
+        Current meta · trailing 14 days of events
         {lastUpdated && <> · updated {new Date(lastUpdated).toLocaleString()}</>}
         {state.source === 'sample' && (
           <span className="ml-2 rounded-full bg-amber-200/70 px-2 py-0.5 text-xs font-medium text-amber-900 dark:bg-amber-500/20 dark:text-amber-300">

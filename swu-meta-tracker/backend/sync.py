@@ -28,9 +28,9 @@ from swu_sync.swuapi_client import (
     SwuApiClient,
     normalize_archetypes,
     normalize_cards,
-    normalize_current_meta,
     normalize_decklists,
     normalize_matches,
+    normalize_meta_eras,
     normalize_sets,
     normalize_tournaments,
 )
@@ -42,17 +42,11 @@ LOOKBACK_DAYS = 28
 
 def pull(client: SwuApiClient) -> dict[str, list[dict]]:
     archetypes = normalize_archetypes(client.fetch_archetypes())
-    meta_entries = normalize_current_meta(client.fetch_current_meta())
     cards = normalize_cards(client.fetch_cards())
     sets = normalize_sets(client.fetch_sets())
+    meta_eras = normalize_meta_eras(client.fetch_meta_eras())
 
-    known = {a["id"] for a in archetypes}
-    orphans = [m["archetype_id"] for m in meta_entries if m["archetype_id"] not in known]
-    if orphans:
-        print(f"warning: {len(orphans)} meta entries reference unknown archetypes: {orphans[:5]}",
-              file=sys.stderr)
-
-    data = {"archetypes": archetypes, "meta_entries": meta_entries, "cards": cards, "sets": sets,
+    data = {"archetypes": archetypes, "cards": cards, "sets": sets, "meta_eras": meta_eras,
             "tournaments": [], "decklists": [], "matches": []}
 
     # Phase 2: keyed endpoints. Skip gracefully (Phase 1 data still syncs)
@@ -77,15 +71,10 @@ def load_supabase(data: dict[str, list[dict]]) -> None:
     from swu_sync.supabase_loader import SupabaseLoader
 
     loader = SupabaseLoader()
-    snapshot_date = datetime.now(timezone.utc).date().isoformat()
     loader.upsert("sets", data["sets"], on_conflict="code")
     loader.upsert("cards", data["cards"], on_conflict="id")
     loader.upsert("archetypes", data["archetypes"], on_conflict="id")
-    loader.upsert(
-        "meta_snapshot_entries",
-        [{**entry, "snapshot_date": snapshot_date} for entry in data["meta_entries"]],
-        on_conflict="snapshot_date,archetype_id",
-    )
+    loader.upsert("meta_eras", data["meta_eras"], on_conflict="id")
     loader.upsert("tournaments", data["tournaments"], on_conflict="id")
     loader.upsert(
         "decklists",
@@ -109,7 +98,11 @@ def write_json(data: dict[str, list[dict]], out_path: Path) -> None:
     payload = {
         "last_updated_at": now,
         "archetypes": data["archetypes"],
-        "meta_entries": data["meta_entries"],
+        # Share/WR per archetype over the trailing 14 days, computed from
+        # decklists (the upstream /metas endpoints are era definitions, not
+        # share tables).
+        "meta_entries": trends.current_meta_entries(
+            data["tournaments"], data["decklists"], data["matches"]),
         "cards": [{"id": c["id"], "name": c["name"]} for c in data["cards"]],
         # Pre-computed here only for the no-database fallback; production
         # reads the equivalent SQL views instead.

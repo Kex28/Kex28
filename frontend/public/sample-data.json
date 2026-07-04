@@ -1,0 +1,515 @@
+{
+  "last_updated_at": "2026-07-04T00:35:54.401150+00:00",
+  "archetypes": [
+    {
+      "id": "sabine-ecl",
+      "name": "Sabine ECL Aggro",
+      "leader": "Sabine Wren",
+      "base": "Energy Conversion Lab",
+      "aspects": [
+        "Aggression",
+        "Heroism"
+      ]
+    },
+    {
+      "id": "boba-yellow",
+      "name": "Boba Cunning Control",
+      "leader": "Boba Fett",
+      "base": "Jabba's Palace",
+      "aspects": [
+        "Cunning",
+        "Villainy"
+      ]
+    },
+    {
+      "id": "han-blue",
+      "name": "Han Vigilance Ramp",
+      "leader": "Han Solo",
+      "base": "Echo Base",
+      "aspects": [
+        "Vigilance",
+        "Heroism"
+      ]
+    },
+    {
+      "id": "iden-red",
+      "name": "Iden Aggro",
+      "leader": "Iden Versio",
+      "base": "Energy Conversion Lab",
+      "aspects": [
+        "Aggression",
+        "Villainy"
+      ]
+    },
+    {
+      "id": "kylo-green",
+      "name": "Kylo Command Midrange",
+      "leader": "Kylo Ren",
+      "base": "Data Vault",
+      "aspects": [
+        "Command",
+        "Villainy"
+      ]
+    },
+    {
+      "id": "quinlan-green",
+      "name": "Quinlan Command Tempo",
+      "leader": "Quinlan Vos",
+      "base": "Command Center",
+      "aspects": [
+        "Command",
+        "Heroism"
+      ]
+    },
+    {
+      "id": "leia-red",
+      "name": "Leia Rebel Aggro",
+      "leader": "Leia Organa",
+      "base": "Administrator's Tower",
+      "aspects": [
+        "Aggression",
+        "Heroism"
+      ]
+    },
+    {
+      "id": "vader-blue",
+      "name": "Vader Vigilance Control",
+      "leader": "Darth Vader",
+      "base": "Tarkintown",
+      "aspects": [
+        "Vigilance",
+        "Villainy"
+      ]
+    }
+  ],
+  "meta_entries": [
+    {
+      "archetype_id": "sabine-ecl",
+      "meta_share": 0.184,
+      "win_rate": 0.542,
+      "deck_count": 131
+    },
+    {
+      "archetype_id": "boba-yellow",
+      "meta_share": 0.151,
+      "win_rate": 0.528,
+      "deck_count": 108
+    },
+    {
+      "archetype_id": "han-blue",
+      "meta_share": 0.11900000000000001,
+      "win_rate": 0.515,
+      "deck_count": 85
+    },
+    {
+      "archetype_id": "iden-red",
+      "meta_share": 0.096,
+      "win_rate": 0.49700000000000005,
+      "deck_count": 68
+    },
+    {
+      "archetype_id": "kylo-green",
+      "meta_share": 0.08199999999999999,
+      "win_rate": 0.509,
+      "deck_count": 58
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "meta_share": 0.064,
+      "win_rate": 0.48100000000000004,
+      "deck_count": 46
+    },
+    {
+      "archetype_id": "leia-red",
+      "meta_share": 0.055,
+      "win_rate": 0.536,
+      "deck_count": 39
+    },
+    {
+      "archetype_id": "vader-blue",
+      "meta_share": 0.048,
+      "win_rate": 0.473,
+      "deck_count": 34
+    }
+  ],
+  "weekly_shares": [
+    {
+      "week": "2026-05-18",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 24,
+      "meta_share": 0.3
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "boba-yellow",
+      "deck_count": 17,
+      "meta_share": 0.2125
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "quinlan-green",
+      "deck_count": 11,
+      "meta_share": 0.1375
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "han-blue",
+      "deck_count": 10,
+      "meta_share": 0.125
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "iden-red",
+      "deck_count": 9,
+      "meta_share": 0.1125
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "kylo-green",
+      "deck_count": 5,
+      "meta_share": 0.0625
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "vader-blue",
+      "deck_count": 3,
+      "meta_share": 0.0375
+    },
+    {
+      "week": "2026-05-18",
+      "archetype_id": "leia-red",
+      "deck_count": 1,
+      "meta_share": 0.0125
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 25,
+      "meta_share": 0.2604166666666667
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "boba-yellow",
+      "deck_count": 19,
+      "meta_share": 0.19791666666666666
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "han-blue",
+      "deck_count": 16,
+      "meta_share": 0.16666666666666666
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "quinlan-green",
+      "deck_count": 12,
+      "meta_share": 0.125
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "iden-red",
+      "deck_count": 8,
+      "meta_share": 0.08333333333333333
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "vader-blue",
+      "deck_count": 7,
+      "meta_share": 0.07291666666666667
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "kylo-green",
+      "deck_count": 5,
+      "meta_share": 0.052083333333333336
+    },
+    {
+      "week": "2026-05-25",
+      "archetype_id": "leia-red",
+      "deck_count": 4,
+      "meta_share": 0.041666666666666664
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 25,
+      "meta_share": 0.2604166666666667
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "han-blue",
+      "deck_count": 17,
+      "meta_share": 0.17708333333333334
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "boba-yellow",
+      "deck_count": 15,
+      "meta_share": 0.15625
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "iden-red",
+      "deck_count": 9,
+      "meta_share": 0.09375
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "kylo-green",
+      "deck_count": 9,
+      "meta_share": 0.09375
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "leia-red",
+      "deck_count": 9,
+      "meta_share": 0.09375
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "quinlan-green",
+      "deck_count": 8,
+      "meta_share": 0.08333333333333333
+    },
+    {
+      "week": "2026-06-01",
+      "archetype_id": "vader-blue",
+      "deck_count": 4,
+      "meta_share": 0.041666666666666664
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "boba-yellow",
+      "deck_count": 21,
+      "meta_share": 0.1640625
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "han-blue",
+      "deck_count": 19,
+      "meta_share": 0.1484375
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "kylo-green",
+      "deck_count": 17,
+      "meta_share": 0.1328125
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 16,
+      "meta_share": 0.125
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "iden-red",
+      "deck_count": 16,
+      "meta_share": 0.125
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "quinlan-green",
+      "deck_count": 15,
+      "meta_share": 0.1171875
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "leia-red",
+      "deck_count": 14,
+      "meta_share": 0.109375
+    },
+    {
+      "week": "2026-06-08",
+      "archetype_id": "vader-blue",
+      "deck_count": 10,
+      "meta_share": 0.078125
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 21,
+      "meta_share": 0.2625
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "iden-red",
+      "deck_count": 13,
+      "meta_share": 0.1625
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "boba-yellow",
+      "deck_count": 11,
+      "meta_share": 0.1375
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "han-blue",
+      "deck_count": 11,
+      "meta_share": 0.1375
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "kylo-green",
+      "deck_count": 10,
+      "meta_share": 0.125
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "leia-red",
+      "deck_count": 7,
+      "meta_share": 0.0875
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "vader-blue",
+      "deck_count": 5,
+      "meta_share": 0.0625
+    },
+    {
+      "week": "2026-06-15",
+      "archetype_id": "quinlan-green",
+      "deck_count": 2,
+      "meta_share": 0.025
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "boba-yellow",
+      "deck_count": 19,
+      "meta_share": 0.19791666666666666
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "leia-red",
+      "deck_count": 18,
+      "meta_share": 0.1875
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "han-blue",
+      "deck_count": 16,
+      "meta_share": 0.16666666666666666
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "kylo-green",
+      "deck_count": 11,
+      "meta_share": 0.11458333333333333
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "sabine-ecl",
+      "deck_count": 10,
+      "meta_share": 0.10416666666666667
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "quinlan-green",
+      "deck_count": 9,
+      "meta_share": 0.09375
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "vader-blue",
+      "deck_count": 8,
+      "meta_share": 0.08333333333333333
+    },
+    {
+      "week": "2026-06-22",
+      "archetype_id": "iden-red",
+      "deck_count": 5,
+      "meta_share": 0.052083333333333336
+    }
+  ],
+  "trends": [
+    {
+      "archetype_id": "leia-red",
+      "recent_decks": 25,
+      "prior_decks": 23,
+      "recent_share": 0.14204545454545456,
+      "prior_share": 0.10267857142857142,
+      "share_delta": 0.03936688311688313,
+      "recent_win_rate": 0.5850340136054422,
+      "prior_win_rate": 0.5714285714285714,
+      "win_rate_delta": 0.013605442176870763
+    },
+    {
+      "archetype_id": "vader-blue",
+      "recent_decks": 13,
+      "prior_decks": 14,
+      "recent_share": 0.07386363636363637,
+      "prior_share": 0.0625,
+      "share_delta": 0.011363636363636367,
+      "recent_win_rate": 0.4533333333333333,
+      "prior_win_rate": 0.5730337078651685,
+      "win_rate_delta": -0.11970037453183519
+    },
+    {
+      "archetype_id": "boba-yellow",
+      "recent_decks": 30,
+      "prior_decks": 36,
+      "recent_share": 0.17045454545454544,
+      "prior_share": 0.16071428571428573,
+      "share_delta": 0.009740259740259716,
+      "recent_win_rate": 0.5113636363636364,
+      "prior_win_rate": 0.4744186046511628,
+      "win_rate_delta": 0.03694503171247354
+    },
+    {
+      "archetype_id": "kylo-green",
+      "recent_decks": 21,
+      "prior_decks": 26,
+      "recent_share": 0.11931818181818182,
+      "prior_share": 0.11607142857142858,
+      "share_delta": 0.003246753246753248,
+      "recent_win_rate": 0.5289256198347108,
+      "prior_win_rate": 0.5119047619047619,
+      "win_rate_delta": 0.017020857929948896
+    },
+    {
+      "archetype_id": "sabine-ecl",
+      "recent_decks": 31,
+      "prior_decks": 41,
+      "recent_share": 0.17613636363636365,
+      "prior_share": 0.18303571428571427,
+      "share_delta": -0.006899350649350627,
+      "recent_win_rate": 0.4971751412429379,
+      "prior_win_rate": 0.5338645418326693,
+      "win_rate_delta": -0.036689400589731413
+    },
+    {
+      "archetype_id": "han-blue",
+      "recent_decks": 27,
+      "prior_decks": 36,
+      "recent_share": 0.1534090909090909,
+      "prior_share": 0.16071428571428573,
+      "share_delta": -0.007305194805194815,
+      "recent_win_rate": 0.4591194968553459,
+      "prior_win_rate": 0.45662100456621,
+      "win_rate_delta": 0.0024984922891359007
+    },
+    {
+      "archetype_id": "iden-red",
+      "recent_decks": 18,
+      "prior_decks": 25,
+      "recent_share": 0.10227272727272728,
+      "prior_share": 0.11160714285714286,
+      "share_delta": -0.009334415584415584,
+      "recent_win_rate": 0.49523809523809526,
+      "prior_win_rate": 0.47019867549668876,
+      "win_rate_delta": 0.0250394197414065
+    },
+    {
+      "archetype_id": "quinlan-green",
+      "recent_decks": 11,
+      "prior_decks": 23,
+      "recent_share": 0.0625,
+      "prior_share": 0.10267857142857142,
+      "share_delta": -0.040178571428571425,
+      "recent_win_rate": 0.390625,
+      "prior_win_rate": 0.44755244755244755,
+      "win_rate_delta": -0.05692744755244755
+    }
+  ]
+}

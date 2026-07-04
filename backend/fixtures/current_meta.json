@@ -1,0 +1,12 @@
+{
+  "meta": [
+    {"archetype_id": "sabine-ecl", "meta_share": 18.4, "win_rate": 54.2, "deck_count": 131},
+    {"archetype_id": "boba-yellow", "meta_share": 15.1, "win_rate": 52.8, "deck_count": 108},
+    {"archetype_id": "han-blue", "meta_share": 11.9, "win_rate": 51.5, "deck_count": 85},
+    {"archetype_id": "iden-red", "meta_share": 9.6, "win_rate": 49.7, "deck_count": 68},
+    {"archetype_id": "kylo-green", "meta_share": 8.2, "win_rate": 50.9, "deck_count": 58},
+    {"archetype_id": "quinlan-green", "meta_share": 6.4, "win_rate": 48.1, "deck_count": 46},
+    {"archetype_id": "leia-red", "meta_share": 5.5, "win_rate": 53.6, "deck_count": 39},
+    {"archetype_id": "vader-blue", "meta_share": 4.8, "win_rate": 47.3, "deck_count": 34}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "archetypes": [
+    {"id": "sabine-ecl", "name": "Sabine ECL Aggro", "leader": "Sabine Wren", "base": "Energy Conversion Lab", "aspects": ["Aggression", "Heroism"]},
+    {"id": "boba-yellow", "name": "Boba Cunning Control", "leader": "Boba Fett", "base": "Jabba's Palace", "aspects": ["Cunning", "Villainy"]},
+    {"id": "han-blue", "name": "Han Vigilance Ramp", "leader": "Han Solo", "base": "Echo Base", "aspects": ["Vigilance", "Heroism"]},
+    {"id": "iden-red", "name": "Iden Aggro", "leader": "Iden Versio", "base": "Energy Conversion Lab", "aspects": ["Aggression", "Villainy"]},
+    {"id": "kylo-green", "name": "Kylo Command Midrange", "leader": "Kylo Ren", "base": "Data Vault", "aspects": ["Command", "Villainy"]},
+    {"id": "quinlan-green", "name": "Quinlan Command Tempo", "leader": "Quinlan Vos", "base": "Command Center", "aspects": ["Command", "Heroism"]},
+    {"id": "leia-red", "name": "Leia Rebel Aggro", "leader": "Leia Organa", "base": "Administrator's Tower", "aspects": ["Aggression", "Heroism"]},
+    {"id": "vader-blue", "name": "Vader Vigilance Control", "leader": "Darth Vader", "base": "Tarkintown", "aspects": ["Vigilance", "Villainy"]}
+  ]
+}

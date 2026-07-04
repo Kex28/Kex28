@@ -11,8 +11,16 @@ function weekendKey(iso) {
   return sunday.toISOString().slice(0, 10)
 }
 
+const RANGES = [
+  { key: 'all', label: 'All time', days: null },
+  { key: '14d', label: 'Last 2 weeks', days: 14 },
+  { key: '28d', label: 'Last 4 weeks', days: 28 },
+]
+
 export default function Tournaments() {
   const [state, setState] = useState({ status: 'loading' })
+  const [tier, setTier] = useState('all')
+  const [range, setRange] = useState('all')
 
   useEffect(() => {
     fetchTournaments()
@@ -33,12 +41,30 @@ export default function Tournaments() {
     )
   }
 
+  const tiers = [...new Set(state.rows.map((t) => t.tier).filter(Boolean))].sort()
+  // Ranges anchor on the newest event, so "Last 2 weeks" means the last
+  // two weeks of recorded play, not of wall-clock time.
+  const newest = state.rows.reduce((max, t) => (t.date > max ? t.date : max), '')
+  const rangeDays = RANGES.find((r) => r.key === range)?.days
+  const cutoff = rangeDays
+    ? new Date(new Date(`${newest}T00:00:00`).getTime() - rangeDays * 86400_000)
+    : null
+
+  const visible = state.rows.filter(
+    (t) =>
+      (tier === 'all' || t.tier === tier) &&
+      (!cutoff || new Date(`${t.date}T00:00:00`) > cutoff),
+  )
+
   const weekends = new Map()
-  for (const t of state.rows) {
+  for (const t of visible) {
     const key = weekendKey(t.date)
     if (!weekends.has(key)) weekends.set(key, [])
     weekends.get(key).push(t)
   }
+
+  const selectClass =
+    'rounded-xl border border-slate-300/60 bg-white/60 px-3 py-2 text-sm outline-none focus:border-blue-500 dark:border-slate-600/60 dark:bg-slate-800/60'
 
   return (
     <div className="space-y-8">
@@ -51,6 +77,40 @@ export default function Tournaments() {
         )}
       </p>
 
+      <div className="flex flex-wrap gap-3">
+        <select
+          value={range}
+          onChange={(e) => setRange(e.target.value)}
+          aria-label="Date range"
+          className={selectClass}
+        >
+          {RANGES.map((r) => (
+            <option key={r.key} value={r.key}>
+              {r.label}
+            </option>
+          ))}
+        </select>
+        <select
+          value={tier}
+          onChange={(e) => setTier(e.target.value)}
+          aria-label="Tournament tier"
+          className={selectClass}
+        >
+          <option value="all">All tiers</option>
+          {tiers.map((t) => (
+            <option key={t} value={t}>
+              {t}
+            </option>
+          ))}
+        </select>
+      </div>
+
+      {visible.length === 0 && (
+        <div className="neu-card p-8 text-center text-sm text-slate-500 dark:text-slate-400">
+          No events match these filters.
+        </div>
+      )}
+
       {[...weekends.entries()].map(([key, events]) => (
         <section key={key}>
           <h2 className="mb-3 text-sm font-semibold uppercase tracking-wider text-slate-500 dark:text-slate-400">
@@ -58,7 +118,7 @@ export default function Tournaments() {
           </h2>
           <div className="grid gap-4 sm:grid-cols-2">
             {events.map((t) => (
-              <Link key={t.id} to={`/tournaments/${t.id}`} className="neu-card block p-5">
+              <Link key={t.id} to={`/tournaments/${t.id}`} className="neu-card neu-tap block p-5">
                 <div className="font-semibold">{t.name}</div>
                 <div className="mt-1 text-xs text-slate-500 dark:text-slate-400">
                   {longDate(t.date)} · {t.tier} · {t.player_count} players

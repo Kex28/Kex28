@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
+import CountUp from '../components/CountUp.jsx'
 import DeltaBadge from '../components/DeltaBadge.jsx'
 import { useAuth } from '../lib/auth.jsx'
 import { fetchCardTrends, fetchCurrentMeta, fetchTrends } from '../lib/data.js'
@@ -106,8 +107,8 @@ export default function ArchetypeDetail() {
 
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
         {[
-          ['Meta share', pct(summary?.meta_share)],
-          ['Win rate', pct(summary?.win_rate)],
+          ['Meta share', <CountUp key="s" value={summary?.meta_share} format={(v) => pct(v)} />],
+          ['Win rate', <CountUp key="r" value={summary?.win_rate} format={(v) => pct(v)} />],
           ['Share Δ (14d)', <DeltaBadge key="d" value={trend?.share_delta} />],
           ['WR Δ (14d)', <DeltaBadge key="w" value={trend?.win_rate_delta} />],
         ].map(([label, value]) => (

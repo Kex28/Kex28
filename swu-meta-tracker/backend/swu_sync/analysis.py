@@ -115,6 +115,47 @@ def card_trends(tournaments: list[dict], decklists: list[dict],
     return out
 
 
+def card_trends_overall(tournaments: list[dict], decklists: list[dict],
+                        window_days: int = 14) -> list[dict]:
+    """Like card_trends, but across every deck in the meta — which cards
+    are rising or falling globally, regardless of archetype."""
+    t_date = _tournament_dates(tournaments)
+    if not t_date:
+        return []
+    as_of = max(t_date.values())
+
+    totals = {"recent": 0, "prior": 0}
+    card_decks: dict[str, dict[str, int]] = {}
+    for deck in decklists:
+        when = t_date.get(deck["tournament_id"])
+        if not when:
+            continue
+        days_ago = (as_of - when).days
+        if days_ago < window_days:
+            w = "recent"
+        elif days_ago < 2 * window_days:
+            w = "prior"
+        else:
+            continue
+        totals[w] += 1
+        for card in deck.get("cards") or []:
+            card_decks.setdefault(card["card_id"], {"recent": 0, "prior": 0})[w] += 1
+
+    out = []
+    for card_id, counts in card_decks.items():
+        recent_rate = counts["recent"] / totals["recent"] if totals["recent"] else None
+        prior_rate = counts["prior"] / totals["prior"] if totals["prior"] else None
+        out.append({
+            "card_id": card_id,
+            "recent_decks": counts["recent"],
+            "recent_rate": recent_rate,
+            "prior_rate": prior_rate,
+            "rate_delta": (recent_rate or 0) - (prior_rate or 0),
+        })
+    out.sort(key=lambda r: -abs(r["rate_delta"]))
+    return out
+
+
 def tournament_summaries(tournaments: list[dict], decklists: list[dict],
                          matches: list[dict], top_standings: int = 8) -> list[dict]:
     """Per tournament: archetype breakdown (decks, share, event win rate)

@@ -119,6 +119,8 @@ def write_json(data: dict[str, list[dict]], out_path: Path) -> None:
         "counter_meta": analysis.counter_meta(
             data["tournaments"], data["decklists"], data["matches"], top_ids),
         "card_trends": analysis.card_trends(data["tournaments"], data["decklists"]),
+        "card_trends_overall": analysis.card_trends_overall(
+            data["tournaments"], data["decklists"]),
         "tournaments": analysis.tournament_summaries(
             data["tournaments"], data["decklists"], data["matches"]),
     }

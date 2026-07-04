@@ -1,16 +1,19 @@
 import { useState } from 'react'
 import { NavLink, Outlet, useLocation } from 'react-router-dom'
+import { useAuth } from '../lib/auth.jsx'
 import { useTheme } from '../theme.jsx'
 
 // Per the spec: hamburger menu on every screen size, not a persistent nav
-// bar. Future pages from the spec's nav list get added to NAV as they're
-// built.
+// bar.
 const NAV = [
   { to: '/', label: 'Dashboard' },
   { to: '/trends', label: 'Meta Trends' },
   { to: '/counter', label: 'Counter Meta' },
   { to: '/tournaments', label: 'Tournaments' },
   { to: '/archetypes', label: 'Archetypes' },
+  { to: '/watchlist', label: 'Watchlist' },
+  { to: '/decks', label: 'My Decks' },
+  { to: '/about', label: 'About' },
 ]
 
 function ThemeToggle() {
@@ -29,6 +32,7 @@ function ThemeToggle() {
 export default function Layout() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
+  const { user } = useAuth()
   const title = NAV.find(
     (n) =>
       n.to === location.pathname ||
@@ -81,6 +85,19 @@ export default function Layout() {
                   {label}
                 </NavLink>
               ))}
+              <NavLink
+                to="/login"
+                onClick={() => setOpen(false)}
+                className={({ isActive }) =>
+                  `mt-1 rounded-xl border-t border-slate-300/50 px-4 py-3 text-sm font-medium transition-colors dark:border-slate-600/40 ${
+                    isActive
+                      ? 'text-blue-700 dark:text-blue-400'
+                      : 'text-slate-600 hover:text-slate-900 dark:text-slate-300 dark:hover:text-white'
+                  }`
+                }
+              >
+                {user ? `Profile (${user.email})` : 'Log in'}
+              </NavLink>
             </nav>
           )}
         </header>

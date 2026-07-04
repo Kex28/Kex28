@@ -1,6 +1,6 @@
 # SWU Meta Tracker
 
-Phases 1–3 of the meta tracker described in
+All four build phases of the meta tracker described in
 [`docs/swu-meta-tracker-spec.md`](docs/swu-meta-tracker-spec.md):
 
 - **Phase 1 (MVP):** pull cards / archetypes / current meta from
@@ -14,6 +14,12 @@ Phases 1–3 of the meta tracker described in
   current top 3 decks vs. overall record), tournament browser with
   per-event drill-down (field breakdown, standings, event win rates), and
   card-level play-rate trends inside each archetype.
+- **Phase 4 (Accounts & personal features):** multi-user login via
+  Supabase Auth (email + password, one account per teammate), a per-user
+  archetype watchlist, My Decks with SWUDB JSON import rendered fully
+  in-app, and the About/methodology page. Without Supabase configured the
+  frontend falls back to a browser-local demo account so these flows stay
+  testable in dev.
 
 ## Layout
 
@@ -30,10 +36,14 @@ Phases 1–3 of the meta tracker described in
 - `supabase/phase3.sql` — `decklist_cards` table plus the `counter_meta`,
   `counter_meta_matchups`, `card_trends`, and `tournament_archetypes`
   views. Run after `phase2.sql`.
+- `supabase/phase4.sql` — per-user `watchlist` and `saved_decks` tables
+  with owner-only RLS (rows are keyed to the Supabase Auth user). Run
+  after `phase3.sql`.
 - `frontend/` — Vite + React + Tailwind + Recharts app. Hamburger nav,
   dark-mode toggle, neumorphic-lite styling. Pages: Dashboard, Meta
-  Trends, Counter Meta, Tournaments (with per-event drill-down), and
-  Archetypes (with per-archetype card trends).
+  Trends, Counter Meta, Tournaments (with per-event drill-down),
+  Archetypes (with per-archetype card trends), Watchlist, My Decks,
+  About, and Login/Profile.
 - `.github/workflows/swu-sync.yml` — daily cron that runs the sync.
 
 ## Run it locally (no Supabase needed)
@@ -57,8 +67,10 @@ npm run dev   # open the printed URL; the page shows a "sample data" badge
    there, including the `normalize_*` mappers). Update `fixtures/*.json` to
    match real payloads while you're at it.
 2. Create a free [Supabase](https://supabase.com) project and run
-   `supabase/schema.sql`, `supabase/phase2.sql`, then `supabase/phase3.sql`,
-   in its SQL editor.
+   `supabase/schema.sql`, `supabase/phase2.sql`, `supabase/phase3.sql`,
+   then `supabase/phase4.sql`, in its SQL editor. For accounts, also make
+   sure the Email provider is enabled under Authentication → Providers
+   (it is by default); teammates sign up from the site's Login page.
 3. Backend env: set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`
    (Project Settings → API), plus `SWUAPI_API_KEY` for the Phase 2
    endpoints (without it the sync still runs, but skips

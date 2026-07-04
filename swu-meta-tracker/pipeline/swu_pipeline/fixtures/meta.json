@@ -1,0 +1,16 @@
+{
+  "captured_at": "2026-07-01T06:00:00Z",
+  "window": "last-30-days",
+  "entries": [
+    { "archetype_id": "sabine-ecl", "meta_share": 0.148, "win_rate": 0.545, "deck_count": 212, "match_count": 1874 },
+    { "archetype_id": "boba-red", "meta_share": 0.131, "win_rate": 0.538, "deck_count": 188, "match_count": 1702 },
+    { "archetype_id": "iden-blue", "meta_share": 0.104, "win_rate": 0.512, "deck_count": 149, "match_count": 1355 },
+    { "archetype_id": "vader-command", "meta_share": 0.093, "win_rate": 0.507, "deck_count": 133, "match_count": 1189 },
+    { "archetype_id": "han-green", "meta_share": 0.082, "win_rate": 0.529, "deck_count": 118, "match_count": 1046 },
+    { "archetype_id": "luke-blue", "meta_share": 0.067, "win_rate": 0.498, "deck_count": 96, "match_count": 851 },
+    { "archetype_id": "palpatine-red", "meta_share": 0.055, "win_rate": 0.489, "deck_count": 79, "match_count": 707 },
+    { "archetype_id": "kylo-yellow", "meta_share": 0.043, "win_rate": 0.521, "deck_count": 62, "match_count": 548 },
+    { "archetype_id": "rey-mill", "meta_share": 0.031, "win_rate": 0.476, "deck_count": 44, "match_count": 391 },
+    { "archetype_id": "quinlan-green", "meta_share": 0.024, "win_rate": 0.553, "deck_count": 34, "match_count": 302 }
+  ]
+}

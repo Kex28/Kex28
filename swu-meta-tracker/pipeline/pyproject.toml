@@ -1,0 +1,26 @@
+[project]
+name = "swu-pipeline"
+version = "0.1.0"
+description = "Scheduled data pulls from swuapi.com into Supabase for the SWU Meta Tracker"
+requires-python = ">=3.11"
+dependencies = [
+    "httpx>=0.27,<1",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["swu_pipeline*"]
+
+[tool.setuptools.package-data]
+swu_pipeline = ["fixtures/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

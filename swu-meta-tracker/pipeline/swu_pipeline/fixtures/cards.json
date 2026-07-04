@@ -1,0 +1,14 @@
+[
+  { "id": "SOR_010", "set": "SOR", "name": "Darth Vader", "subtitle": "Dark Lord of the Sith", "type": "Leader", "aspects": ["Aggression", "Villainy"], "cost": 7, "rarity": "Special" },
+  { "id": "SOR_005", "set": "SOR", "name": "Luke Skywalker", "subtitle": "Faithful Friend", "type": "Leader", "aspects": ["Vigilance", "Heroism"], "cost": 6, "rarity": "Special" },
+  { "id": "SOR_023", "set": "SOR", "name": "Energy Conversion Lab", "type": "Base", "aspects": [], "rarity": "Rare" },
+  { "id": "SHD_009", "set": "SHD", "name": "Boba Fett", "subtitle": "Any Methods Necessary", "type": "Leader", "aspects": ["Cunning", "Villainy"], "cost": 7, "rarity": "Special" },
+  { "id": "SHD_133", "set": "SHD", "name": "Bounty Hunter Crew", "type": "Unit", "aspects": ["Cunning"], "cost": 6, "rarity": "Rare" },
+  { "id": "SOR_218", "set": "SOR", "name": "Sabine Wren", "subtitle": "Explosives Artist", "type": "Leader", "aspects": ["Aggression", "Heroism"], "cost": 4, "rarity": "Special" },
+  { "id": "TWI_040", "set": "TWI", "name": "Quinlan Vos", "subtitle": "Sticking Around", "type": "Leader", "aspects": ["Command", "Heroism"], "cost": 6, "rarity": "Special" },
+  { "id": "SOR_089", "set": "SOR", "name": "Vanquish", "type": "Event", "aspects": ["Vigilance"], "cost": 5, "rarity": "Common" },
+  { "id": "SOR_172", "set": "SOR", "name": "Open Fire", "type": "Event", "aspects": ["Aggression"], "cost": 3, "rarity": "Common" },
+  { "id": "JTL_055", "set": "JTL", "name": "Red Squadron X-Wing", "type": "Unit", "aspects": ["Command", "Heroism"], "cost": 3, "rarity": "Uncommon" },
+  { "id": "SHD_218", "set": "SHD", "name": "Waylay", "type": "Event", "aspects": ["Cunning"], "cost": 2, "rarity": "Common" },
+  { "id": "TWI_142", "set": "TWI", "name": "Battle Droid Legion", "type": "Unit", "aspects": ["Command", "Villainy"], "cost": 5, "rarity": "Rare" }
+]

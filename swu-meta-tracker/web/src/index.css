@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/* ---------------------------------------------------------------------------
+   Neumorphic design tokens.
+   Per spec: soft embossed surfaces for cards/buttons, but high-contrast ink
+   and clear borders wherever data must be scannable. Dark mode gets its own
+   tuned shadow/highlight pair — not an inversion of the light values.
+--------------------------------------------------------------------------- */
+
+:root {
+  --page: #e6e9ef;
+  --surface: #e6e9ef;
+  --ink: #1a1d23;
+  --ink-2: #4b5160;
+  --ink-muted: #737a8c;
+  --hairline: rgba(26, 29, 35, 0.12);
+  --accent: #2a78d6; /* validated >= 3:1 on --surface */
+  --accent-ink: #1c5cab;
+  --shadow-dark: rgba(163, 173, 191, 0.9);
+  --shadow-light: rgba(255, 255, 255, 0.95);
+  --neu-out: 6px 6px 12px var(--shadow-dark), -6px -6px 12px var(--shadow-light);
+  --neu-out-sm: 3px 3px 7px var(--shadow-dark), -3px -3px 7px var(--shadow-light);
+  --neu-in: inset 3px 3px 6px var(--shadow-dark), inset -3px -3px 6px var(--shadow-light);
+}
+
+:root[data-theme="dark"] {
+  --page: #2a2d36;
+  --surface: #2a2d36;
+  --ink: #f2f3f7;
+  --ink-2: #b8bdcc;
+  --ink-muted: #858b9c;
+  --hairline: rgba(242, 243, 247, 0.14);
+  --accent: #3987e5; /* validated >= 3:1 on dark --surface */
+  --accent-ink: #6da7ec;
+  --shadow-dark: rgba(16, 18, 24, 0.75);
+  --shadow-light: rgba(62, 67, 82, 0.65);
+  --neu-out: 6px 6px 14px var(--shadow-dark), -6px -6px 14px var(--shadow-light);
+  --neu-out-sm: 3px 3px 8px var(--shadow-dark), -3px -3px 8px var(--shadow-light);
+  --neu-in: inset 3px 3px 7px var(--shadow-dark), inset -3px -3px 7px var(--shadow-light);
+}
+
+html,
+body {
+  background: var(--page);
+  color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  min-height: 100%;
+}
+
+.neu-card {
+  background: var(--surface);
+  border-radius: 1.25rem;
+  box-shadow: var(--neu-out);
+}
+
+.neu-inset {
+  background: var(--surface);
+  border-radius: 1rem;
+  box-shadow: var(--neu-in);
+}
+
+.neu-btn {
+  background: var(--surface);
+  border-radius: 0.9rem;
+  box-shadow: var(--neu-out-sm);
+  color: var(--ink-2);
+  min-width: 44px; /* touch target */
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: box-shadow 120ms ease;
+}
+
+.neu-btn:active,
+.neu-btn[aria-pressed="true"],
+.neu-btn[data-active="true"] {
+  box-shadow: var(--neu-in);
+  color: var(--accent-ink);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

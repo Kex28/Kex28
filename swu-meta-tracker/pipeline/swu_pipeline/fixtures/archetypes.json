@@ -1,0 +1,12 @@
+[
+  { "id": "sabine-ecl", "name": "Sabine Aggro", "leader": "Sabine Wren", "base": "Energy Conversion Lab", "aspect": "Aggression" },
+  { "id": "boba-red", "name": "Boba Yellow-Red", "leader": "Boba Fett", "base": "Jabba's Palace", "aspect": "Cunning" },
+  { "id": "iden-blue", "name": "Iden Control", "leader": "Iden Versio", "base": "Security Complex", "aspect": "Vigilance" },
+  { "id": "han-green", "name": "Han Ramp", "leader": "Han Solo", "base": "Echo Base", "aspect": "Command" },
+  { "id": "vader-command", "name": "Vader Midrange", "leader": "Darth Vader", "base": "Command Center", "aspect": "Command" },
+  { "id": "luke-blue", "name": "Luke Tempo", "leader": "Luke Skywalker", "base": "Administrator's Tower", "aspect": "Vigilance" },
+  { "id": "palpatine-red", "name": "Palpatine Aggro", "leader": "Emperor Palpatine", "base": "Kestro City", "aspect": "Aggression" },
+  { "id": "rey-mill", "name": "Rey Toolbox", "leader": "Rey", "base": "Dagobah Swamp", "aspect": "Command" },
+  { "id": "kylo-yellow", "name": "Kylo Tricks", "leader": "Kylo Ren", "base": "Coronet City", "aspect": "Cunning" },
+  { "id": "quinlan-green", "name": "Quinlan Tempo", "leader": "Quinlan Vos", "base": "Chopper Base", "aspect": "Command" }
+]

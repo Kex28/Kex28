@@ -1,0 +1,29 @@
+name: Scheduled data sync
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # daily 06:00 UTC
+  workflow_dispatch: {} # manual run after big tournament weekends
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: swu-meta-tracker/pipeline
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pipeline
+        run: pip install .
+
+      - name: Run Phase 1 sync (open endpoints)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          SWUAPI_KEY: ${{ secrets.SWUAPI_KEY }} # optional until Phase 2
+        run: python -m swu_pipeline.sync

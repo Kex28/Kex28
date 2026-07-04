@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+out/
+
+# Node
+node_modules/
+dist/
+
+# Local env
+.env
+.env.local

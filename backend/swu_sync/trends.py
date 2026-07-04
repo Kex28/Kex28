@@ -22,6 +22,53 @@ def _week_start(d: date) -> date:
     return d - timedelta(days=d.weekday())
 
 
+def current_meta_entries(tournaments: list[dict], decklists: list[dict],
+                         matches: list[dict], window_days: int = 14) -> list[dict]:
+    """The Dashboard's "current meta" rows — share / win rate / deck count
+    per archetype over the trailing window. Computed from decklists because
+    the upstream API has no archetype-share endpoint (its /metas are era
+    definitions). Mirrors the current_meta SQL view in supabase/phase2.sql."""
+    t_date = {t["id"]: date.fromisoformat(t["date"]) for t in tournaments if t.get("date")}
+    if not t_date:
+        return []
+    as_of = max(t_date.values())
+
+    recent_decks: dict[str, str] = {}  # deck id -> archetype
+    counts: dict[str, int] = {}
+    for deck in decklists:
+        when = t_date.get(deck["tournament_id"])
+        if not when or (as_of - when).days >= window_days:
+            continue
+        recent_decks[deck["id"]] = deck["archetype_id"]
+        counts[deck["archetype_id"]] = counts.get(deck["archetype_id"], 0) + 1
+    total = sum(counts.values())
+
+    score = {"win": 1.0, "draw": 0.5, "loss": 0.0}
+    wr_sum: dict[str, float] = {}
+    wr_n: dict[str, int] = {}
+    for match in matches:
+        archetype_id = recent_decks.get(match["decklist_id"])
+        result = match.get("result")
+        if not archetype_id or result not in score:
+            continue
+        wr_sum[archetype_id] = wr_sum.get(archetype_id, 0.0) + score[result]
+        wr_n[archetype_id] = wr_n.get(archetype_id, 0) + 1
+
+    return sorted(
+        (
+            {
+                "archetype_id": archetype_id,
+                "meta_share": n / total if total else None,
+                "win_rate": wr_sum[archetype_id] / wr_n[archetype_id]
+                            if wr_n.get(archetype_id) else None,
+                "deck_count": n,
+            }
+            for archetype_id, n in counts.items()
+        ),
+        key=lambda r: -(r["meta_share"] or 0),
+    )
+
+
 def weekly_shares(tournaments: list[dict], decklists: list[dict]) -> list[dict]:
     t_date = {t["id"]: date.fromisoformat(t["date"]) for t in tournaments if t.get("date")}
     counts: dict[tuple[date, str], int] = {}

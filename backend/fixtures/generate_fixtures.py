@@ -38,7 +38,9 @@ DRIFT = [
     ("leia-red", 0.03, 0.10, 0.54),
     ("vader-blue", 0.04, 0.07, 0.50),
 ]
-TIERS = ["Regional", "Planetary Qualifier", "Store Showdown"]
+# Real tier codes per swuapi.com/docs (PQ/SQ/RQ/GC/LCQ/SS/COM/CAS).
+TIERS = ["PQ", "RQ", "SS"]
+TIER_LABEL = {"PQ": "Planetary Qualifier", "RQ": "Regional Qualifier", "SS": "Store Showdown"}
 WEEKENDS = [date(2026, 5, 24) + timedelta(weeks=w) for w in range(6)]
 
 # Real SWU card names, assigned to per-archetype pools below.
@@ -132,12 +134,13 @@ def main() -> None:
             event_date = sunday + timedelta(days=day_offset)
             tid = f"t{len(tournaments) + 1:03d}"
             player_count = rng.choice([32, 48, 64, 96])
+            tier = rng.choice(TIERS)
+            city = rng.choice(["Coruscant", "Tatooine", "Endor", "Hoth", "Naboo", "Kessel"])
             tournaments.append({
                 "id": tid,
-                "name": f"{rng.choice(['Coruscant', 'Tatooine', 'Endor', 'Hoth', 'Naboo', 'Kessel'])} "
-                        f"{rng.choice(TIERS)}",
+                "name": f"{city} {TIER_LABEL[tier]}",
                 "date": event_date.isoformat(),
-                "tier": rng.choice(TIERS),
+                "tier": tier,
                 "player_count": player_count,
             })
 

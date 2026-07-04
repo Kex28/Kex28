@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import ShareBarChart from '../components/ShareBarChart.jsx'
 import { fetchTournamentDetail } from '../lib/data.js'
-import { longDate, pct } from '../lib/format.js'
+import { longDate, pct, tierLabel } from '../lib/format.js'
 
 export default function TournamentDetail() {
   const { id } = useParams()
@@ -41,7 +41,7 @@ export default function TournamentDetail() {
         </Link>
         <h2 className="mt-2 text-xl font-bold">{tournament.name}</h2>
         <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-          {longDate(tournament.date)} · {tournament.tier} · {tournament.player_count} players
+          {longDate(tournament.date)} · {tierLabel(tournament.tier)} · {tournament.player_count} players
         </p>
       </div>
 

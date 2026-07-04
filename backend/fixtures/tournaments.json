@@ -2,86 +2,86 @@
   "tournaments": [
     {
       "id": "t001",
-      "name": "Naboo Planetary Qualifier",
+      "name": "Hoth Store Showdown",
       "date": "2026-05-24",
-      "tier": "Regional",
+      "tier": "SS",
       "player_count": 64
     },
     {
       "id": "t002",
-      "name": "Kessel Regional",
+      "name": "Tatooine Store Showdown",
       "date": "2026-05-23",
-      "tier": "Store Showdown",
+      "tier": "SS",
       "player_count": 32
     },
     {
       "id": "t003",
-      "name": "Hoth Store Showdown",
+      "name": "Coruscant Regional Qualifier",
       "date": "2026-05-31",
-      "tier": "Regional",
-      "player_count": 48
+      "tier": "RQ",
+      "player_count": 64
     },
     {
       "id": "t004",
-      "name": "Kessel Store Showdown",
+      "name": "Coruscant Regional Qualifier",
       "date": "2026-05-30",
-      "tier": "Planetary Qualifier",
-      "player_count": 32
+      "tier": "RQ",
+      "player_count": 48
     },
     {
       "id": "t005",
-      "name": "Endor Store Showdown",
+      "name": "Naboo Store Showdown",
       "date": "2026-06-07",
-      "tier": "Store Showdown",
+      "tier": "SS",
       "player_count": 64
     },
     {
       "id": "t006",
-      "name": "Endor Regional",
+      "name": "Coruscant Store Showdown",
       "date": "2026-06-06",
-      "tier": "Store Showdown",
-      "player_count": 96
+      "tier": "SS",
+      "player_count": 48
     },
     {
       "id": "t007",
-      "name": "Endor Planetary Qualifier",
+      "name": "Kessel Store Showdown",
       "date": "2026-06-14",
-      "tier": "Regional",
-      "player_count": 64
-    },
-    {
-      "id": "t008",
-      "name": "Coruscant Planetary Qualifier",
-      "date": "2026-06-13",
-      "tier": "Regional",
+      "tier": "SS",
       "player_count": 32
     },
     {
+      "id": "t008",
+      "name": "Hoth Store Showdown",
+      "date": "2026-06-13",
+      "tier": "SS",
+      "player_count": 64
+    },
+    {
       "id": "t009",
-      "name": "Tatooine Store Showdown",
+      "name": "Hoth Regional Qualifier",
       "date": "2026-06-21",
-      "tier": "Store Showdown",
+      "tier": "RQ",
       "player_count": 32
     },
     {
       "id": "t010",
-      "name": "Kessel Regional",
+      "name": "Coruscant Store Showdown",
       "date": "2026-06-20",
-      "tier": "Store Showdown",
-      "player_count": 48
-    },
-    {
-      "id": "t011",
-      "name": "Naboo Store Showdown",
-      "date": "2026-06-28",
-      "tier": "Store Showdown",
+      "tier": "SS",
       "player_count": 64
     },
     {
+      "id": "t011",
+      "name": "Endor Planetary Qualifier",
+      "date": "2026-06-28",
+      "tier": "PQ",
+      "player_count": 96
+    },
+    {
       "id": "t012",
-      "name": "Coruscant Planetary Qualifier",
+      "name": "Endor Planetary Qualifier",
       "date": "2026-06-27",
-      "tier": "Planetary Qualifier",
+      "tier": "PQ",
       "player_count": 96
     }
   ]

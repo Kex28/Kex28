@@ -58,6 +58,37 @@ create policy "public read decklists" on decklists for select using (true);
 drop policy if exists "public read matches" on matches;
 create policy "public read matches" on matches for select using (true);
 
+-- The Dashboard's "current meta": share / win rate / deck count per
+-- archetype over the trailing 14 days, computed from decklists (the
+-- upstream API's /metas endpoints are era definitions, not share tables).
+-- Mirrored in Python by trends.current_meta_entries for the no-DB path.
+create or replace view current_meta as
+with recent_decks as (
+  select d.id, d.archetype_id, d.last_updated_at
+  from decklists d
+  join tournaments t on t.id = d.tournament_id
+  where t.date >= current_date - 14 and d.archetype_id is not null
+),
+event_wr as (
+  select rd.archetype_id,
+         avg(case m.result when 'win' then 1.0 when 'draw' then 0.5 else 0.0 end) as win_rate
+  from matches m
+  join recent_decks rd on rd.id = m.decklist_id
+  where m.result is not null
+  group by rd.archetype_id
+)
+select
+  rd.archetype_id,
+  a.name, a.leader, a.base, a.aspects,
+  count(*)::int as deck_count,
+  count(*)::float / sum(count(*)) over () as meta_share,
+  w.win_rate,
+  max(rd.last_updated_at) as last_updated_at
+from recent_decks rd
+join archetypes a on a.id = rd.archetype_id
+left join event_wr w on w.archetype_id = rd.archetype_id
+group by rd.archetype_id, a.name, a.leader, a.base, a.aspects, w.win_rate;
+
 -- Weekly meta share per archetype (the line chart's data).
 create or replace view meta_share_weekly as
 select

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { fetchTournaments } from '../lib/data.js'
-import { longDate } from '../lib/format.js'
+import { longDate, tierLabel } from '../lib/format.js'
 
 // Group events into weekends (Mon–Sun buckets labelled by the Sunday).
 function weekendKey(iso) {
@@ -99,7 +99,7 @@ export default function Tournaments() {
           <option value="all">All tiers</option>
           {tiers.map((t) => (
             <option key={t} value={t}>
-              {t}
+              {tierLabel(t)}
             </option>
           ))}
         </select>
@@ -121,7 +121,7 @@ export default function Tournaments() {
               <Link key={t.id} to={`/tournaments/${t.id}`} className="neu-card neu-tap block p-5">
                 <div className="font-semibold">{t.name}</div>
                 <div className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-                  {longDate(t.date)} · {t.tier} · {t.player_count} players
+                  {longDate(t.date)} · {tierLabel(t.tier)} · {t.player_count} players
                 </div>
               </Link>
             ))}

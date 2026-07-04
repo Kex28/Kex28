@@ -1,0 +1,13 @@
+{
+  "metas": [
+    {"id": "LAW", "name": "A Lawless Time", "format": "premiere", "start": "2026-03-13", "end": null},
+    {"id": "SEC", "name": "Secrets of Power", "format": "premiere", "start": "2025-11-07", "end": "2026-03-13"},
+    {"id": "LOF-post-ban", "name": "Legends of the Force (post-ban)", "format": "premiere", "start": "2025-09-22", "end": "2025-11-07"},
+    {"id": "LOF-pre-ban", "name": "Legends of the Force (pre-ban)", "format": "premiere", "start": "2025-07-11", "end": "2025-09-22"},
+    {"id": "JTL-post-ban", "name": "Jump to Lightspeed (post-ban)", "format": "premiere", "start": "2025-04-11", "end": "2025-07-11"},
+    {"id": "JTL-pre-ban", "name": "Jump to Lightspeed (pre-ban)", "format": "premiere", "start": "2025-03-14", "end": "2025-04-11"},
+    {"id": "TWI", "name": "Twilight of the Republic", "format": "premiere", "start": "2024-11-09", "end": "2025-03-14"},
+    {"id": "SHD", "name": "Shadows of the Galaxy", "format": "premiere", "start": "2024-07-12", "end": "2024-11-09"},
+    {"id": "SOR", "name": "Spark of Rebellion", "format": "premiere", "start": "2024-03-08", "end": "2024-07-12"}
+  ]
+}

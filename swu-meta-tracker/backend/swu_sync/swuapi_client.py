@@ -215,6 +215,13 @@ def normalize_decklists(payload: Any, tournament_id: str) -> list[dict]:
                             else _slug(archetype_ref),
             "player": raw.get("player") or raw.get("player_name"),
             "placement": raw.get("placement") or raw.get("rank"),
+            # The deck's card list, kept as [{card_id, count}]; stored in the
+            # decklist_cards table, and what card-play-rate trends read.
+            "cards": [
+                {"card_id": str(c.get("card_id") or c.get("id") or ""),
+                 "count": c.get("count") or c.get("quantity") or 1}
+                for c in (raw.get("cards") or raw.get("deck") or [])
+            ],
         })
     return out
 

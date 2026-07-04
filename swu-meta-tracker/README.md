@@ -1,6 +1,6 @@
 # SWU Meta Tracker
 
-Phases 1–2 of the meta tracker described in
+Phases 1–3 of the meta tracker described in
 [`docs/swu-meta-tracker-spec.md`](../docs/swu-meta-tracker-spec.md):
 
 - **Phase 1 (MVP):** pull cards / archetypes / current meta from
@@ -10,6 +10,10 @@ Phases 1–2 of the meta tracker described in
   free swuapi.com API key), compare the trailing 14 days against the prior
   14 to flag risers/fallers, and chart weekly meta share over time on the
   Meta Trends page.
+- **Phase 3 (Core features):** counter-meta detector (win rate vs. the
+  current top 3 decks vs. overall record), tournament browser with
+  per-event drill-down (field breakdown, standings, event win rates), and
+  card-level play-rate trends inside each archetype.
 
 ## Layout
 
@@ -23,10 +27,13 @@ Phases 1–2 of the meta tracker described in
   `last_updated_at` triggers, read-only RLS. Run once in the SQL editor.
 - `supabase/phase2.sql` — tournaments/decklists/matches tables plus the
   `meta_share_weekly` and `archetype_trends` views. Run after `schema.sql`.
+- `supabase/phase3.sql` — `decklist_cards` table plus the `counter_meta`,
+  `counter_meta_matchups`, `card_trends`, and `tournament_archetypes`
+  views. Run after `phase2.sql`.
 - `frontend/` — Vite + React + Tailwind + Recharts app. Hamburger nav,
-  dark-mode toggle, neumorphic-lite styling. Pages: Dashboard (current
-  meta table) and Meta Trends (risers/fallers, weekly share line chart,
-  full trend table).
+  dark-mode toggle, neumorphic-lite styling. Pages: Dashboard, Meta
+  Trends, Counter Meta, Tournaments (with per-event drill-down), and
+  Archetypes (with per-archetype card trends).
 - `../.github/workflows/swu-sync.yml` — daily cron that runs the sync.
 
 ## Run it locally (no Supabase needed)
@@ -50,7 +57,8 @@ npm run dev   # open the printed URL; the page shows a "sample data" badge
    there, including the `normalize_*` mappers). Update `fixtures/*.json` to
    match real payloads while you're at it.
 2. Create a free [Supabase](https://supabase.com) project and run
-   `supabase/schema.sql`, then `supabase/phase2.sql`, in its SQL editor.
+   `supabase/schema.sql`, `supabase/phase2.sql`, then `supabase/phase3.sql`,
+   in its SQL editor.
 3. Backend env: set `SUPABASE_URL` and `SUPABASE_SERVICE_ROLE_KEY`
    (Project Settings → API), plus `SWUAPI_API_KEY` for the Phase 2
    endpoints (without it the sync still runs, but skips

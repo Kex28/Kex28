@@ -23,7 +23,7 @@ import sys
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-from swu_sync import trends
+from swu_sync import analysis, trends
 from swu_sync.swuapi_client import (
     SwuApiClient,
     normalize_archetypes,
@@ -87,20 +87,40 @@ def load_supabase(data: dict[str, list[dict]]) -> None:
         on_conflict="snapshot_date,archetype_id",
     )
     loader.upsert("tournaments", data["tournaments"], on_conflict="id")
-    loader.upsert("decklists", data["decklists"], on_conflict="id")
+    loader.upsert(
+        "decklists",
+        [{k: v for k, v in deck.items() if k != "cards"} for deck in data["decklists"]],
+        on_conflict="id",
+    )
+    loader.upsert(
+        "decklist_cards",
+        [{"decklist_id": deck["id"], **card}
+         for deck in data["decklists"] for card in deck["cards"]],
+        on_conflict="decklist_id,card_id",
+    )
     loader.upsert("matches", data["matches"], on_conflict="id")
 
 
 def write_json(data: dict[str, list[dict]], out_path: Path) -> None:
     now = datetime.now(timezone.utc).isoformat()
+    trend_rows = trends.archetype_trends(data["tournaments"], data["decklists"], data["matches"])
+    top_ids = [r["archetype_id"] for r in
+               sorted(trend_rows, key=lambda r: -(r["recent_share"] or 0))[:3]]
     payload = {
         "last_updated_at": now,
         "archetypes": data["archetypes"],
         "meta_entries": data["meta_entries"],
+        "cards": [{"id": c["id"], "name": c["name"]} for c in data["cards"]],
         # Pre-computed here only for the no-database fallback; production
         # reads the equivalent SQL views instead.
         "weekly_shares": trends.weekly_shares(data["tournaments"], data["decklists"]),
-        "trends": trends.archetype_trends(data["tournaments"], data["decklists"], data["matches"]),
+        "trends": trend_rows,
+        "top_archetypes": top_ids,
+        "counter_meta": analysis.counter_meta(
+            data["tournaments"], data["decklists"], data["matches"], top_ids),
+        "card_trends": analysis.card_trends(data["tournaments"], data["decklists"]),
+        "tournaments": analysis.tournament_summaries(
+            data["tournaments"], data["decklists"], data["matches"]),
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text(json.dumps(payload, indent=2) + "\n")

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { fetchCurrentMeta } from '../lib/data.js'
-
-const pct = (v) => (v == null ? '—' : `${(v * 100).toFixed(1)}%`)
+import { pct } from '../lib/format.js'
 
 export default function Dashboard() {
   const [state, setState] = useState({ status: 'loading' })
@@ -56,7 +56,12 @@ export default function Dashboard() {
                   className="border-t border-slate-300/50 dark:border-slate-600/40"
                 >
                   <td className="px-3 py-3">
-                    <div className="font-semibold">{row.name}</div>
+                    <Link
+                      to={`/archetypes/${row.archetype_id}`}
+                      className="font-semibold hover:underline"
+                    >
+                      {row.name}
+                    </Link>
                     {(row.leader || row.base) && (
                       <div className="text-xs text-slate-500 dark:text-slate-400">
                         {[row.leader, row.base].filter(Boolean).join(' · ')}

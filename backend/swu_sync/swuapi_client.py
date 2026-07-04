@@ -1,11 +1,13 @@
-"""Client for api.swuapi.com's open (no-key) endpoints.
+"""Client for api.swuapi.com.
 
-IMPORTANT: the real response shapes of api.swuapi.com are UNVERIFIED — the
-endpoint paths and field names below are a best guess written against the
-project spec. All knowledge of the upstream API is confined to this module:
-`normalize_*` functions map raw payloads to the internal shapes the rest of
-the pipeline uses. When you run this against the live API for the first time,
-fix the paths/field mappings HERE and nothing else should need to change.
+Endpoint paths are confirmed against swuapi.com/docs (2026-07): public
+/cards, /sets, /archetypes, /metas/current; key-gated /tournaments (with
+?since=), /tournaments/:id/decklists, /tournaments/:id/matches. Response
+FIELD NAMES are still unverified — the `normalize_*` functions below are
+written tolerantly against several plausible shapes. All knowledge of the
+upstream API is confined to this module: when the first live pull reveals
+mismatched fields, fix the mappings HERE and nothing else should need to
+change.
 
 Set SWUAPI_BASE_URL to override the base URL (defaults to
 https://api.swuapi.com).
@@ -90,7 +92,7 @@ class SwuApiClient:
         return self._get("/archetypes", "archetypes")
 
     def fetch_current_meta(self) -> Any:
-        return self._get("/meta/current", "current_meta")
+        return self._get("/metas/current", "current_meta")
 
     def fetch_cards(self) -> Any:
         return self._get("/cards", "cards")
@@ -114,8 +116,7 @@ class SwuApiClient:
         return payload
 
     def fetch_matches(self, tournament_id: str) -> Any:
-        payload = self._get("/matches", "matches",
-                            params={"tournament_id": tournament_id}, keyed=True)
+        payload = self._get(f"/tournaments/{tournament_id}/matches", "matches", keyed=True)
         if self.use_fixtures:
             rows = _as_list(payload, "matches", "data", "results")
             return {"matches": [r for r in rows if r.get("tournament_id") == tournament_id]}

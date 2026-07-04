@@ -1,26 +1,9 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
+import DeltaBadge from '../components/DeltaBadge.jsx'
 import MetaShareChart from '../components/MetaShareChart.jsx'
 import { fetchTrends, fetchWeeklyShares } from '../lib/data.js'
-
-const pct = (v) => (v == null ? '—' : `${(v * 100).toFixed(1)}%`)
-const deltaPp = (v) =>
-  v == null ? '—' : `${v >= 0 ? '+' : '−'}${Math.abs(v * 100).toFixed(1)}pp`
-
-function DeltaBadge({ value }) {
-  if (value == null) return <span>—</span>
-  const rising = value >= 0
-  return (
-    <span
-      className={
-        rising
-          ? 'font-semibold text-green-800 dark:text-green-400'
-          : 'font-semibold text-red-700 dark:text-red-400'
-      }
-    >
-      {rising ? '▲' : '▼'} {deltaPp(value)}
-    </span>
-  )
-}
+import { deltaPp, pct } from '../lib/format.js'
 
 function MoverCard({ title, rows }) {
   return (
@@ -35,7 +18,12 @@ function MoverCard({ title, rows }) {
         {rows.map((row) => (
           <li key={row.archetype_id} className="flex items-baseline justify-between gap-3">
             <div className="min-w-0">
-              <div className="truncate font-semibold">{row.name}</div>
+              <Link
+                to={`/archetypes/${row.archetype_id}`}
+                className="block truncate font-semibold hover:underline"
+              >
+                {row.name}
+              </Link>
               <div className="text-xs text-slate-500 dark:text-slate-400">
                 {pct(row.prior_share)} → {pct(row.recent_share)} share · WR{' '}
                 {pct(row.recent_win_rate)}
@@ -130,7 +118,14 @@ export default function Trends() {
                 key={row.archetype_id}
                 className="border-t border-slate-300/50 dark:border-slate-600/40"
               >
-                <td className="px-3 py-3 font-semibold">{row.name}</td>
+                <td className="px-3 py-3">
+                  <Link
+                    to={`/archetypes/${row.archetype_id}`}
+                    className="font-semibold hover:underline"
+                  >
+                    {row.name}
+                  </Link>
+                </td>
                 <td className="px-3 py-3 text-right tabular-nums">{pct(row.recent_share)}</td>
                 <td className="px-3 py-3 text-right tabular-nums">
                   <DeltaBadge value={row.share_delta} />

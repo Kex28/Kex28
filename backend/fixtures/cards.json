@@ -1,10 +1,670 @@
 {
   "cards": [
-    {"id": "SOR-010", "name": "Sabine Wren", "set": "SOR", "type": "Leader", "aspects": ["Aggression", "Heroism"], "cost": null, "image": null},
-    {"id": "SOR-021", "name": "Boba Fett", "set": "SOR", "type": "Leader", "aspects": ["Cunning", "Villainy"], "cost": null, "image": null},
-    {"id": "SOR-133", "name": "Atmospheric Assault Lander", "set": "SOR", "type": "Unit", "aspects": ["Aggression"], "cost": 4, "image": null},
-    {"id": "SHD-118", "name": "Bounty Hunter Crew", "set": "SHD", "type": "Unit", "aspects": ["Cunning"], "cost": 4, "image": null},
-    {"id": "TWI-064", "name": "Battle Droid Legion", "set": "TWI", "type": "Unit", "aspects": ["Command"], "cost": 5, "image": null},
-    {"id": "JTL-042", "name": "Red Squadron X-Wing", "set": "JTL", "type": "Unit", "aspects": ["Heroism"], "cost": 2, "image": null}
+    {
+      "id": "C001",
+      "name": "Daring Raid",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C002",
+      "name": "Restock",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C003",
+      "name": "Waylay",
+      "set": "JTL",
+      "type": "Event",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C004",
+      "name": "Bravado",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C005",
+      "name": "Surprise Strike",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C006",
+      "name": "Rivals' Fall",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C007",
+      "name": "Overwhelming Barrage",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C008",
+      "name": "Devotion",
+      "set": "SOR",
+      "type": "Event",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C009",
+      "name": "Resupply",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C010",
+      "name": "Smuggling Compartment",
+      "set": "TWI",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C011",
+      "name": "Asteroid Sanctuary",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C012",
+      "name": "Cartel Turncoat",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 6,
+      "image": null
+    },
+    {
+      "id": "C013",
+      "name": "Pirated Starfighter",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C014",
+      "name": "Guerilla Attack Pod",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C015",
+      "name": "Volunteer Soldier",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C016",
+      "name": "Battlefield Marine",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C017",
+      "name": "Wing Leader",
+      "set": "JTL",
+      "type": "Event",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C018",
+      "name": "Fleet Lieutenant",
+      "set": "SHD",
+      "type": "Event",
+      "aspects": [],
+      "cost": 7,
+      "image": null
+    },
+    {
+      "id": "C019",
+      "name": "Consular Security Force",
+      "set": "TWI",
+      "type": "Event",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C020",
+      "name": "Vigilant Honor Guards",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C021",
+      "name": "Echo Base Defender",
+      "set": "TWI",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C022",
+      "name": "Bright Hope",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C023",
+      "name": "Medal Ceremony",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C024",
+      "name": "Rebel Assault",
+      "set": "TWI",
+      "type": "Event",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C025",
+      "name": "U-Wing Reinforcement",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 6,
+      "image": null
+    },
+    {
+      "id": "C026",
+      "name": "Alliance X-Wing",
+      "set": "JTL",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C027",
+      "name": "Red Three",
+      "set": "JTL",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C028",
+      "name": "Rogue Squadron Skirmisher",
+      "set": "SHD",
+      "type": "Event",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C029",
+      "name": "Snowspeeder",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C030",
+      "name": "Cargo Juggernaut",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C031",
+      "name": "System Patrol Craft",
+      "set": "SOR",
+      "type": "Event",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C032",
+      "name": "Superlaser Technician",
+      "set": "TWI",
+      "type": "Event",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C033",
+      "name": "Death Star Stormtrooper",
+      "set": "SOR",
+      "type": "Event",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C034",
+      "name": "First Legion Snowtrooper",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C035",
+      "name": "AT-ST",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C036",
+      "name": "Occupier Siege Tank",
+      "set": "SOR",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C037",
+      "name": "Imperial Interceptor",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 7,
+      "image": null
+    },
+    {
+      "id": "C038",
+      "name": "TIE Advanced",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C039",
+      "name": "Ruthless Raider",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 7,
+      "image": null
+    },
+    {
+      "id": "C040",
+      "name": "Emperor's Royal Guard",
+      "set": "SOR",
+      "type": "Event",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C041",
+      "name": "Fifth Brother",
+      "set": "TWI",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C042",
+      "name": "Seventh Sister",
+      "set": "JTL",
+      "type": "Event",
+      "aspects": [],
+      "cost": 7,
+      "image": null
+    },
+    {
+      "id": "C043",
+      "name": "Grand Inquisitor",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C044",
+      "name": "Force Choke",
+      "set": "SHD",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C045",
+      "name": "Power of the Dark Side",
+      "set": "TWI",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C046",
+      "name": "Vader's Lightsaber",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 6,
+      "image": null
+    },
+    {
+      "id": "C047",
+      "name": "Cad Bane",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C048",
+      "name": "Bossk",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 6,
+      "image": null
+    },
+    {
+      "id": "C049",
+      "name": "Greedo",
+      "set": "SOR",
+      "type": "Event",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C050",
+      "name": "Jabba the Hutt",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C051",
+      "name": "Bib Fortuna",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C052",
+      "name": "Jawa Scavenger",
+      "set": "SHD",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C053",
+      "name": "Mining Guild TIE Fighter",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C054",
+      "name": "Outer Rim Headhunter",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C055",
+      "name": "Pyke Sentinel",
+      "set": "SOR",
+      "type": "Event",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C056",
+      "name": "Swoop Racer",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C057",
+      "name": "Syndicate Lackeys",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C058",
+      "name": "Chewbacca",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 7,
+      "image": null
+    },
+    {
+      "id": "C059",
+      "name": "Millennium Falcon",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 6,
+      "image": null
+    },
+    {
+      "id": "C060",
+      "name": "Luke's Lightsaber",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C061",
+      "name": "Admiral Ackbar",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 3,
+      "image": null
+    },
+    {
+      "id": "C062",
+      "name": "Home One",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C063",
+      "name": "Redemption",
+      "set": "SHD",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C064",
+      "name": "Bail Organa",
+      "set": "TWI",
+      "type": "Event",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C065",
+      "name": "Mon Mothma",
+      "set": "JTL",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C066",
+      "name": "C-3PO",
+      "set": "SHD",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C067",
+      "name": "R2-D2",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 4,
+      "image": null
+    },
+    {
+      "id": "C068",
+      "name": "K-2SO",
+      "set": "SOR",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 7,
+      "image": null
+    },
+    {
+      "id": "C069",
+      "name": "Ezra Bridger",
+      "set": "JTL",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C070",
+      "name": "Kanan Jarrus",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 6,
+      "image": null
+    },
+    {
+      "id": "C071",
+      "name": "Hera Syndulla",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 5,
+      "image": null
+    },
+    {
+      "id": "C072",
+      "name": "Chopper",
+      "set": "TWI",
+      "type": "Upgrade",
+      "aspects": [],
+      "cost": 2,
+      "image": null
+    },
+    {
+      "id": "C073",
+      "name": "Zeb Orrelios",
+      "set": "JTL",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 1,
+      "image": null
+    },
+    {
+      "id": "C074",
+      "name": "The Ghost",
+      "set": "TWI",
+      "type": "Unit",
+      "aspects": [],
+      "cost": 6,
+      "image": null
+    }
   ]
 }

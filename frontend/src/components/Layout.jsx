@@ -8,6 +8,9 @@ import { useTheme } from '../theme.jsx'
 const NAV = [
   { to: '/', label: 'Dashboard' },
   { to: '/trends', label: 'Meta Trends' },
+  { to: '/counter', label: 'Counter Meta' },
+  { to: '/tournaments', label: 'Tournaments' },
+  { to: '/archetypes', label: 'Archetypes' },
 ]
 
 function ThemeToggle() {
@@ -26,7 +29,11 @@ function ThemeToggle() {
 export default function Layout() {
   const [open, setOpen] = useState(false)
   const location = useLocation()
-  const title = NAV.find((n) => n.to === location.pathname)?.label
+  const title = NAV.find(
+    (n) =>
+      n.to === location.pathname ||
+      (n.to !== '/' && location.pathname.startsWith(`${n.to}/`)),
+  )?.label
 
   return (
     <div className="min-h-screen bg-surface text-slate-800 dark:bg-surface-dark dark:text-slate-100">

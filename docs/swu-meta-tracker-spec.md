@@ -107,4 +107,8 @@ GROUP BY archetype_id
 
 **Counter-meta detection** — compute an archetype's win rate specifically against the current top 3–5 archetypes (not its overall win rate). Strong record there + mediocre overall record = counter-meta candidate. Requires joining `matches` to `decklists` to identify what each side was playing.
 
+## Backlog / future ideas
+
+- **Karabast/KaraMeta ladder data.** Karameta.pages.dev shows deck popularity trends sourced from games played on karabast.net (a free, open-source SWU simulator). Karabast's own repo has no public API for match results, and karameta's data pipeline isn't publicly documented — reaching this data would mean asking the Karabast/KaraMeta team (their Discord) whether they'd share a read-only API or export. If that ever happens, the goal is per-matchup win/loss (not just overall win rate), what a deck is weak/strong against, staple cards, and full decklists — sourced from online-ladder games rather than tournaments, to complement the swuapi.com tournament data. Architecturally this would be a second source client (same pattern as `swu_sync/swuapi_client.py`) feeding the same `matches`/`decklists`/card-trend analysis already built for Phase 2–3 — the calculations and pages wouldn't need to change, just where the rows come from.
+
 **Weekend/week rollups** — pull all tournaments in a date range via `/tournaments`, join in `standings` and `matches`, aggregate into bar/line charts: archetype share and win rate over the period, Swiss round win-rate curves, etc.
